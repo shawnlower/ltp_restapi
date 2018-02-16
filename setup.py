@@ -5,7 +5,8 @@ setup(
         packages=['ltp'],
         include_package_data=True,
         install_requires=[
-            'flask',
+            'Flask',
+            'flask-restplus',
         ],
         setup_requires=[
             'pytest-runner',
