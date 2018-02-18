@@ -4,7 +4,7 @@ log = logging.getLogger(__name__)
 from flask import request
 from flask_restplus import Resource
 
-from api.restplus import api
+from ..restplus import api
 
 ns = api.namespace('healthcheck', description='Health check')
 

@@ -5,9 +5,9 @@ from flask import request
 from flask_restplus import Resource
 from werkzeug.exceptions import BadRequest
 
-from api.restplus import api
-from api.serializers import activity
-from database.models import Activity
+from ..restplus import api
+from ..serializers import activity
+from ...database.models import Activity
 
 ns = api.namespace('activities', description='Groups related items')
 
