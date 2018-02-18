@@ -11,7 +11,7 @@ from api.endpoints.healthcheck import ns as healthcheck_namespace
 from api.endpoints.activities import ns as activities_namespace
 from database.models import db
 
-logging.config.fileConfig('ltp/logging.cfg')
+logging.config.fileConfig('logging.cfg')
 log = logging.getLogger(__name__)
 
 def create_app(config=None, skip_defaults=False):
