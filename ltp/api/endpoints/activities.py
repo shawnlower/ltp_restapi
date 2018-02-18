@@ -14,7 +14,7 @@ ns = api.namespace('activities', description='Groups related items')
 @ns.route('/')
 class ActivityCollection(Resource):
 
-    @api.expect(activity, validate=True)
+    @api.expect(activity, validate=False)
     @api.response(201, 'Activity created')
     @api.marshal_with(activity)
     def post(self):
