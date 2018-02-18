@@ -2,7 +2,7 @@ class BaseConfig(object):
     # Flask settings
     SERVER_NAME = 'localhost:8888'
     DEBUG = True  # Do not use debug mode in production
-    TESTING = True
+    TESTING = False
 
     # SQLAlchemy settings
     SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
@@ -13,3 +13,14 @@ class BaseConfig(object):
     RESTPLUS_VALIDATE = True
     RESTPLUS_MASK_SWAGGER = False
     RESTPLUS_ERROR_404_HELP = False
+
+class TestConfig(object):
+    # Flask settings
+    SERVER_NAME = 'localhost:8888'
+
+    # Allow exceptions to propogate to the test client (vs 500 errors)
+    TESTING = True
+
+    # Enable in-page debugger
+    DEBUG = True
+
