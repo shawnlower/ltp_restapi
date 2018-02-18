@@ -11,6 +11,7 @@ Getting Started
 
 $ virtualenv-3.6 venv
 $ . ./venv/bin/activate
+$ python -m setup build
 
 Resources
 =========
