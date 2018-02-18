@@ -5,7 +5,8 @@ from flask import Flask, Blueprint
 # Local imports
 import settings
 from api.restplus import api
-from api.healthcheck import ns as healthcheck_namespace
+from api.endpoints.healthcheck import ns as healthcheck_namespace
+from api.endpoints.activities import ns as activities_namespace
 
 app = Flask(__name__)
 logging.config.fileConfig('ltp/logging.cfg')
@@ -19,6 +20,7 @@ def initialize_app(flask_app):
 
     blueprint = Blueprint('api', __name__, url_prefix='/api')
     api.add_namespace(healthcheck_namespace)
+    api.add_namespace(activities_namespace)
     api.init_app(blueprint)
     app.register_blueprint(blueprint)
 
