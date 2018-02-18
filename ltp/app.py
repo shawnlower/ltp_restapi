@@ -1,4 +1,5 @@
 import logging.config
+import os
 
 from flask import Flask, Blueprint
 
@@ -8,12 +9,16 @@ from api.restplus import api
 from api.endpoints.healthcheck import ns as healthcheck_namespace
 from api.endpoints.activities import ns as activities_namespace
 
-app = Flask(__name__)
 logging.config.fileConfig('ltp/logging.cfg')
+
+app = Flask(__name__)
 log = logging.getLogger(__name__)
 
 def configure_app(flask_app):
-    flask_app.config['SERVER_NAME'] = settings.FLASK_SERVER_NAME
+    # Load base defaults
+    flask_app.config.from_object('settings.BaseConfig')
+    if 'APP_CONFIG' in os.environ:
+        flask_app.config.from_envvar('APP_CONFIG')
 
 def initialize_app(flask_app):
     configure_app(flask_app)
@@ -27,7 +32,7 @@ def initialize_app(flask_app):
 def main():
     initialize_app(app)
     log.info('>>> Starting development server at http://{}/api/'.format(app.config['SERVER_NAME']))
-    app.run(debug=True)
+    app.run()
 
 if __name__ == "__main__":
     main()
