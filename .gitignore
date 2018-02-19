@@ -48,5 +48,6 @@ Session.vim
 tags
 
 
-# pytest
+# testing resources
 .pytest_cache
+test.db
