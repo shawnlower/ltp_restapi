@@ -14,6 +14,12 @@ $ . ./venv/bin/activate
 $ python -m setup build
 ```
 
+TODO
+====
+- [ ] Enforce JSON-LD on items
+- [ ] Search/Filtering
+- [ ] Relationships
+
 Resources
 =========
 
@@ -33,3 +39,4 @@ Misc
 ----
 
 - [http://schema.org/Organization](schema.org) is a repository of structured data
+- [https://en.wikipedia.org/wiki/JSON-LD](JSON-LD (wikipedia))
