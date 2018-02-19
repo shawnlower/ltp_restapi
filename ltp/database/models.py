@@ -11,9 +11,9 @@ class Activity(db.Model):
     items = db.relationship('Item', backref='author', lazy='dynamic')
 
     def __init__(self, data):
-        self.description = data['description']
+        self.description = data.get('description', None)
         self.created_at = datetime.utcnow()
-        for item in data['items']:
+        for item in data.get('items', None):
             self.items.append(Item(item))
 
 

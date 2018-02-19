@@ -22,6 +22,8 @@ class ActivityCollection(Resource):
         Creates a new activity containing one or more items
         """
         data = request.json
+        if not data.get('items'):
+            raise BadRequest("Payload validation failed. 'items' is empty: {}".format(data))
         try:
             activity_res = Activity(data)
             for item in data['items']:
