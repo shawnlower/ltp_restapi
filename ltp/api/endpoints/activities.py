@@ -7,7 +7,7 @@ from werkzeug.exceptions import BadRequest
 
 from ..restplus import api
 from ..serializers import activity
-from ...database.models import Activity
+from ...database.models import db, Activity
 
 ns = api.namespace('activities', description='Groups related items')
 
@@ -23,9 +23,12 @@ class ActivityCollection(Resource):
         """
         data = request.json
         try:
-            activity = Activity(**data)
-        except TypeError:
-            raise BadRequest("Invalid JSON payload: {}".format(request.json))
+            activity_res = Activity(**data)
+        except TypeError as e:
+            log.debug("validation failed: payload: {} \n error: {}".format(data,e))
+            raise BadRequest("payload validation failed: {}".format(data))
+        db.session.add(activity_res)
+        db.session.commit()
 
-        return activity, 201
+        return activity_res, 201
 

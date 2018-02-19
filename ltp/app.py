@@ -30,7 +30,9 @@ def create_app(name, config=None, skip_defaults=False):
     elif 'APP_CONFIG' in os.environ:
         app.config.from_envvar('APP_CONFIG')
 
-    db.init_app(app)
+    with app.app_context():
+        db.init_app(app)
+        db.create_all()
 
     blueprint = Blueprint('api', __name__, url_prefix='/api')
     api.add_namespace(healthcheck_namespace)

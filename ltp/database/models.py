@@ -9,5 +9,6 @@ class Activity(db.Model):
     description = db.Column(db.String(100))
     created_at = db.Column(db.DateTime)
 
-    #def __init__(self, description=None, created_at = datetime.utcnow()):
-    #    if not description
+    def __init__(self, id, description=None, created_at = datetime.utcnow(),
+            items=[]):
+        pass
