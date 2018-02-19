@@ -13,17 +13,20 @@ class Activity(db.Model):
     def __init__(self, data):
         self.description = data.get('description', None)
         self.created_at = datetime.utcnow()
-        for item in data.get('items', None):
+        for item in data.get('items'):
             self.items.append(Item(item))
 
 
 class Item(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     created_at = db.Column(db.DateTime)
+    content_type = db.Column(db.String(100))
     activity_id = db.Column(db.Integer, db.ForeignKey('activity.id'))
 
-    def __init__(self, id, created_at = datetime.utcnow()):
-        self.created_at = created_at
+    def __init__(self, data):
+        self.created_at = datetime.utcnow()
+        self.content_type = data.get('content_type')
 
     def __repr__(self):
         return "<Item {} >".format(self.id)
+

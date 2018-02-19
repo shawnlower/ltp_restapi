@@ -4,6 +4,8 @@ from .restplus import api
 
 item = api.model('Item', {
     'id': fields.Integer(readOnly=True, descrption='Unique identifier of the item'),
+    'content_type': fields.String(required=True, description='Content-Type of item'),
+    'created_at': fields.DateTime(readOnly=True),
 })
 
 activity = api.model('Activity', {

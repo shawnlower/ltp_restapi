@@ -9,20 +9,29 @@ from ltp.settings import TestConfig
 Basic tests for flask app object
 """
 
+
+##################
+# Helper functions
+##################
+
+@pytest.fixture(scope="module")
+def client():
+    app = create_app(__name__, config=TestConfig)
+    client = app.test_client()
+    return client
+
+def wrapped(response, testresult, request):
+    def finalizer():
+        if testresult.rep.failed:
+            print(">>>> FAIL <<<<")
+            print(response.data.decode("utf-8"))
+    request.addfinalizer(finalizer)
+
+##################
+# Activities
+##################
+
 class TestActivity():
-
-    @pytest.fixture(scope="class")
-    def client(self):
-        app = create_app(__name__, config=TestConfig)
-        client = app.test_client()
-        return client
-
-    def wrapped(self, response, testresult, request):
-        def finalizer():
-            if testresult.rep.failed:
-                print(">>>> FAIL <<<<")
-                print(response.data.decode("utf-8"))
-        request.addfinalizer(finalizer)
 
     def test_get_activity_success(self, testresult, request, client):
         """
@@ -31,7 +40,7 @@ class TestActivity():
         path = "/api/activities/"
 
         response = client.get(path)
-        self.wrapped(response, testresult, request)
+        wrapped(response, testresult, request)
 
         status_code = response.status_code
         assert status_code == 200
@@ -45,12 +54,12 @@ class TestActivity():
         data = {
                 "description": "test activity",
                 "items": [ 
-                    {"id": 0}
+                    {"id": 0, "content_type": 'text/plain'}
                     ]
         }
 
         response = client.post(path, data=json.dumps(data), content_type='application/json')
-        self.wrapped(response, testresult, request)
+        wrapped(response, testresult, request)
 
         status_code = response.status_code
         assert status_code == 201
@@ -63,7 +72,7 @@ class TestActivity():
         data = { }
 
         response = client.post(path, data=data, content_type='application/json')
-        self.wrapped(response, testresult, request)
+        wrapped(response, testresult, request)
 
         status_code = response.status_code
         assert response.status_code == 400
@@ -79,7 +88,7 @@ class TestActivity():
         }
 
         response = client.post(path, data=json.dumps(data), content_type='application/json')
-        self.wrapped(response, testresult, request)
+        wrapped(response, testresult, request)
 
         status_code = response.status_code
         assert status_code == 400
@@ -92,7 +101,7 @@ class TestActivity():
         data = "abcabcd"
 
         response = client.post(path, data=data, content_type='application/json')
-        self.wrapped(response, testresult, request)
+        wrapped(response, testresult, request)
 
         status_code = response.status_code
         assert response.status_code == 400
@@ -105,7 +114,42 @@ class TestActivity():
         data = { "description": "test activity" }
 
         response = client.post(path, data=data, content_type='application/json')
-        self.wrapped(response, testresult, request)
+        wrapped(response, testresult, request)
 
         status_code = response.status_code
         assert response.status_code == 400
+
+##################
+# Items
+##################
+
+class TestItems():
+
+    def test_get_item_success(self, testresult, request, client):
+        """
+        Simplest GET /items/ invocation
+        """
+        path = "/api/items/"
+
+        response = client.get(path)
+        wrapped(response, testresult, request)
+
+        status_code = response.status_code
+        assert status_code == 200
+        assert json.loads(response.data)
+
+    def test_create_item_success(self, testresult, request, client):
+        """
+        Creating an item should succeed
+        """
+        path = "/api/items/"
+        data = {
+                "description": "test item",
+                "content_type": "text/plain",
+        }
+
+        response = client.post(path, data=json.dumps(data), content_type='application/json')
+        wrapped(response, testresult, request)
+
+        status_code = response.status_code
+        assert status_code == 201

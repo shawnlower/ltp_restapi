@@ -9,6 +9,7 @@ from . import settings
 from .api.restplus import api
 from .api.endpoints.healthcheck import ns as healthcheck_namespace
 from .api.endpoints.activities import ns as activities_namespace
+from .api.endpoints.items import ns as items_namespace
 from .database.models import db
 from .database import setup_db
 
