@@ -17,6 +17,9 @@ $ python -m setup build
 Resources
 =========
 
+Framework
+---------
+
 Flask-restful: https://github.com/noirbizarre/flask-restplus
 
 - Docs
@@ -26,4 +29,7 @@ Flask-restful: https://github.com/noirbizarre/flask-restplus
   Michał Karzyński, EuroPython 2016
   http://michal.karzynski.pl/blog/2016/08/22/europython-2016-presentation/
 
+Misc
+----
 
+- [http://schema.org/Organization](schema.org) is a repository of structured data
