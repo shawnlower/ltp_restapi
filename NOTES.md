@@ -1,3 +1,6 @@
+Notes
+=====
+
 Store/Retrieve an item
     POST: Create a new item
         - Base type
@@ -15,8 +18,6 @@ Create a context
 - activities
 - scheduler
     - triggers actions based on time-events
-
-
 
 ===
 - Start with an unstructured object, e.g. text snippet:
