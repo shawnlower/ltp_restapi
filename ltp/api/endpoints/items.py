@@ -16,7 +16,7 @@ class ItemCollection(Resource):
 
     @api.expect(item, validate=True)
     @api.response(201, 'Item created')
-    @api.marshal_with(item)
+    @api.marshal_with(item, envelope="item")
     def post(self):
         """
         Creates a new item
@@ -41,3 +41,14 @@ class ItemCollection(Resource):
         items = Item.query.all()
         return items
 
+
+@ns.route('/<int:id>')
+class ItemResource(Resource):
+
+    @api.marshal_list_with(item, envelope="item")
+    def get(self, id):
+        """
+        Retrieve a single item
+        """
+        item = Item.query.filter(Item.id == id).one()
+        return item

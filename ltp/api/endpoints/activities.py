@@ -16,7 +16,7 @@ class ActivityCollection(Resource):
 
     @api.expect(activity, validate=False)
     @api.response(201, 'Activity created')
-    @api.marshal_with(activity)
+    @api.marshal_with(activity, envelope='activity')
     def post(self):
         """
         Creates a new activity containing one or more items
@@ -46,3 +46,16 @@ class ActivityCollection(Resource):
         """
         activities = Activity.query.all()
         return activities
+
+@ns.route('/<int:id>')
+class ActivityResource(Resource):
+
+    @api.marshal_list_with(activity, envelope="activity")
+    def get(self, id):
+        """
+        Retrieve a single activity
+        """
+        activity = Activity.query.filter(Activity.id == id).one()
+        return activity
+
+

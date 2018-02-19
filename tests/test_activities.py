@@ -23,15 +23,22 @@ def client():
 def wrapped(response, testresult, request):
     def finalizer():
         if testresult.rep.failed:
-            print(">>>> FAIL <<<<")
-            print(response.data.decode("utf-8"))
+            print(">>> HEADERS: \n" + str(response.headers))
+            print(">>> DATA: \n" + response.data.decode("utf-8"))
     request.addfinalizer(finalizer)
 
-##################
-# Activities
-##################
 
-class TestActivity():
+class TestActivities():
+    """
+    Tests for /activities/ endpoint
+    """
+
+    ACTIVITY_GOOD_DATA = {
+               "description": "test activity",
+               "items": [ 
+                    {"id": 0, "content_type": 'text/plain'}
+                ]
+    }
 
     def test_get_activity_success(self, testresult, request, client):
         """
@@ -46,17 +53,46 @@ class TestActivity():
         assert status_code == 200
         assert json.loads(response.data)
 
+    def test_create_activity_get_single_activity(self, testresult, request, client):
+        """
+        POST a new activity, then ensure we can get it (and the content is right)
+        """
+        data = self.ACTIVITY_GOOD_DATA
+
+        path = "/api/activities/"
+        # Post our JSON
+        response = client.post(path, data=json.dumps(data), content_type='application/json')
+
+        activity_id = json.loads(response.data)['activity']['id']
+
+        # GET the activity we just posted
+        path = "/api/activities/{}".format(activity_id)
+        response = client.get(path)
+
+        retrieved_activity = json.loads(response.data)['activity']
+
+        wrapped(response, testresult, request)
+
+        status_code = response.status_code
+        assert status_code == 200
+
+        # Verify the contents are the same, spare for a few keys
+        # NOTE: we're skipping the 'items' entirely
+        ignore_keys = ('id', 'created_at', 'items')
+        d1 = self.ACTIVITY_GOOD_DATA.copy()
+        d1 = dict((k, d1[k]) for k in d1 if not k in ignore_keys)
+
+        d2 = retrieved_activity.copy()
+        d2 = dict((k, d1[k]) for k in d1 if not k in ignore_keys)
+
+        assert d1 == d2
+
     def test_create_activity_success(self, testresult, request, client):
         """
         Creating an activity should succeed
         """
         path = "/api/activities/"
-        data = {
-                "description": "test activity",
-                "items": [ 
-                    {"id": 0, "content_type": 'text/plain'}
-                    ]
-        }
+        data = self.ACTIVITY_GOOD_DATA
 
         response = client.post(path, data=json.dumps(data), content_type='application/json')
         wrapped(response, testresult, request)
@@ -125,6 +161,11 @@ class TestActivity():
 
 class TestItems():
 
+    ITEM_GOOD_DATA = {
+                "description": "test item",
+                "content_type": "text/plain",
+        }
+
     def test_get_item_success(self, testresult, request, client):
         """
         Simplest GET /items/ invocation
@@ -143,13 +184,42 @@ class TestItems():
         Creating an item should succeed
         """
         path = "/api/items/"
-        data = {
-                "description": "test item",
-                "content_type": "text/plain",
-        }
+        data = self.ITEM_GOOD_DATA
 
         response = client.post(path, data=json.dumps(data), content_type='application/json')
         wrapped(response, testresult, request)
 
         status_code = response.status_code
         assert status_code == 201
+
+    def test_create_item_get_single_item(self, testresult, request, client):
+        """
+        POST a new item, then ensure we can get it (and the content is right)
+        """
+        data = self.ITEM_GOOD_DATA
+
+        path = "/api/items/"
+        # Post our JSON
+        response = client.post(path, data=json.dumps(data), content_type='application/json')
+
+        retrieved_item = json.loads(response.data)['item']
+
+        # GET the item we just posted
+        path = "/api/items/{}".format(retrieved_item['id'])
+        response = client.get(path)
+
+        wrapped(response, testresult, request)
+
+        status_code = response.status_code
+        assert status_code == 200
+
+        # Verify the contents are the same, spare for a few keys
+        ignore_keys = ('id', 'created_at', 'items')
+        d1 = self.ITEM_GOOD_DATA.copy()
+        d1 = dict((k, d1[k]) for k in d1 if not k in ignore_keys)
+
+        d2 = retrieved_item.copy()
+        d2 = dict((k, d1[k]) for k in d1 if not k in ignore_keys)
+
+        assert d1 == d2
+
