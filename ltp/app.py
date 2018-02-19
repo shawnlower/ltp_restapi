@@ -10,6 +10,7 @@ from .api.restplus import api
 from .api.endpoints.healthcheck import ns as healthcheck_namespace
 from .api.endpoints.activities import ns as activities_namespace
 from .database.models import db
+from .database import setup_db
 
 logging.config.fileConfig('ltp/logging.cfg')
 log = logging.getLogger(__name__)
@@ -31,8 +32,10 @@ def create_app(name, config=None, skip_defaults=False):
         app.config.from_envvar('APP_CONFIG')
 
     with app.app_context():
+        # Initialize our DB object with the engine configured for the app
         db.init_app(app)
-        db.create_all()
+        # Perform any setup necessary (create tables, etc)
+        setup_db()
 
     blueprint = Blueprint('api', __name__, url_prefix='/api')
     api.add_namespace(healthcheck_namespace)

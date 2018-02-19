@@ -5,7 +5,7 @@ class BaseConfig(object):
     TESTING = False
 
     # SQLAlchemy settings
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Flask-Restplus settings
@@ -17,6 +17,8 @@ class BaseConfig(object):
 class TestConfig(object):
     # Flask settings
     SERVER_NAME = 'localhost:8888'
+
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
 
     # Allow exceptions to propogate to the test client (vs 500 errors)
     TESTING = True
