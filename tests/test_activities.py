@@ -2,31 +2,7 @@ import json
 import pytest
 from pprint import pprint
 
-from ltp.app import create_app
-from ltp.settings import TestConfig
-
-"""
-Basic tests for flask app object
-"""
-
-
-##################
-# Helper functions
-##################
-
-@pytest.fixture(scope="module")
-def client():
-    app = create_app(__name__, config=TestConfig)
-    client = app.test_client()
-    return client
-
-def wrapped(response, testresult, request):
-    def finalizer():
-        if testresult.rep.failed:
-            print(">>> HEADERS: \n" + str(response.headers))
-            print(">>> DATA: \n" + response.data.decode("utf-8"))
-    request.addfinalizer(finalizer)
-
+from .conftest import wrapped
 
 class TestActivities():
     """
