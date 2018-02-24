@@ -88,3 +88,57 @@ Implementation workflow
 ???
 DELETE /activities/<uuid>/<item-uuid>
 
+
+Fetching some example data
+==========================
+
+bash
+```
+curl='http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FNile%3E'
+curl $url -H 'Accept: application/json' | jq '.' | tee nile.json
+```
+
+Ref: https://www.oclc.org/developer/news/2016/making-sense-of-linked-data-with-python.en.html
+
+python
+```
+import rdflib
+import rdflib_jsonld
+import json
+
+g=rdflib.Graph()
+g.parse('http://www.worldcat.org/oclc/82671871')
+print(g.serialize(format='n3').decode('utf-8'))
+```
+
+python
+```
+import requests
+url='http://www.worldcat.org/oclc/82671871')
+resp=requests.get(url, headers={'Accept': 'application/ld+json'})
+print(resp.json())
+```
+
+
+# Register and use a JSON-LD parser with rdflib
+```
+import json
+import rdflib
+import requests
+from rdflib.plugin import register, Parser
+
+register('json-ld', Parser, 'rdflib_jsonld.parser', 'JsonLDParser')
+
+# Fetch some data
+url='http://www.worldcat.org/oclc/82671871'
+resp=requests.get(url, headers={'Accept': 'application/ld+json'})
+j = resp.json()
+
+g = rdflib.Graph()
+g.parse(data=json.dumps(j), format='json-ld')
+<Graph identifier=Ne3350b3c4f6044c5849d242e037ec594 (<class 'rdflib.graph.Graph'>)>
+
+```
+
+
+

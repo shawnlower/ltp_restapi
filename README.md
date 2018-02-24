@@ -27,10 +27,11 @@ Resources
 Framework
 ---------
 
-Flask-restful: https://github.com/noirbizarre/flask-restplus
+- Source
+[https://github.com/noirbizarre/flask-restplus](github.com/noirbizarre/flask-restplus)
 
 - Docs
-  http://flask-restplus.readthedocs.org
+  [http://flask-restplus.readthedocs.org](flask-restplus.readthedocs.org)
 
 - Building beautiful REST APIs using Flask, Swagger UI and Flask-RESTPlus
   Michał Karzyński, EuroPython 2016
@@ -41,3 +42,6 @@ Misc
 
 - [http://schema.org/Organization](schema.org) is a repository of structured data
 - [https://en.wikipedia.org/wiki/JSON-LD](JSON-LD (wikipedia))
+- [https://datahub.io/](datahub.io) data platform + tools
+- [https://old.datahub.io/dataset/nytimes-linked-open-data](datahub NYTimes dataset)
+- [https://developer.nytimes.com/semantic_api.json](NYTimes Semantic API)
