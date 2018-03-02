@@ -31,4 +31,3 @@ def wrapped(response, testresult, request):
     request.addfinalizer(finalizer)
 
 
-

@@ -9,6 +9,7 @@ from . import settings
 from .api.restplus import api
 from .api.endpoints.healthcheck import ns as healthcheck_namespace
 from .api.endpoints.activities import ns as activities_namespace
+from .api.endpoints.blobs import ns as blobs_namespace
 from .api.endpoints.items import ns as items_namespace
 from .database.models import db
 from .database import setup_db
@@ -41,6 +42,8 @@ def create_app(name, config=None, skip_defaults=False):
     blueprint = Blueprint('api', __name__, url_prefix='/api')
     api.add_namespace(healthcheck_namespace)
     api.add_namespace(activities_namespace)
+    api.add_namespace(blobs_namespace)
+    api.add_namespace(items_namespace)
     api.init_app(blueprint)
     app.register_blueprint(blueprint)
 
