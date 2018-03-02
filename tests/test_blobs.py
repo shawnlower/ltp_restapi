@@ -53,14 +53,6 @@ class TestBlobs():
         status_code = response.status_code
         assert status_code == 201
 
-        # Use an OrderedDict to zip lower(keys) with values
-        #response_blob = OrderedDict(json.loads(response.data)['blob'])
-        #response_blob = dict(zip([ k.lower() for k in response_blob.keys()],
-        #    response_blob.values()))
-
-        #for header, value in orig_headers.items():
-        #    assert response_blob[header] == orig_headers[header]
-
         r_blob = json.loads(response.data)['blob']
         orig_headers = self.BLOB_GOOD_DATA['headers']
 
