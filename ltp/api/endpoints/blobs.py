@@ -49,9 +49,10 @@ class BlobCollection(Resource):
     @api.marshal_with(blob, envelope="blob")
     def post(self):
         """
-        Creates a new blob, ex:
-        ```shell
+        Creates a new blob
 
+        Example from bash:
+        ```shell
         $ file=album_art.jpg
         $ sha=$(sha256sum $file | awk '{print $1}')
         $ curl -X POST -F file=@${file} 
