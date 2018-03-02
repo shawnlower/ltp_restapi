@@ -30,3 +30,21 @@ class Item(db.Model):
     def __repr__(self):
         return "<Item {} >".format(self.id)
 
+
+class Blob(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    created_at = db.Column(db.DateTime)
+    content_type = db.Column(db.String(100))
+    content_hash = db.Column(db.String(100))
+    content_length = db.Column(db.Integer)
+
+    def __init__(self, created_at, content_type, content_length, content_hash):
+        self.created_at = datetime.utcnow()
+        self.content_type = content_type
+        self.content_length = content_length
+        self.content_hash = content_hash
+
+    def __repr__(self):
+        return "<Blob {} (Size: {}, Type: {}) >".format((self.id,
+                    self.content_length, self.content_type))
+
