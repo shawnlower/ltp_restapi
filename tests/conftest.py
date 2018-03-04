@@ -1,7 +1,7 @@
 import pytest
 
 from ltp.app import create_app
-from ltp.settings import TestConfig
+from ltp.settings import Config
 
 @pytest.fixture
 def testresult():
@@ -19,7 +19,8 @@ def pytest_runtest_makereport(item, call, __multicall__):
 
 @pytest.fixture(scope="module")
 def client():
-    app = create_app(__name__, config=TestConfig)
+    config = Config(env='testing')
+    app = create_app(__name__, config=config)
     client = app.test_client()
     return client
 
