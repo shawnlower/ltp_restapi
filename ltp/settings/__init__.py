@@ -39,8 +39,10 @@ class Config(object):
 
         if file:
             self.update(file)
+            log.debug("Loaded config: {}".format(file))
             if env:
                 self.update(file, env=env)
+                log.debug("Updated for env: {}".format(env))
 
         log.debug("Config initialized with: \n{}".format(pformat(self._config)))
 
