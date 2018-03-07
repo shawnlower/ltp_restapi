@@ -8,6 +8,7 @@ from ..restplus import api
 
 ns = api.namespace('healthcheck', description='Health check')
 
+
 @ns.route('/')
 class Healthcheck(Resource):
     def get(self):

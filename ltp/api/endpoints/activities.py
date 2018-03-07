@@ -11,6 +11,7 @@ from ...database.models import db, Activity, Item
 
 ns = api.namespace('activities', description='Groups related items')
 
+
 @ns.route('/')
 class ActivityCollection(Resource):
 
@@ -23,7 +24,8 @@ class ActivityCollection(Resource):
         """
         data = request.json
         if not data.get('items'):
-            raise BadRequest("Payload validation failed. 'items' is empty: {}".format(data))
+            raise BadRequest(
+                "Payload validation failed. 'items' is empty: {}".format(data))
         try:
             activity_res = Activity(data)
             for item in data['items']:
@@ -31,7 +33,8 @@ class ActivityCollection(Resource):
                 log.debug(item_res)
                 db.session.add(item_res)
         except TypeError as e:
-            log.debug("validation failed: payload: {} \n error: {}".format(data,e))
+            log.debug(
+                "validation failed: payload: {} \n error: {}".format(data, e))
             raise BadRequest("payload validation failed: {}".format(data))
         db.session.add(activity_res)
         db.session.commit()
@@ -47,6 +50,7 @@ class ActivityCollection(Resource):
         activities = Activity.query.all()
         return activities
 
+
 @ns.route('/<int:id>')
 class ActivityResource(Resource):
 
@@ -57,5 +61,3 @@ class ActivityResource(Resource):
         """
         activity = Activity.query.filter(Activity.id == id).one()
         return activity
-
-

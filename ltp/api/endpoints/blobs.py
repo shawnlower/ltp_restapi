@@ -11,9 +11,10 @@ from ..restplus import api
 from ..serializers import blob
 from ...database.models import db, Blob
 
-from ..blobstore  import validate_hash
+from ..blobstore import validate_hash
 
-ns = api.namespace('blobs', description='Raw upload objects (e.g.  video/audio')
+ns = api.namespace(
+    'blobs', description='Raw upload objects (e.g.  video/audio')
 
 """
 This is a simple 'blob-store' endpoint. It allows uploading arbitrary data to
@@ -36,10 +37,11 @@ Workflow:
 upload_parser = api.parser()
 
 upload_parser.add_argument('X-Upload-Content-Length', location='headers',
-                            required=True)
+                           required=True)
 upload_parser.add_argument('X-Upload-Content-Type', location='headers')
 upload_parser.add_argument('file', location='files',
                            type=FileStorage, required=True)
+
 
 @ns.route('/')
 class BlobCollection(Resource):
@@ -63,7 +65,7 @@ class BlobCollection(Resource):
                'http://localhost:8888/api/blobs/'
         ```
         """
-        
+
         file = request.files['file']
 
         meta = {}

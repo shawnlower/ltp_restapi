@@ -8,6 +8,7 @@ logging.config.fileConfig('ltp/logging.cfg')
 
 DEFAULT_CONFIG = os.path.join(os.path.dirname(__file__), 'config.ini')
 
+
 class Config(object):
 
     def __init__(self, file=None, skip_defaults=False, env=None):
@@ -18,7 +19,7 @@ class Config(object):
 
             [sqlalchemy]
             database_uri = ':memory:'
-                
+
         Is accessed as:
 
             config = Config()
@@ -44,7 +45,8 @@ class Config(object):
                 self.update(file, env=env)
                 log.debug("Updated for env: {}".format(env))
 
-        log.debug("Config initialized with: \n{}".format(pformat(self._config)))
+        log.debug("Config initialized with: \n{}".format(
+            pformat(self._config)))
 
     def update(self, file, env=None):
         cp = ConfigParser()
@@ -82,4 +84,3 @@ class Config(object):
         """
         self._config[key] = value
         setattr(self, key, value)
-

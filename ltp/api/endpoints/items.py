@@ -11,6 +11,7 @@ from ...database.models import db, Item
 
 ns = api.namespace('items', description='Items representing semantic data')
 
+
 @ns.route('/')
 class ItemCollection(Resource):
 
@@ -25,7 +26,8 @@ class ItemCollection(Resource):
         try:
             item_res = Item(data)
         except TypeError as e:
-            log.debug("validation failed: payload: {} \n error: {}".format(data,e))
+            log.debug(
+                "validation failed: payload: {} \n error: {}".format(data, e))
             raise BadRequest("payload validation failed: {}".format(data))
         db.session.add(item_res)
         db.session.commit()
