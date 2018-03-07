@@ -4,15 +4,16 @@ from pprint import pprint
 
 from .conftest import wrapped
 
+
 class TestItems():
     """
     Tests for /items/ endpoint
     """
 
     ITEM_GOOD_DATA = {
-                "description": "test item",
-                "content_type": "text/plain",
-        }
+        "description": "test item",
+        "content_type": "text/plain",
+    }
 
     def test_get_item_success(self, testresult, request, client):
         """
@@ -34,7 +35,8 @@ class TestItems():
         path = "/api/items/"
         data = self.ITEM_GOOD_DATA
 
-        response = client.post(path, data=json.dumps(data), content_type='application/json')
+        response = client.post(path, data=json.dumps(
+            data), content_type='application/json')
         wrapped(response, testresult, request)
 
         status_code = response.status_code
@@ -48,7 +50,8 @@ class TestItems():
 
         path = "/api/items/"
         # Post our JSON
-        response = client.post(path, data=json.dumps(data), content_type='application/json')
+        response = client.post(path, data=json.dumps(
+            data), content_type='application/json')
 
         retrieved_item = json.loads(response.data)['item']
 
@@ -70,4 +73,3 @@ class TestItems():
         d2 = dict((k, d1[k]) for k in d1 if not k in ignore_keys)
 
         assert d1 == d2
-

@@ -34,5 +34,3 @@ def wrapped(response, testresult, request):
             print(">>> HEADERS: \n" + str(response.headers))
             print(">>> DATA: \n" + response.data.decode("utf-8"))
     request.addfinalizer(finalizer)
-
-

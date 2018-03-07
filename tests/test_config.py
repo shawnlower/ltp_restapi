@@ -5,6 +5,7 @@ from tempfile import NamedTemporaryFile
 from ltp.app import create_app
 from ltp.settings import Config
 
+
 class TestConfig():
     """
     Tests for config setup
@@ -23,7 +24,7 @@ class TestConfig():
         When we run the server with a config file, we expect those settings to take
         precedence.
         """
-        config_content="""
+        config_content = """
             [core]
             SERVER_NAME = XXTESTINGXX
 
@@ -42,4 +43,3 @@ class TestConfig():
         assert app.config['SQLALCHEMY_DATABASE_URI'] == 'sqlite:///:memory:?XXTESTXX'
 
         os.unlink(file.name)
-
