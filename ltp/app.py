@@ -1,8 +1,6 @@
 import logging.config
-import os
 
 from flask import Flask, Blueprint
-from flask_sqlalchemy import SQLAlchemy
 
 # Local imports
 from .api.restplus import api
@@ -16,6 +14,7 @@ from .settings import Config
 
 logging.config.fileConfig('ltp/logging.cfg')
 log = logging.getLogger(__name__)
+
 
 def create_app(name, config=None, skip_defaults=False):
     """
@@ -45,4 +44,3 @@ def create_app(name, config=None, skip_defaults=False):
     app.register_blueprint(blueprint)
 
     return app
-
