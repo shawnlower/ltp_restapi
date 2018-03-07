@@ -22,4 +22,3 @@ blob = api.model('Blob', {
     'content_hash': fields.String(required=True, description='ex: sha256:<hash of object>'),
     'created_at': fields.DateTime(readOnly=True),
 })
-

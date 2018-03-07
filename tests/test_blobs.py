@@ -6,6 +6,7 @@ from pprint import pprint
 
 from .conftest import wrapped
 
+
 class TestBlobs():
     """
     Tests for /blobs/ endpoint

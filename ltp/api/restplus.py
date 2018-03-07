@@ -6,7 +6,7 @@ from flask_restplus import Api
 from ltp import settings
 
 api = Api(version='1.0', title='LTP API',
-            description='Flask-restplus powered API server for LTP')
+          description='Flask-restplus powered API server for LTP')
 
 
 @api.errorhandler
