@@ -1,7 +1,6 @@
 from configparser import ConfigParser
 import logging
 import os
-from pprint import pprint, pformat
 
 log = logging.getLogger(__name__)
 logging.config.fileConfig('ltp/logging.cfg')
@@ -45,8 +44,7 @@ class Config(object):
                 self.update(file, env=env)
                 log.debug("Updated for env: {}".format(env))
 
-        log.debug("Config initialized with: \n{}".format(
-            pformat(self._config)))
+        log.debug("Config initialized with: \n{}".format(self._config))
 
     def update(self, file, env=None):
         cp = ConfigParser()

@@ -1,7 +1,3 @@
-from datetime import datetime
-import logging
-log = logging.getLogger(__name__)
-
 from flask import request
 from flask_restplus import Resource
 from werkzeug.datastructures import FileStorage
@@ -10,6 +6,10 @@ from werkzeug.exceptions import BadRequest
 from ..restplus import api
 from ..serializers import blob
 from ...database.models import db, Blob
+
+from datetime import datetime
+import logging
+log = logging.getLogger(__name__)
 
 from ..blobstore import validate_hash
 
@@ -27,8 +27,8 @@ This blob store may also implement a proxy resolver for hash URIs
 https://github.com/hash-uri/hash-uri
 
 Workflow:
-    - POST /items   ## Create a new item. Any URL attributes can specify a known
-                    ## location, e.g. http://<fqdn>/api/objects/<sha-256 hash>
+    - POST /items  ## Create a new item. Any URL attributes can specify a known
+                   ## location, e.g. http://<fqdn>/api/objects/<sha-256 hash>
 
     - POST /objects ## Create the new object at the known location.
 """
@@ -57,9 +57,9 @@ class BlobCollection(Resource):
         ```shell
         $ file=album_art.jpg
         $ sha=$(sha256sum $file | awk '{print $1}')
-        $ curl -X POST -F file=@${file} 
+        $ curl -X POST -F file=@${file}
                --header 'Content-Type: multipart/form-data'
-               --header "X-Upload-Content-Length: $(stat $file --printf=%s)" 
+               --header "X-Upload-Content-Length: $(stat $file --printf=%s)"
                --header 'Accept: application/json'
                --header "X-Upload-Content-Hash: $sha"
                'http://localhost:8888/api/blobs/'
