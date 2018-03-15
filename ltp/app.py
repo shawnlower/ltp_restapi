@@ -2,14 +2,14 @@ import logging.config
 
 from flask import Flask, Blueprint
 
+
 # Local imports
 from .api.restplus import api
 from .api.endpoints.healthcheck import ns as healthcheck_namespace
 from .api.endpoints.activities import ns as activities_namespace
 from .api.endpoints.blobs import ns as blobs_namespace
 from .api.endpoints.items import ns as items_namespace
-from .database.models import db
-from .database import setup_db
+from .database import get_graph, setup_db
 from .settings import Config
 
 logging.config.fileConfig('ltp/logging.cfg')
@@ -29,18 +29,17 @@ def create_app(name, config=None, skip_defaults=False):
         config = Config()
     app.config.from_object(config)
 
-    with app.app_context():
-        # Initialize our DB object with the engine configured for the app
-        db.init_app(app)
-        # Perform any setup necessary (create tables, etc)
-        setup_db()
+    app.config.graph = get_graph(app)
 
     blueprint = Blueprint('api', __name__, url_prefix='/api')
+
     api.add_namespace(healthcheck_namespace)
     api.add_namespace(activities_namespace)
     api.add_namespace(blobs_namespace)
     api.add_namespace(items_namespace)
     api.init_app(blueprint)
+
+    blueprint.before_request(setup_db)
     app.register_blueprint(blueprint)
 
     return app

@@ -32,6 +32,7 @@ def main():
     ltp_app = app.create_app(__name__, config)
     log.info('>>> Starting development server at http://{}/api/'.format(
         ltp_app.config['SERVER_NAME']))
+
     ltp_app.run()
 
 
