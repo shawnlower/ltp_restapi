@@ -18,8 +18,10 @@ TODO
 ====
 - [ ] Remove unused fields (id, created_at) from POST
 - [ ] Enforce JSON-LD on items
+- [ ] Create schemas for items/activities
 - [ ] Search/Filtering
 - [ ] Relationships
+- [ ] Support [https://tools.ietf.org/html/rfc6902](JSON PATCH rfc6902)
 
 Resources
 =========
