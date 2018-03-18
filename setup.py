@@ -8,7 +8,8 @@ setup(
         'Flask',
         'flask-restplus',
         'rdflib',
-        'rdflib_jsonld'
+        'rdflib_jsonld',
+        'rdflib-sqlalchemy'
     ],
     setup_requires=[
         'pytest-runner',

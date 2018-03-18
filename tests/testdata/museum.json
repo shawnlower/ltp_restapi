@@ -1,0 +1,22 @@
+
+	{
+	  "@context": "http://schema.org",
+	  "@type": "Organization",
+	  "url": "http://rubinmuseum.org",
+	  "name": "Rubin Museum of Art",
+	  "logo": "http://rubinmuseum.org/themes/site_themes/rubin/images/logo.png",
+	  "sameAs": [
+		"https://www.facebook.com/RubinMuseum",
+		"https://www.instagram.com/rubinmuseum/",
+		"https://www.youtube.com/user/RubinMuseum",
+		"https://soundcloud.com/rubinmuseum",
+		"https://plus.google.com/+RubinMuseumofArtNewYork",
+		"https://www.tripadvisor.com/Attraction_Review-g60763-d548703-Reviews-Rubin_Museum_of_Art-New_York_City_New_York.html"
+	  ],
+	  "contactPoint": {
+		"@type": "ContactPoint",
+		"telephone": "+1-212-620-5000",
+		"contactType": "Customer service"
+	  }
+	}
+	
