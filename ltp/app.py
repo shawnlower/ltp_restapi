@@ -1,6 +1,6 @@
 import logging.config
 
-from flask import Flask, Blueprint
+from flask import Flask, Blueprint, got_request_exception
 
 
 # Local imports
@@ -9,11 +9,19 @@ from .api.endpoints.healthcheck import ns as healthcheck_namespace
 from .api.endpoints.activities import ns as activities_namespace
 from .api.endpoints.blobs import ns as blobs_namespace
 from .api.endpoints.items import ns as items_namespace
-from .database import get_graph, setup_db
+from .database import setup_db
 from .settings import Config
 
 logging.config.fileConfig('ltp/logging.cfg')
 log = logging.getLogger(__name__)
+
+
+def drop_into_pdb(app, exception):
+    import sys
+    import pdb
+    import traceback
+    traceback.print_exc()
+    pdb.post_mortem(sys.exc_info()[2])
 
 
 def create_app(name, config=None, skip_defaults=False):
@@ -29,7 +37,7 @@ def create_app(name, config=None, skip_defaults=False):
         config = Config()
     app.config.from_object(config)
 
-    app.config.graph = get_graph(app)
+    # app.config.graph = get_graph(app)
 
     blueprint = Blueprint('api', __name__, url_prefix='/api')
 
@@ -41,5 +49,7 @@ def create_app(name, config=None, skip_defaults=False):
 
     blueprint.before_request(setup_db)
     app.register_blueprint(blueprint)
+
+    #got_request_exception.connect(drop_into_pdb)
 
     return app

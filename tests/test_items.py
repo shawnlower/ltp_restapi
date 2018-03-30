@@ -11,8 +11,8 @@ class TestItems():
     """
 
     ITEM_GOOD_DATA = {
-        "description": "test item",
-        "content_type": "text/plain",
+        "@context": "http://schema.org/",
+        "image": "http://manu.sporny.org/images/manu.png"
     }
 
     def test_get_item_success(self, testresult, request, client):
@@ -53,10 +53,10 @@ class TestItems():
         response = client.post(path, data=json.dumps(
             data), content_type='application/json')
 
-        retrieved_item = json.loads(response.data)['item']
+        retrieved_item = json.loads(response.data)
 
         # GET the item we just posted
-        path = "/api/items/{}".format(retrieved_item['id'])
+        path = retrieved_item['@id']
         response = client.get(path)
 
         wrapped(response, testresult, request)
@@ -67,9 +67,9 @@ class TestItems():
         # Verify the contents are the same, spare for a few keys
         ignore_keys = ('id', 'created_at', 'items')
         d1 = self.ITEM_GOOD_DATA.copy()
-        d1 = dict((k, d1[k]) for k in d1 if not k in ignore_keys)
+        d1 = dict((k, d1[k]) for k in d1 if k not in ignore_keys)
 
         d2 = retrieved_item.copy()
-        d2 = dict((k, d1[k]) for k in d1 if not k in ignore_keys)
+        d2 = dict((k, d1[k]) for k in d1 if k not in ignore_keys)
 
         assert d1 == d2

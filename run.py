@@ -27,14 +27,20 @@ def main():
     elif 'LTP_CONFIG' in os.environ:
         config_file = os.environ['LTP_CONFIG']
 
-    config = Config(file=config_file, env=args.environment)
-
-    ltp_app = app.create_app(__name__, config)
+    ltp_app = _create_app(config_file, args.environment)
     log.info('>>> Starting development server at http://{}/api/'.format(
         ltp_app.config['SERVER_NAME']))
+    return ltp_app.run()
 
-    ltp_app.run()
+
+def _create_app(config_file=None, env=None):
+    config = Config(file=config_file, env=env)
+    ltp_app = app.create_app(__name__, config)
+    return ltp_app
 
 
 if __name__ == '__main__':
     main()
+else:
+    ltp_app = _create_app()
+
