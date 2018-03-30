@@ -16,15 +16,7 @@ logging.config.fileConfig('ltp/logging.cfg')
 log = logging.getLogger(__name__)
 
 
-def drop_into_pdb(app, exception):
-    import sys
-    import pdb
-    import traceback
-    traceback.print_exc()
-    pdb.post_mortem(sys.exc_info()[2])
-
-
-def create_app(name, config=None, skip_defaults=False):
+def create_app(name=__name__, config=None, skip_defaults=False):
     """
     app factory
     If config is not passed, env is inspected for 'APP_CONFIG'. If not present,
@@ -37,8 +29,6 @@ def create_app(name, config=None, skip_defaults=False):
         config = Config()
     app.config.from_object(config)
 
-    # app.config.graph = get_graph(app)
-
     blueprint = Blueprint('api', __name__, url_prefix='/api')
 
     api.add_namespace(healthcheck_namespace)
@@ -49,7 +39,5 @@ def create_app(name, config=None, skip_defaults=False):
 
     blueprint.before_request(setup_db)
     app.register_blueprint(blueprint)
-
-    #got_request_exception.connect(drop_into_pdb)
 
     return app
