@@ -4,13 +4,21 @@ from .restplus import api
 
 item = api.model('Item', {
     '@context': fields.String(required=True,
-                              description='JSON-LD context for the item.')
+                              description='JSON-LD context for the item.'),
+    '@type': fields.String(required=True,
+                           description='JSON-LD type for the item.')
 })
 
 item_collection = api.model('item_collection', {
     'items': fields.Raw(required=True,
                         description='A collection of items')
 })
+
+item_response = api.model('Item', {
+    'id': fields.String(required=True, description='ID of new item'),
+    'item': fields.Raw()
+})
+
 
 activity = api.model('Activity', {
     'id': fields.Integer(readOnly=True,

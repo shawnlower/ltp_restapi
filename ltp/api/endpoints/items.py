@@ -5,7 +5,7 @@ from rdflib.namespace import Namespace
 from rdflib.term import BNode
 
 from ..restplus import api
-from ..serializers import item, item_collection
+from ..serializers import item, item_collection, item_response
 from ...utils.debug_requests import debug_requests
 from ...utils import find_existing
 from ...database import get_db
@@ -22,9 +22,9 @@ ns = api.namespace('items', description='Items representing semantic data')
 @ns.route('/')
 class ItemCollection(Resource):
 
-    @api.expect(item, validate=False)
+    @api.expect(item, validate=True)
     @api.response(201, 'Item created')
-    #   @api.marshal_with(item, envelope="item")
+    @api.marshal_with(item_response)
     def post(self):
         """
         Creates a new item
@@ -65,9 +65,9 @@ class ItemCollection(Resource):
         for t in tmp_g:
             g.graph.add(t)
         log.debug("Added {} to store (total size {})".format(
-                      len(tmp_g), len(g.graph)))
+                  len(tmp_g), len(g.graph)))
 
-        return data, 201
+        return {'id': hash, 'item': data}, 201
 
     @api.marshal_with(item_collection)
     @api.response(200, 'Ok')
@@ -85,6 +85,7 @@ class ItemCollection(Resource):
 @ns.route('/<string:id>')
 @api.response(200, 'Ok')
 @api.response(404, 'Item not found')
+# @api.marshal_with(item_response)
 class ItemResource(Resource):
 
     def get(self, id):
@@ -107,13 +108,14 @@ class ItemResource(Resource):
         subject = ns[id]  
         g_item = Graph()
         g_item += g.graph.triples((subject, None, None))
+
         if not g_item:
-            abort(404)
+            abort(404, "Item not found: {}".format(id))
 
         doc = g_item.serialize(format='json-ld', auto_compact=True)\
                 .decode('utf-8')
         data = json.loads(doc)
 
-        return data
+        return {'id': id, 'item': data}, 200
 
 
