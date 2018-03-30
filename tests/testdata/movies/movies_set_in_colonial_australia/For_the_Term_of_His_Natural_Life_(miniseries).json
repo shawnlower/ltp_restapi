@@ -1,0 +1,233 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(mini-series)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(miniseries)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_his_Natural_Life_(miniseries)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(miniseries)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(miniseries)",
+    "@type": [
+      "http://dbpedia.org/class/yago/Wikicat1983TelevisionFilms",
+      "http://dbpedia.org/ontology/TelevisionShow",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://www.wikidata.org/entity/Q15416",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/Movie106613686"
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life is a 1983 Australian mini-series based on the classic novel."
+      }
+    ],
+    "http://dbpedia.org/ontology/composer": [
+      {
+        "@id": "http://dbpedia.org/resource/Simon_Walker_(composer)"
+      }
+    ],
+    "http://dbpedia.org/ontology/numberOfEpisodes": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "3"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1983-05-23"
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Robert_Coleby"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Colin_Friels"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.austlit.edu.au/austlit/page/C806290"
+      },
+      {
+        "@id": "http://www.tcm.com/tcmdb/title/491865/For-the-Term-of-His-Natural-Life/full-credits.html"
+      },
+      {
+        "@id": "http://colsearch.nfsa.gov.au/nfsa/search/summary/summary.w3p;adv=;group=;groupequals=;page=0;parentid=;query=for%20the%20term%20of%20his%20natural%20life%201983%20Media%3A%22Documentation%22;querytype=Media%3ADocumentation;resCount=10"
+      },
+      {
+        "@id": "http://www.imdb.com/title/tt0083957/"
+      },
+      {
+        "@id": "http://forthetermofhisnaturallife.com/wp-content/uploads/2012/09/TermMiniSeriesCredits-11.pdf"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 37839188
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 744941566
+      }
+    ],
+    "http://dbpedia.org/property/basedOn": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "novel by Marcus Clarke"
+      }
+    ],
+    "http://dbpedia.org/property/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "6500000.0"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/director": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Rob Stewart"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/network": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Nine Network"
+      }
+    ],
+    "http://dbpedia.org/property/producer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Patricia Payne"
+      }
+    ],
+    "http://dbpedia.org/property/writer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Wilton Schiller"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Patricia Payne"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1983_television_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_Australian_novels"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Mini-series"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life is a 1983 Australian mini-series based on the classic novel."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life (miniseries)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5467145"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0n_cg4f"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(miniseries)"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/For_the_Term_of_His_Natural_Life_(miniseries)"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q5467145"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(miniseries)?oldid=744941566"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(miniseries)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(miniseries)"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(miniseries)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(miniseries)"
+      }
+    ]
+  }
+]

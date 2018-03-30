@@ -1,0 +1,233 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Burke_&_Wills_(film)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Burke_&_Wills"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Burke_&_Wills",
+    "@type": [
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/Wikicat1985Films",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByGraemeClifford",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/Wikicat1980sDramaFilms",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms"
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "Burke & Wills is a 1985 Australian adventure film directed by Graeme Clifford, starring Jack Thompson and Nigel Havers. The film is based on the ill-fated Burke and Wills expedition across Australia. The film follows Robert O'Hara Burke and William John Wills in their crossing of Australia's interior in 1860-1. The film's account of the story changes the expedition's ending by having the explorers actually reach the northern coast. This upbeat idea was vehemently criticised by Australian reviewers. The story was also filmed the same year as a comedy, Wills & Burke."
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Russell_Boyd"
+      }
+    ],
+    "http://dbpedia.org/ontology/country": [
+      {
+        "@id": "http://dbpedia.org/resource/Australia"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Graeme_Clifford"
+      }
+    ],
+    "http://dbpedia.org/ontology/editing": [
+      {
+        "@id": "http://dbpedia.org/resource/Tim_Wellburn"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Peter_Sculthorpe"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Graeme_Clifford"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1985-10-31"
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Jack_Thompson_(actor)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Nigel_Havers"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.burkeandwills.net.au/"
+      },
+      {
+        "@id": "http://www.burkeandwills150.info/"
+      },
+      {
+        "@id": "http://www.burkeandwills.org/"
+      },
+      {
+        "@id": "http://www.ozornewzealand.com/1234-burke-and-wills.html"
+      },
+      {
+        "@id": "http://www.ozornewzealand.com"
+      },
+      {
+        "@id": "http://www.ozmovies.com.au/movie/burke--wills"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 1269856
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 728442144
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Michael_Thomas_(screenwriter)"
+      }
+    ],
+    "http://dbpedia.org/property/distributor": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Hoyts Distribution"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/runningTime": [
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "8400.0"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Hoyts Edgley"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Graeme_Clifford"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1985_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Burke_and_Wills_expedition"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1980s_drama_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Burke & Wills is a 1985 Australian adventure film directed by Graeme Clifford, starring Jack Thompson and Nigel Havers. The film is based on the ill-fated Burke and Wills expedition across Australia. The film follows Robert O'Hara Burke and William John Wills in their crossing of Australia's interior in 1860-1. The film's account of the story changes the expedition's ending by having the explorers actually reach the northern coast. This upbeat idea was vehemently criticised by Australian reviewers. The story was also filmed the same year as a comedy, Wills & Burke."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Burke & Wills"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://dbpedia.org/resource/Burke_&_Wills"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.057xrp2"
+      },
+      {
+        "@id": "http://data.linkedmdb.org/resource/film/72278"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Burke_&_Wills"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q4998921"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q4998921"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Burke_&_Wills?oldid=728442144"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Burke_&_Wills"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Burke & Wills"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Burke_&_Wills",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Burke_&_Wills"
+      }
+    ]
+  }
+]

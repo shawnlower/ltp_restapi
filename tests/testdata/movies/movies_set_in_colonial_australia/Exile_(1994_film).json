@@ -1,0 +1,265 @@
+[
+  {
+    "@id": "http://en.wikipedia.org/wiki/Exile_(1994_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Exile_(1994_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Exile_(1994_film)",
+    "@type": [
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://schema.org/Movie",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/Wikicat1990sDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/Wikicat1994Films",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByPaulCox",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "95.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "Exile is a 1994 Australian drama film directed by Paul Cox. It was entered into the 44th Berlin International Film Festival. The film was shot entirely on location in Tasmania."
+      },
+      {
+        "@language": "fr",
+        "@value": "Exile est un film australien réalisé par Paul Cox, sorti en 1994."
+      }
+    ],
+    "http://dbpedia.org/ontology/basedOn": [
+      {
+        "@id": "http://dbpedia.org/resource/E.L._Grant_Watson"
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "2000000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Paul_Cox"
+      }
+    ],
+    "http://dbpedia.org/ontology/editing": [
+      {
+        "@id": "http://dbpedia.org/resource/Paul_Cox"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "0109757"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Paul_Grabowsky"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Paul_Cox"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 5700.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Aden_Young"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Beth_Champion"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Claudia_Karvan"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 32057513
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 673889996
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Paul_Cox"
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Nino Gaetano Martinetti"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/distributor": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Beyond Films"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Roadshow"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@id": "http://dbpedia.org/resource/Australian_Film_Finance_Corporation"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Film_Victoria"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Illumination Films"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Exile"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1994_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_Tasmania"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Paul_Cox"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1990s_drama_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "fr",
+        "@value": "Exile est un film australien réalisé par Paul Cox, sorti en 1994."
+      },
+      {
+        "@language": "en",
+        "@value": "Exile is a 1994 Australian drama film directed by Paul Cox. It was entered into the 44th Berlin International Film Festival. The film was shot entirely on location in Tasmania."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "fr",
+        "@value": "Exile (film, 1994)"
+      },
+      {
+        "@language": "en",
+        "@value": "Exile (1994 film)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://yago-knowledge.org/resource/Exile_(1994_film)"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q5420265"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Exile_(1994_film)"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/Exile_(film,_1994)"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0c3gw4l"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q5420265"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Exile_(1994_film)?oldid=673889996"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Exile_(1994_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Exile"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Exile_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/Exile_(1994_film)"
+      }
+    ]
+  }
+]

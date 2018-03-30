@@ -1,0 +1,628 @@
+[
+  {
+    "@id": "http://en.wikipedia.org/wiki/Oscar_and_Lucinda_(film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Oscar_and_Lucinda_(film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Oscar_and_Lucinda_(film)",
+    "@type": [
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/ontology/Film",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Movie"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "132.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "pl",
+        "@value": "Oskar i Lucinda – amerykańsko-brytyjsko-australijski melodramat z 1997 roku na podstawie powieści Petera Careya."
+      },
+      {
+        "@language": "ja",
+        "@value": "『オスカーとルシンダ』（Oscar and Lucinda)は、1997年制作のオーストラリア・イギリス合作映画。1988年にブッカー賞を受賞したピーター・ケアリーの同名小説の映画化。"
+      },
+      {
+        "@language": "zh",
+        "@value": "《奧斯卡與露絲達》（英語：Oscar and Lucinda）是一部1997年的英-美-澳合拍電影，根據彼得·凱里的同名小說改編。"
+      },
+      {
+        "@language": "pt",
+        "@value": "Oscar and Lucinda (Oscar e Lucinda - Uma História de Amor... (título no Brasil) ou Oscar e Lucinda (título em Portugal)) é um filme britânico e australiano de 1997, dos gêneros drama e romance, dirigido por Gillian Armstrong. O roteiro é baseado em livro de mesmo nome de Peter Carey."
+      },
+      {
+        "@language": "fr",
+        "@value": "Oscar et Lucinda Information Pour plus de détails, voir  et Oscar et Lucinda (Oscar and Lucinda) est un film américano-australien réalisé par Gillian Armstrong d'après le roman de Peter Carey, et sorti en 1997."
+      },
+      {
+        "@language": "it",
+        "@value": "Oscar e Lucinda (Oscar and Lucinda) è un film del 1997 diretto da Gillian Armstrong, tratto dal romanzo omonimo Oscar e Lucinda di Peter Carey."
+      },
+      {
+        "@language": "en",
+        "@value": "Oscar and Lucinda is a 1997 British-Australian-American romantic drama film directed by Gillian Armstrong and starring Cate Blanchett, Ralph Fiennes, Ciarán Hinds and Tom Wilkinson. It is based on the 1988 Booker Prize-winning novel Oscar and Lucinda by Peter Carey. In March 1998, the film was nominated at the Academy Awards for the Best Costume Design."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Оскар и Люсинда» (англ. Oscar and Lucinda) — историческая мелодрама по одноименному роману Питера Кэри, удостоенному премии Букера в 1988 году."
+      },
+      {
+        "@language": "de",
+        "@value": "Oscar und Lucinda (Originaltitel: Oscar and Lucinda; Alternativtitel: Oscar & Lucinda) ist ein US-amerikanisch-britisch-australisches Filmdrama aus dem Jahr 1997. Regie führte Gillian Armstrong, das Drehbuch schrieb Laura Jones anhand eines Romans von Peter Carey."
+      }
+    ],
+    "http://dbpedia.org/ontology/basedOn": [
+      {
+        "@id": "http://dbpedia.org/resource/Oscar_and_Lucinda"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Peter_Carey_(novelist)"
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "1.6E7"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Geoffrey_Simpson"
+      }
+    ],
+    "http://dbpedia.org/ontology/country": [
+      {
+        "@id": "http://dbpedia.org/resource/Australia"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Gillian_Armstrong"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/Fox_Searchlight_Pictures"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "4953510.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Thomas_Newman"
+      }
+    ],
+    "http://dbpedia.org/ontology/narrator": [
+      {
+        "@id": "http://dbpedia.org/resource/Geoffrey_Rush"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Mark_Turnbull"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1997-12-31"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 7920.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Cate_Blanchett"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Ralph_Fiennes"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 21922672
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 738520035
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Laura_Jones_(screenwriter)"
+      }
+    ],
+    "http://dbpedia.org/property/allMusic": [
+      {
+        "@id": "http://dbpedia.org/resource/Thomas_Newman"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Theatrical release poster"
+      }
+    ],
+    "http://dbpedia.org/property/collapsed": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "no"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Nicholas Beaumon"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "French"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/length": [
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "102.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "230.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "68.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "65.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "157.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "112.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "117.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "169.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "142.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "109.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "76.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "250.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "310.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "69.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "279.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "59.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "85.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "86.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "151.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "82.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "74.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "79.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "131.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "40.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "48.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "50.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "62.0"
+      }
+    ],
+    "http://dbpedia.org/property/recorded": [
+      {
+        "@value": 1997
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Meridian Films"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Dalton Films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Australian_Film_Finance_Corporation"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "A Broken Thing"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "The Church Of Glass"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Throwing Lots"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Rumors"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "The Other Compulsive"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Six Rivers To Cross"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Floorwashing"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Excerpt From The Random House Audio book"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Forgive Me"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Oscar And Lucinda"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Bruckner: On Justi"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Odd Bod"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Magic Boxes"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Aqua"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Dutch Hazards"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Prayer Wounds"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Two Gambers"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "The Caul"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "The Murder Of The Blacks"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Cards And Dogs"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Never Never"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "The High Downs And The Sea"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "One Obsessive"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Sydney Harbor"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Prince Rupert's Drop"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "The Seduction Of Mrs. Chadwick"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Leviathan"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Wesley: Blessed Be The God And Father"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Letters On The mantel"
+      }
+    ],
+    "http://dbpedia.org/property/totalLength": [
+      {
+        "@type": "http://dbpedia.org/datatype/second",
+        "@value": "3326.0"
+      }
+    ],
+    "http://dbpedia.org/property/type": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Film"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:French-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Film_scores_by_Thomas_Newman"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1990s_romantic_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Fox_Searchlight_Pictures_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_Australian_novels"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:British_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Gillian_Armstrong"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_romantic_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_the_19th_century"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:British_romantic_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1997_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "ja",
+        "@value": "『オスカーとルシンダ』（Oscar and Lucinda)は、1997年制作のオーストラリア・イギリス合作映画。1988年にブッカー賞を受賞したピーター・ケアリーの同名小説の映画化。"
+      },
+      {
+        "@language": "en",
+        "@value": "Oscar and Lucinda is a 1997 British-Australian-American romantic drama film directed by Gillian Armstrong and starring Cate Blanchett, Ralph Fiennes, Ciarán Hinds and Tom Wilkinson. It is based on the 1988 Booker Prize-winning novel Oscar and Lucinda by Peter Carey. In March 1998, the film was nominated at the Academy Awards for the Best Costume Design."
+      },
+      {
+        "@language": "zh",
+        "@value": "《奧斯卡與露絲達》（英語：Oscar and Lucinda）是一部1997年的英-美-澳合拍電影，根據彼得·凱里的同名小說改編。"
+      },
+      {
+        "@language": "fr",
+        "@value": "Oscar et Lucinda Information Pour plus de détails, voir  et Oscar et Lucinda (Oscar and Lucinda) est un film américano-australien réalisé par Gillian Armstrong d'après le roman de Peter Carey, et sorti en 1997."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Оскар и Люсинда» (англ. Oscar and Lucinda) — историческая мелодрама по одноименному роману Питера Кэри, удостоенному премии Букера в 1988 году."
+      },
+      {
+        "@language": "de",
+        "@value": "Oscar und Lucinda (Originaltitel: Oscar and Lucinda; Alternativtitel: Oscar & Lucinda) ist ein US-amerikanisch-britisch-australisches Filmdrama aus dem Jahr 1997. Regie führte Gillian Armstrong, das Drehbuch schrieb Laura Jones anhand eines Romans von Peter Carey."
+      },
+      {
+        "@language": "pl",
+        "@value": "Oskar i Lucinda – amerykańsko-brytyjsko-australijski melodramat z 1997 roku na podstawie powieści Petera Careya."
+      },
+      {
+        "@language": "pt",
+        "@value": "Oscar and Lucinda (Oscar e Lucinda - Uma História de Amor... (título no Brasil) ou Oscar e Lucinda (título em Portugal)) é um filme britânico e australiano de 1997, dos gêneros drama e romance, dirigido por Gillian Armstrong. O roteiro é baseado em livro de mesmo nome de Peter Carey."
+      },
+      {
+        "@language": "it",
+        "@value": "Oscar e Lucinda (Oscar and Lucinda) è un film del 1997 diretto da Gillian Armstrong, tratto dal romanzo omonimo Oscar e Lucinda di Peter Carey."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "Oscar e Lucinda"
+      },
+      {
+        "@language": "zh",
+        "@value": "奧斯卡與露絲達"
+      },
+      {
+        "@language": "de",
+        "@value": "Oscar und Lucinda"
+      },
+      {
+        "@language": "pl",
+        "@value": "Oskar i Lucinda"
+      },
+      {
+        "@language": "fr",
+        "@value": "Oscar et Lucinda"
+      },
+      {
+        "@language": "en",
+        "@value": "Oscar and Lucinda (film)"
+      },
+      {
+        "@language": "ja",
+        "@value": "オスカーとルシンダ"
+      },
+      {
+        "@language": "ru",
+        "@value": "Оскар и Люсинда (фильм)"
+      },
+      {
+        "@language": "pt",
+        "@value": "Oscar and Lucinda"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q2033052"
+      },
+      {
+        "@id": "http://pl.dbpedia.org/resource/Oskar_i_Lucinda"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.05p09dd"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/Oscar_et_Lucinda"
+      },
+      {
+        "@id": "http://pt.dbpedia.org/resource/Oscar_and_Lucinda"
+      },
+      {
+        "@id": "http://it.dbpedia.org/resource/Oscar_e_Lucinda"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q2033052"
+      },
+      {
+        "@id": "http://de.dbpedia.org/resource/Oscar_und_Lucinda"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Oscar_and_Lucinda_(film)"
+      },
+      {
+        "@id": "http://ja.dbpedia.org/resource/オスカーとルシンダ"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Oscar_and_Lucinda_(film)?oldid=738520035"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Oscar_and_Lucinda_(film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Oscar and Lucinda"
+      }
+    ]
+  }
+]

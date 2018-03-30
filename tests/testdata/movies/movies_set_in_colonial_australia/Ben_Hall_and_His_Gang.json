@@ -1,0 +1,188 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Ben_Hall_and_His_Gang",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/ontology/Work",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/ontology/Film"
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "Ben Hall and his Gang is a 1911 film about the bushranger Ben Hall, played by John Gavin, who also directed. It is considered a lost film."
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Herbert_Finlay"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/John_Gavin_(director)"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "0204890"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Stanley_Crick"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Herbert_Finlay"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1911-01-30"
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/John_Gavin_(1875-1938)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Agnes_Gavin"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.ausstage.edu.au/pages/event/107442"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 32879923
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 737688600
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Agnes_Gavin"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Silent film"
+      }
+    ],
+    "http://dbpedia.org/property/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/foot",
+        "@value": "3600.0"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Crick and Finlay"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Ben Hall and his Gang"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_John_Gavin"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_silent_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_black-and-white_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_the_1860s"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1911_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Ben Hall and his Gang is a 1911 film about the bushranger Ben Hall, played by John Gavin, who also directed. It is considered a lost film."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Ben Hall and His Gang"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q4885775"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Ben_Hall_and_His_Gang"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q4885775"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Ben_Hall_and_His_Gang?oldid=737688600"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Ben_Hall_and_His_Gang"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Ben Hall and his Gang"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Ben_Hall_and_his_Gang",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Ben_Hall_and_His_Gang"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Ben_Hall_and_His_Gang",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Ben_Hall_and_His_Gang"
+      }
+    ]
+  }
+]

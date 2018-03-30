@@ -1,0 +1,233 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/The_Little_Convict",
+    "@type": [
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Wikicat1979Films",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/ontology/Work",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://schema.org/Movie"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "80.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Little Convict is a 1979 Australian film directed by Yoram Gross based on an original story by Gross."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "423467.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Yoram_Gross"
+      }
+    ],
+    "http://dbpedia.org/ontology/editing": [
+      {
+        "@id": "http://dbpedia.org/resource/Rod_Hay"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "495000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Yoram_Gross"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 4800.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Rolf_Harris"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.austlit.edu.au/austlit/page/C388196"
+      },
+      {
+        "@id": "http://petermalone.misacor.org.au/tiki-index.php?page=Little+Convict%2C+The"
+      },
+      {
+        "@id": "http://www.ozmovies.com.au/movie/little-convict"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 42108468
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 729702429
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Brian Probyn"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/music": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Bob Young"
+      }
+    ],
+    "http://dbpedia.org/property/released": [
+      {
+        "@value": 1979
+      }
+    ],
+    "http://dbpedia.org/property/screenplay": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "John Palmer"
+      }
+    ],
+    "http://dbpedia.org/property/story": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Yoram Gross"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Yoram Gross Studios"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:1979_animated_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_with_live_action_and_animation"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Yoram_Gross"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_animated_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1979_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Animated_feature_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Little Convict is a 1979 Australian film directed by Yoram Gross based on an original story by Gross."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "The Little Convict"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q17052523"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/The_Little_Convict"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q17052523"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/The_Little_Convict"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0_x6rtx"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Little_Convict?oldid=729702429"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Little_Convict"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "The Little Convict"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/The_Little_Convict",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Little_Convict"
+      }
+    ]
+  }
+]

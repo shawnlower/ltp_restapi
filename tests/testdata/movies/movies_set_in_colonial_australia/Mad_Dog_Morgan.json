@@ -1,0 +1,358 @@
+[
+  {
+    "@id": "http://en.wikipedia.org/wiki/Mad_Dog_Morgan",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Mad_Dog_Morgan"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Mad_Dog_Morgan",
+    "@type": [
+      "http://dbpedia.org/class/yago/Wikicat1970sDramaFilms",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnBooks",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/WikicatAustralianWestern(genre)Films",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Wikicat1976Films",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/Wikicat1970sWestern(genre)Films",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/WikicatTromaEntertainmentFilms",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/WikicatIndependentFilms"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "99.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "Mad Dog Morgan is a 1976 Australian bushranger film directed by Philippe Mora and starring Dennis Hopper, Jack Thompson and David Gulpilil. It is based upon the life of Dan Morgan."
+      },
+      {
+        "@language": "it",
+        "@value": "Braccato a vita è un film del 1976 diretto da Philippe Mora ed interpretato da Dennis Hopper, basato sulla vita del fuorilegge australiano Dan Morgan."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Бешеный пёс Морган» (англ. Mad Dog Morgan) — австралийский фильм 1976 года, снятый режиссёром Филлиппом Мора и основанный на жизни австралийского бушрейнджера Дэна Моргана. В роли Моргана снялся американский актёр Деннис Хоппер, другие главные роли сыграли австралийские актёры Джек Томпсон и Дэвид Галпилил."
+      },
+      {
+        "@language": "pl",
+        "@value": "Szalony pies Morgan (tytuł oryg. Mad Dog Morgan) − australijski film fabularny z 1976 roku w reżyserii Philippe'a Mory, oparty na życiu przestępcy Dana Morgana oraz książce Morgan autorstwa Margaret Carnegie. W filmie w rolach głównych wystąpili Dennis Hopper, Jack Thompson i David Gulpilil."
+      },
+      {
+        "@language": "fr",
+        "@value": "Mad Dog Morgan est un film australien réalisé par Philippe Mora et sorti en 1976, sur la vie de Daniel Morgan, hors-la-loi australien."
+      },
+      {
+        "@language": "de",
+        "@value": "Mad Dog (Mad Dog Morgan) ist ein australisches Filmdrama aus dem Jahr 1976. Regie führte Philippe Mora, der das Drehbuch anhand der Erzählung Morgan and Bold Bushranger von Margaret Carnegie schrieb."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "450000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Philippe_Mora"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/British_Empire_Films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Troma_Entertainment"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Jeremy_Thomas"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1976-07-09"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1976-09-22"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 5940.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Jack_Thompson_(actor)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Dennis_Hopper"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Michael_Pate"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Frank_Thring"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/David_Gulpilil"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.ozmovies.com.au/movie/mad-dog-morgan"
+      },
+      {
+        "@id": "http://www.troma.com/films/mad-dog-morgan/"
+      },
+      {
+        "@id": "http://aso.gov.au/titles/features/mad-dog-morgan/"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 12186683
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 737688737
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Philippe_Mora"
+      }
+    ],
+    "http://dbpedia.org/property/basedOn": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Morgan by"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Margaret Carnegie"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Theatrical film poster"
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Mike Molloy"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "John Scott"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/music": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Patrick Flynn"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Motion Picture Productions"
+      }
+    ],
+    "http://dbpedia.org/property/wordnet_type": [
+      {
+        "@id": "http://www.w3.org/2006/03/wn/wn20/instances/synset-movie-noun-1"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970s_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1976_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970s_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Troma_Entertainment_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_independent_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_the_1860s"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Philippe_Mora"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_produced_by_Jeremy_Thomas"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "Braccato a vita è un film del 1976 diretto da Philippe Mora ed interpretato da Dennis Hopper, basato sulla vita del fuorilegge australiano Dan Morgan."
+      },
+      {
+        "@language": "pl",
+        "@value": "Szalony pies Morgan (tytuł oryg. Mad Dog Morgan) − australijski film fabularny z 1976 roku w reżyserii Philippe'a Mory, oparty na życiu przestępcy Dana Morgana oraz książce Morgan autorstwa Margaret Carnegie. W filmie w rolach głównych wystąpili Dennis Hopper, Jack Thompson i David Gulpilil."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Бешеный пёс Морган» (англ. Mad Dog Morgan) — австралийский фильм 1976 года, снятый режиссёром Филлиппом Мора и основанный на жизни австралийского бушрейнджера Дэна Моргана. В роли Моргана снялся американский актёр Деннис Хоппер, другие главные роли сыграли австралийские актёры Джек Томпсон и Дэвид Галпилил."
+      },
+      {
+        "@language": "de",
+        "@value": "Mad Dog (Mad Dog Morgan) ist ein australisches Filmdrama aus dem Jahr 1976. Regie führte Philippe Mora, der das Drehbuch anhand der Erzählung Morgan and Bold Bushranger von Margaret Carnegie schrieb."
+      },
+      {
+        "@language": "en",
+        "@value": "Mad Dog Morgan is a 1976 Australian bushranger film directed by Philippe Mora and starring Dennis Hopper, Jack Thompson and David Gulpilil. It is based upon the life of Dan Morgan."
+      },
+      {
+        "@language": "fr",
+        "@value": "Mad Dog Morgan est un film australien réalisé par Philippe Mora et sorti en 1976, sur la vie de Daniel Morgan, hors-la-loi australien."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "de",
+        "@value": "Mad Dog"
+      },
+      {
+        "@language": "en",
+        "@value": "Mad Dog Morgan"
+      },
+      {
+        "@language": "it",
+        "@value": "Braccato a vita"
+      },
+      {
+        "@language": "fr",
+        "@value": "Mad Dog Morgan"
+      },
+      {
+        "@language": "ru",
+        "@value": "Бешеный пёс Морган"
+      },
+      {
+        "@language": "pl",
+        "@value": "Szalony pies Morgan"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://dbpedia.org/resource/Mad_Dog_Morgan"
+      },
+      {
+        "@id": "http://it.dbpedia.org/resource/Braccato_a_vita"
+      },
+      {
+        "@id": "http://pl.dbpedia.org/resource/Szalony_pies_Morgan"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/Mad_Dog_Morgan"
+      },
+      {
+        "@id": "http://de.dbpedia.org/resource/Mad_Dog"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Mad_Dog_Morgan"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.02vtp_k"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q1257078"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q1257078"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Mad_Dog_Morgan?oldid=737688737"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Mad_Dog_Morgan"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Mad Dog Morgan"
+      }
+    ]
+  }
+]

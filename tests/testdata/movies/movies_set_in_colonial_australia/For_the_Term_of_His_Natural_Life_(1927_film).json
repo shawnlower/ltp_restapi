@@ -1,0 +1,304 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_his_Natural_Life_(1927_film)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1927_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1927_film)",
+    "@type": [
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/WikicatBlack-and-whiteFilms",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/Wikicat1920sRomanceFilms",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/WikicatAustralianSilentFilms",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnNovels",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Wikicat1927Films",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/Wikicat1920sAdventureFilms",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Creation103129123"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "102.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life is a 1927 Australian film, based on the novel by Marcus Clarke, directed, produced and co-wriiten by Norman Dawn. It was the most expensive Australian silent film ever made and remains one of the most famous Australian films of the silent era."
+      }
+    ],
+    "http://dbpedia.org/ontology/basedOn": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Len_Roos"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/John_William_Trerise"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Bert_Cross"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Norman_Dawn"
+      }
+    ],
+    "http://dbpedia.org/ontology/editing": [
+      {
+        "@id": "http://dbpedia.org/resource/Mona_Donaldson"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Katherine_Dawn"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Norman_Dawn"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/poundSterling",
+        "@value": "40000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "0017899"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Norman_Dawn"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1927-06-20"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1929-06-04"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 6120.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Dunstan_Webb"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Eva_Novak"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/George_Fisher_(actor)"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://colsearch.nfsa.gov.au/nfsa/search/display/display.w3p;adv=no;group=;groupequals=;holdingType=;page=0;parentid=;query=Id%3A340208;querytype=;rec=0;resCount=10"
+      },
+      {
+        "@id": "https://archive.org/stream/variety95-1929-06#page/n93/mode/2up"
+      },
+      {
+        "@id": "http://aso.gov.au/titles/features/the-term-of-his-natural-life/notes"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 26181579
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 735331928
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Gayne_Dexter"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Norman_Dawn"
+      }
+    ],
+    "http://dbpedia.org/property/budget": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "₤50,000 or ₤60,000"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/distributor": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Union Theatres"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Standard Film"
+      }
+    ],
+    "http://dbpedia.org/property/id": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "ForTheTermOfHisNaturalLife"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "A Union Master Picture"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Australasian_Films"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "For the Term of His Natural Life"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:1920s_adventure_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Norman_Dawn"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_silent_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1920s_romance_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_Australian_novels"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1927_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_black-and-white_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_Tasmania"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life is a 1927 Australian film, based on the novel by Marcus Clarke, directed, produced and co-wriiten by Norman Dawn. It was the most expensive Australian silent film ever made and remains one of the most famous Australian films of the silent era."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life (1927 film)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0dl754d"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q5467144"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/For_the_Term_of_His_Natural_Life_(1927_film)"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q5467144"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1927_film)"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(1927_film)?oldid=735331928"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(1927_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1927_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(1927_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1927_film)"
+      }
+    ]
+  }
+]

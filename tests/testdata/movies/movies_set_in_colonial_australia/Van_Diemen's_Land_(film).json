@@ -1,0 +1,287 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Van_Dieman's_Land_(movie)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Van_Diemen's_Land_(film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Van_Diemen_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/Van_Diemen's_Land_(film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Van_Diemen's_Land_(film)",
+    "@type": [
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/WikicatAustralianHorrorFilms",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/Wikicat2009Films",
+      "http://dbpedia.org/class/yago/WikicatAustralianThrillerFilms",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Wikicat2000sThrillerFilms",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/WikicatPsychologicalThrillerFilms",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/Wikicat2009HorrorFilms",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/Object100002684"
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "pt",
+        "@value": "Van Diemen's Land (br: Terra de Van Diemen) é um filme australiano baseado em acontecimentos reais ocorridos no século XIX, onde o condenado reincidente Alexander Pearce, foge de uma colônia penal com alguns colegas detentos pelas matas inexploradas da Tasmânia (na época chamada de Terra de Van Diemen).Quando foi recapturado contou uma macabra estória de como sobreviveu estando no limite da fome.Foi considerado louco e insano até que fatos descobertos a posterior indicaram a possibilidade de veracidade na estória que relatou."
+      },
+      {
+        "@language": "en",
+        "@value": "Van Diemen's Land is a 2009 Australian thriller set in 1822 in colonial Tasmania. It follows the story of the infamous Irish convict, Alexander Pearce, played by Oscar Redding and his escape with seven other convicts."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Земля Ван-Димена» (англ. Van Diemen's Land) — австралийский фильм 2009 года, историческая драма, триллер. Фильм основан на реальных событиях, произошедших в 1822 году на Земле Ван-Димена (нынешняя Тасмания) — побеге из колонии Маккуори-Харбор восьми заключённых, среди которых был известный преступник Александр Пирс. «Земля Ван-Димена» — первый полнометражный фильм Джонатана ауф дер Хайде, который сам является уроженцем Тасмании. Этот фильм развивает тему его короткометражного 21-минутного фильма «Врата Ада» (англ. Hell's Gates), снятого в 2008 году. Hell's Gates — это символичное название узкого пролива, соединяющего залив Маккуори с Индийским океаном."
+      }
+    ],
+    "http://dbpedia.org/ontology/country": [
+      {
+        "@id": "http://dbpedia.org/resource/Australia"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "1361843"
+      }
+    ],
+    "http://dbpedia.org/ontology/language": [
+      {
+        "@id": "http://dbpedia.org/resource/English_language"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Irish_language"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2009-09-24"
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Greg_Stone"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Oscar_Redding"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.vandiemensland-themovie.com"
+      },
+      {
+        "@id": "http://www.rottentomatoes.com/m/van_diemens_land"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 24038513
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 730631140
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Oscar_Redding"
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Ellery Ryan"
+      }
+    ],
+    "http://dbpedia.org/property/director": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Jonathan auf der Heide"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Cindy Clarkson"
+      }
+    ],
+    "http://dbpedia.org/property/music": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Jethro Woodward"
+      }
+    ],
+    "http://dbpedia.org/property/producer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Maggie Miles"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Van Diemen's Land"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_shot_in_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:2000s_thriller_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_thriller_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_horror_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Psychological_thriller_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_the_1820s"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_Tasmania"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:2009_horror_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Cannibalism_in_fiction"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:2009_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Thriller"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Van Diemen's Land is a 2009 Australian thriller set in 1822 in colonial Tasmania. It follows the story of the infamous Irish convict, Alexander Pearce, played by Oscar Redding and his escape with seven other convicts."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Земля Ван-Димена» (англ. Van Diemen's Land) — австралийский фильм 2009 года, историческая драма, триллер. Фильм основан на реальных событиях, произошедших в 1822 году на Земле Ван-Димена (нынешняя Тасмания) — побеге из колонии Маккуори-Харбор восьми заключённых, среди которых был известный преступник Александр Пирс."
+      },
+      {
+        "@language": "pt",
+        "@value": "Van Diemen's Land (br: Terra de Van Diemen) é um filme australiano baseado em acontecimentos reais ocorridos no século XIX, onde o condenado reincidente Alexander Pearce, foge de uma colônia penal com alguns colegas detentos pelas matas inexploradas da Tasmânia (na época chamada de Terra de Van Diemen).Quando foi recapturado contou uma macabra estória de como sobreviveu estando no limite da fome.Foi considerado louco e insano até que fatos descobertos a posterior indicaram a possibilidade de veracidade na estória que relatou."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Van Diemen's Land (film)"
+      },
+      {
+        "@language": "ru",
+        "@value": "Земля Ван-Димена (фильм)"
+      },
+      {
+        "@language": "pt",
+        "@value": "Van Diemen's Land (filme)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://pt.dbpedia.org/resource/Van_Diemen's_Land_(filme)"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.07kdtt1"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Van_Diemen's_Land_(film)"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q24154"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Van_Diemen's_Land_(film)"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q24154"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Van_Diemen's_Land_(film)?oldid=730631140"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "http://www.vandiemensland-themovie.com"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Van_Diemen's_Land_(film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Van Diemen's Land"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Van_Diemen's_Land_(film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Van_Diemen's_Land_(film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Van_Diemen's_Land_(movie)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Van_Diemen's_Land_(film)"
+      }
+    ]
+  }
+]

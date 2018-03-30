@@ -1,0 +1,315 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_2",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_II"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/The_Man_from_Snowy_River_II",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_II"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_II"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1988_sequel_film)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_II"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_II",
+    "@type": [
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/WikicatAustralianWestern(genre)Films",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/ontology/Work",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/Wikicat1980sWestern(genre)Films",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Wikicat1988Films",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/Wikicat1980sDramaFilms",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnPoems",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/WikicatWaltDisneyPicturesFilms",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatSequelFilms",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/ontology/Film"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "110.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Man from Snowy River II is a 1988 Australian drama film, the sequel to the 1982 film The Man from Snowy River. It was released in the United States as Return to Snowy River, and in the United Kingdom as The Untamed. Reprising their roles from the first film were Tom Burlinson (as \"Jim Craig\") and Sigrid Thornton (as \"Jessica Harrison\") - while Brian Dennehy appeared as \"Harrison\", instead of Kirk Douglas."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "8700000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Geoff_Burrowes"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/Walt_Disney_Studios_Motion_Pictures"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "1.3687027E7"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Bruce_Rowland"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Geoff_Burrowes"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 6600.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Brian_Dennehy"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Sigrid_Thornton"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Nicholas_Eadie"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Bryan_Marshall"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Tom_Burlinson"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Mark_Hembrow"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://colsearch.nfsa.afc.gov.au/nfsa/search/display/display.w3p;adv=yes;group=;groupequals=;holdingType=;page=0;parentid=;query=Number%3A43269;querytype=;rec=0;resCount=10"
+      },
+      {
+        "@id": "http://www.ozmovies.com.au/movie/man-from-snowy-river-ii"
+      },
+      {
+        "@id": "http://movies.disney.com/return-to-snowy-river"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 4193180
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 723288674
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Banjo_Paterson"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/John_Dixon_(filmmaker)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Geoff_Burrowes"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australian DVD cover"
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Keith Wagstaff"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Gary Woodyard"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@id": "http://dbpedia.org/resource/Burrowes_Film_Group"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Hoyts"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Walt_Disney_Pictures"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Silver_Screen_Partners_III"
+      }
+    ],
+    "http://dbpedia.org/property/wordnet_type": [
+      {
+        "@id": "http://www.w3.org/2006/03/wn/wn20/instances/synset-movie-noun-1"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_sequel_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_about_horses"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1980s_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1980s_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1988_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:The_Man_from_Snowy_River"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_poems"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Walt_Disney_Pictures_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Man from Snowy River II is a 1988 Australian drama film, the sequel to the 1982 film The Man from Snowy River. It was released in the United States as Return to Snowy River, and in the United Kingdom as The Untamed. Reprising their roles from the first film were Tom Burlinson (as \"Jim Craig\") and Sigrid Thornton (as \"Jessica Harrison\") - while Brian Dennehy appeared as \"Harrison\", instead of Kirk Douglas."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "The Man from Snowy River II"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7750062"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/The_Man_from_Snowy_River_II"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0bp6bl"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q7750062"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_II"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Man_from_Snowy_River_II?oldid=723288674"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "http://movies.disney.com/return-to-snowy-river"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Man_from_Snowy_River_II"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "The Man from Snowy River II"
+      }
+    ]
+  }
+]

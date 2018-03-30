@@ -1,0 +1,287 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Robbery_Under_Arms_(1985_film)",
+    "@type": [
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Wikicat1985Films",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://schema.org/Movie",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnWorksByAustralianWriters",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnAustralianNovels",
+      "http://dbpedia.org/class/yago/Show106619065"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "140.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "Robbery Under Arms is a 1985 Australian action adventure film starring Sam Neill as bushranger Captain Starlight. Joined by bush larrikin, Ben Marston (Ed Devereaux), and Ben’s two adventure-hungry sons (Steven Vidler and Christopher Cummins), Starlight leads his gang of wild colonial boys in search of riches, romance – and other men’s cattle. There were two versions shot simultaneously - a feature film and a TV mini series."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "7300000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Ernie_Clark_(cinematographer)"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Donald_Crombie"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Ken_Hannam"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/Regency_Media_Group"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/ITC_Entertainment"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "226648.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/language": [
+      {
+        "@id": "http://dbpedia.org/resource/English_language"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Mace_Neufeld"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Jock_Blair"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1985-03-28"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 8400.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Robert_Grubb"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Ed_Devereaux"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Tom_E._Lewis"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Christopher_Cummins_(actor)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Deborah_Coulls"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Jane_Menelaus"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Liz_Newman"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Elaine_Cusick"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Steven_Vidler_(actor)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Sam_Neill"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Andy_Anderson_(actor)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Susie_Lindeman"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://aso.gov.au/titles/tv/robbery-under-arms/"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 27543288
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 737689395
+      }
+    ],
+    "http://dbpedia.org/property/basedOn": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "novel by Rolf Boldrewood"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Theatrical release poster"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/music": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Laurie Stone"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Garry McDonald"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@id": "http://dbpedia.org/resource/South_Australian_Film_Corporation"
+      }
+    ],
+    "http://dbpedia.org/property/writer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Michael Jenkins"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Television_shows_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_Australian_novels"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_shot_in_Flinders_Ranges"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1985_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:ITC_Entertainment_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Robbery Under Arms is a 1985 Australian action adventure film starring Sam Neill as bushranger Captain Starlight. Joined by bush larrikin, Ben Marston (Ed Devereaux), and Ben’s two adventure-hungry sons (Steven Vidler and Christopher Cummins), Starlight leads his gang of wild colonial boys in search of riches, romance – and other men’s cattle. There were two versions shot simultaneously - a feature film and a TV mini series."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Robbery Under Arms (1985 film)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0bhcws6"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Robbery_Under_Arms_(1985_film)"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q7340833"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Robbery_Under_Arms_(1985_film)"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q7340833"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Robbery_Under_Arms_(1985_film)?oldid=737689395"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Robbery_Under_Arms_(1985_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Robbery Under Arms"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Robbery_Under_Arms_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/Robbery_Under_Arms_(1985_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Robbery_Under_Arms_(1985_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Robbery_Under_Arms_(1985_film)"
+      }
+    ]
+  }
+]

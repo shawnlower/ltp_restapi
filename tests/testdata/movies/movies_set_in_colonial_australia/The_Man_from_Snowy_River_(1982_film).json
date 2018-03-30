@@ -1,0 +1,418 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(film)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/The_Man_from_Snowy_River_(1982_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_From_Snowy_River_(film)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_movie)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_From_Snowy_River_(films)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Jim_Craig_(The_Man_from_Snowy_River)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)",
+    "@type": [
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnWorksByAustralianWriters",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByGeorgeT.Miller",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/WikicatAustralianWestern(genre)Films",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/Wikicat20thCenturyFoxFilms",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/ontology/Work",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Publication106589574",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/Wikicat1980sWestern(genre)Films",
+      "http://dbpedia.org/class/yago/WikicatDirectorialDebutFilms",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Book106410904",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://dbpedia.org/class/yago/Wikicat1982Films",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnPoems",
+      "http://schema.org/CreativeWork",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/WikicatFilmsAboutHorses",
+      "http://dbpedia.org/class/yago/Work104599396",
+      "http://dbpedia.org/class/yago/Wikicat1980sDramaFilms",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "102.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "pt",
+        "@value": "The Man from Snowy River é um filme de drama produzido na Austrália e lançado em 1982."
+      },
+      {
+        "@language": "it",
+        "@value": "L'uomo del fiume nevoso (The Man from Snowy River) è un film diretto dal regista George Miller."
+      },
+      {
+        "@language": "en",
+        "@value": "(This article is about the film. For the poem, see The Man from Snowy River (poem).) The Man from Snowy River is a 1982 Australian drama film based on the Banjo Paterson poem The Man from Snowy River. The film had a cast including Kirk Douglas in a dual role as the brothers Harrison (a character who appeared frequently in Paterson's poems) and Spur, a prospector, Jack Thompson as Clancy, Tom Burlinson as \"Jim Craig\" (The Man), Sigrid Thornton as Harrison's daughter Jessica, Terence Donovan as Jim's father Henry Craig, and Chris Haywood as Curly. Both Burlinson and Thornton later reprised their roles in the 1988 sequel, The Man from Snowy River II, which was released by Walt Disney Pictures."
+      },
+      {
+        "@language": "pl",
+        "@value": "Człowiek znad Śnieżnej Rzeki − australijski western z 1982 roku na podstawie poematu Banjo Patersona."
+      },
+      {
+        "@language": "fr",
+        "@value": "L'Homme de la rivière d'argent Information Pour plus de détails, voir  et L'Homme de la rivière d'argent (titre original : The Man From Snowy River) est un film australien de George Miller sorti en 1982, d'après le poème d'A.B. \"Banjo\" Paterson."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "3500000.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "3000000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/George_T._Miller"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/20th_Century_Fox"
+      }
+    ],
+    "http://dbpedia.org/ontology/editing": [
+      {
+        "@id": "http://dbpedia.org/resource/Adrian_Carr"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "1.722816E7"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Bruce_Rowland"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Simon_Wincer"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Geoff_Burrowes"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Michael_Edgley"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 6120.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Kirk_Douglas"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Tom_Burlinson"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Lorraine_Bayly"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Sigrid_Thornton"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Jack_Thompson_(actor)"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.manfromsnowyriver.net/"
+      },
+      {
+        "@id": "http://australianscreen.com.au/titles/man-snowy-river/"
+      },
+      {
+        "@id": "http://www.ozmovies.com.au/movie/man-from-snowy-river"
+      },
+      {
+        "@id": "http://australianscreen.com.au/"
+      },
+      {
+        "@id": "http://colsearch.nfsa.afc.gov.au/nfsa/search/display/display.w3p;adv=yes;group=;groupequals=;holdingType=;page=0;parentid=;query=Number%3A6988;querytype=;rec=0;resCount=10"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 6534317
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 727816127
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/John_Dixon_(filmmaker)"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australian DVD cover"
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Keith Wagstaff"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/story": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Fred Cul Cullen"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@id": "http://dbpedia.org/resource/Hoyts"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "* Cambridge Productions\n*"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Edgley_International"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "* Snowy River Investment Pty. Ltd.\n*"
+      }
+    ],
+    "http://dbpedia.org/property/wordnet_type": [
+      {
+        "@id": "http://www.w3.org/2006/03/wn/wn20/instances/synset-movie-noun-1"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:The_Man_from_Snowy_River"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_about_horses"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_works_by_Australian_writers"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1982_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:20th_Century_Fox_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_George_T._Miller"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Directorial_debut_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_Victoria_(Australia)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1980s_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_poems"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1980s_Western_(genre)_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "it",
+        "@value": "L'uomo del fiume nevoso (The Man from Snowy River) è un film diretto dal regista George Miller."
+      },
+      {
+        "@language": "pl",
+        "@value": "Człowiek znad Śnieżnej Rzeki − australijski western z 1982 roku na podstawie poematu Banjo Patersona."
+      },
+      {
+        "@language": "en",
+        "@value": "(This article is about the film. For the poem, see The Man from Snowy River (poem).) The Man from Snowy River is a 1982 Australian drama film based on the Banjo Paterson poem The Man from Snowy River. The film had a cast including Kirk Douglas in a dual role as the brothers Harrison (a character who appeared frequently in Paterson's poems) and Spur, a prospector, Jack Thompson as Clancy, Tom Burlinson as \"Jim Craig\" (The Man), Sigrid Thornton as Harrison's daughter Jessica, Terence Donovan as Jim's father Henry Craig, and Chris Haywood as Curly."
+      },
+      {
+        "@language": "fr",
+        "@value": "L'Homme de la rivière d'argent Information Pour plus de détails, voir  et L'Homme de la rivière d'argent (titre original : The Man From Snowy River) est un film australien de George Miller sorti en 1982, d'après le poème d'A.B. \"Banjo\" Paterson."
+      },
+      {
+        "@language": "pt",
+        "@value": "The Man from Snowy River é um filme de drama produzido na Austrália e lançado em 1982."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "it",
+        "@value": "L'uomo del fiume nevoso"
+      },
+      {
+        "@language": "en",
+        "@value": "The Man from Snowy River (1982 film)"
+      },
+      {
+        "@language": "pl",
+        "@value": "Człowiek znad Śnieżnej Rzeki"
+      },
+      {
+        "@language": "pt",
+        "@value": "The Man from Snowy River"
+      },
+      {
+        "@language": "fr",
+        "@value": "L'Homme de la rivière d'argent (film)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://fr.dbpedia.org/resource/L'Homme_de_la_rivière_d'argent_(film)"
+      },
+      {
+        "@id": "http://pt.dbpedia.org/resource/The_Man_from_Snowy_River"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q2259533"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q2259533"
+      },
+      {
+        "@id": "http://pl.dbpedia.org/resource/Człowiek_znad_Śnieżnej_Rzeki"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0g99cw"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/The_Man_from_Snowy_River_(1982_film)"
+      },
+      {
+        "@id": "http://it.dbpedia.org/resource/L'uomo_del_fiume_nevoso"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Man_from_Snowy_River_(1982_film)?oldid=727816127"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Man_from_Snowy_River_(1982_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "The Man from Snowy River"
+      }
+    ]
+  }
+]

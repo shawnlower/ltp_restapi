@@ -1,0 +1,287 @@
+[
+  {
+    "@id": "http://en.wikipedia.org/wiki/Adam's_Woman",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Adam's_Woman"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Adam's_Woman",
+    "@type": [
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://dbpedia.org/class/yago/Wikicat1970sDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByPhilipLeacock",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://schema.org/Movie",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/WikicatAmericanFilms",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/ontology/Work",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/Wikicat1970Films",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/Whole100003553"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "116.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "pt",
+        "@value": "Adam's Woman (A Mulher de Adão (título no Brasil) ) é um filme estadunidense, australiano de 1970, dos gêneros aventura com fundo histórico, drama e romance, dirigido por Philip Leacock, roteirizado por Richard Fielder e Lowell Barrington, música de Bob Young."
+      },
+      {
+        "@language": "pl",
+        "@value": "Kobieta Adama (ang. Adam's Woman) - film dramatyczny z 1970 roku."
+      },
+      {
+        "@language": "en",
+        "@value": "Adam's Woman is a 1970 Australian-American historical drama film directed by Philip Leacock and starring Beau Bridges, Jane Merrow and John Mills."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "2500000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/country": [
+      {
+        "@id": "http://dbpedia.org/resource/Australia"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Philip_Leacock"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/Warner_Bros."
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "15000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Arthur_M._Broidy"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Louis_F._Edelman"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1970-03-19"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 6960.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Jane_Merrow"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Beau_Bridges"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.ozmovies.com.au/movie/adams-woman"
+      },
+      {
+        "@id": "http://www.ozornewzealand.com"
+      },
+      {
+        "@id": "http://www.ozornewzealand.com/2-adams-woman-1970.html"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 27730209
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 732088137
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Richard_Fiedler"
+      }
+    ],
+    "http://dbpedia.org/property/basedOn": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "a story by Lowell Barrington"
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Bill Butler"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Anthony Buckley"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/makeup": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Dan  Greenway"
+      }
+    ],
+    "http://dbpedia.org/property/music": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Bob Young"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Warner Bros-Seven Arts"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "SBP Films"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_the_1840s"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970s_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_New_South_Wales"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Philip_Leacock"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "pt",
+        "@value": "Adam's Woman (A Mulher de Adão (título no Brasil) ) é um filme estadunidense, australiano de 1970, dos gêneros aventura com fundo histórico, drama e romance, dirigido por Philip Leacock, roteirizado por Richard Fielder e Lowell Barrington, música de Bob Young."
+      },
+      {
+        "@language": "en",
+        "@value": "Adam's Woman is a 1970 Australian-American historical drama film directed by Philip Leacock and starring Beau Bridges, Jane Merrow and John Mills."
+      },
+      {
+        "@language": "pl",
+        "@value": "Kobieta Adama (ang. Adam's Woman) - film dramatyczny z 1970 roku."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "pt",
+        "@value": "Adam's Woman"
+      },
+      {
+        "@language": "pl",
+        "@value": "Kobieta Adama"
+      },
+      {
+        "@language": "en",
+        "@value": "Adam's Woman"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://pt.dbpedia.org/resource/Adam's_Woman"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0cc9c2w"
+      },
+      {
+        "@id": "http://pl.dbpedia.org/resource/Kobieta_Adama"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q3281502"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Adam's_Woman"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q3281502"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Adam's_Woman"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Adam's_Woman?oldid=732088137"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Adam's_Woman"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Adam's Woman"
+      }
+    ]
+  }
+]

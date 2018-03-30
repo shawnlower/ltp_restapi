@@ -1,0 +1,333 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Stingaree_(1934_film)",
+    "@type": [
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/WikicatAmericanRomanticDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatFilmsAboutOpera",
+      "http://dbpedia.org/class/yago/WikicatBlack-and-whiteFilms",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByWilliamA.Wellman",
+      "http://dbpedia.org/class/yago/WikicatRKOPicturesFilms",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Wikicat1934Films",
+      "http://dbpedia.org/class/yago/WikicatAmericanFilms",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://schema.org/CreativeWork"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "77.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "it",
+        "@value": "Stingari il bandito sentimentale  (Stingaree) è un film del 1934 diretto da William Wellman (William A. Wellman)."
+      },
+      {
+        "@language": "de",
+        "@value": "Stingaree ist ein Spielfilm mit Irene Dunne und Richard Dix unter der Regie von William A. Wellman. Die beiden Stars hatten zusammen bereits in dem oscarprämierten Western Cimarron vor der Kamera gestanden. Der Film vereint etliche Genres wie Operette, Western und Abenteuerfilm."
+      },
+      {
+        "@language": "fr",
+        "@value": " Pour les articles homonymes, voir Stingaree.Stingaree Information Pour plus de détails, voir  et Stingaree est un film américain réalisé par William A. Wellman, sorti en 1934."
+      },
+      {
+        "@language": "en",
+        "@value": "Stingaree is an American Pre-Code romantic drama film directed by William A. Wellman released by RKO Radio Pictures in 1934. The movie was based on a story by Ernest William Hornung, which was published in 1905. Set in Australia, it starred Irene Dunne as Hilda Bouverie and Richard Dix as Stingaree."
+      },
+      {
+        "@language": "nl",
+        "@value": "Stingaree is een Amerikaanse dramafilm uit 1934 onder regie van William A. Wellman."
+      }
+    ],
+    "http://dbpedia.org/ontology/basedOn": [
+      {
+        "@id": "http://dbpedia.org/resource/Stingaree_(novel)"
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "408000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/James_Van_Trees"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/William_A._Wellman"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/RKO_Pictures"
+      }
+    ],
+    "http://dbpedia.org/ontology/editing": [
+      {
+        "@id": "http://dbpedia.org/resource/James_B._Morley"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "563000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Max_Steiner"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Pandro_S._Berman"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/David_Lewis_(producer)"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1934-05-25"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 4620.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Richard_Dix_(actor)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Irene_Dunne"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 14828868
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 740028225
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Agnes_Christine_Johnston"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Dwight_Taylor_(writer)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Leonard_Spigelgass"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Lynn_Riggs"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Garrett_Fort"
+      }
+    ],
+    "http://dbpedia.org/property/alt": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Irene Dunne and Richard Dix in the theatrical release poster for Stingaree"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Theatrical release poster"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "United States"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@id": "http://dbpedia.org/resource/RKO_Pictures"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_made_before_the_MPAA_Production_Code"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_romantic_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_William_A._Wellman"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_black-and-white_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_about_opera"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:RKO_Pictures_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1934_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Stingaree is an American Pre-Code romantic drama film directed by William A. Wellman released by RKO Radio Pictures in 1934. The movie was based on a story by Ernest William Hornung, which was published in 1905. Set in Australia, it starred Irene Dunne as Hilda Bouverie and Richard Dix as Stingaree."
+      },
+      {
+        "@language": "de",
+        "@value": "Stingaree ist ein Spielfilm mit Irene Dunne und Richard Dix unter der Regie von William A. Wellman. Die beiden Stars hatten zusammen bereits in dem oscarprämierten Western Cimarron vor der Kamera gestanden. Der Film vereint etliche Genres wie Operette, Western und Abenteuerfilm."
+      },
+      {
+        "@language": "it",
+        "@value": "Stingari il bandito sentimentale  (Stingaree) è un film del 1934 diretto da William Wellman (William A. Wellman)."
+      },
+      {
+        "@language": "fr",
+        "@value": " Pour les articles homonymes, voir Stingaree.Stingaree Information Pour plus de détails, voir  et Stingaree est un film américain réalisé par William A. Wellman, sorti en 1934."
+      },
+      {
+        "@language": "nl",
+        "@value": "Stingaree is een Amerikaanse dramafilm uit 1934 onder regie van William A. Wellman."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "nl",
+        "@value": "Stingaree (1934)"
+      },
+      {
+        "@language": "fr",
+        "@value": "Stingaree (film, 1934)"
+      },
+      {
+        "@language": "en",
+        "@value": "Stingaree (1934 film)"
+      },
+      {
+        "@language": "de",
+        "@value": "Stingaree"
+      },
+      {
+        "@language": "it",
+        "@value": "Stingari il bandito sentimentale"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://nl.dbpedia.org/resource/Stingaree_(1934)"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q941768"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Stingaree_(1934_film)"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.03gzb97"
+      },
+      {
+        "@id": "http://it.dbpedia.org/resource/Stingari_il_bandito_sentimentale"
+      },
+      {
+        "@id": "http://de.dbpedia.org/resource/Stingaree"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Stingaree_(1934_film)"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q941768"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/Stingaree_(film,_1934)"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Stingaree_(1934_film)?oldid=740028225"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Stingaree_(1934_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Stingaree"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Stingaree_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/Stingaree_(1934_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Stingaree_(1934_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Stingaree_(1934_film)"
+      }
+    ]
+  }
+]

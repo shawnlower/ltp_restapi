@@ -1,0 +1,302 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Captain_Fury",
+    "@type": [
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/ontology/Work",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/WikicatAmericanFilms",
+      "http://dbpedia.org/class/yago/Wikicat1939Films",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByHalRoach",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/WikicatAustralianWestern(genre)Films",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/WikicatBlack-and-whiteFilms",
+      "http://dbpedia.org/class/yago/Wikicat1930sAdventureFilms",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/ontology/Film"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "92.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "de",
+        "@value": "Kettensträfling in Australien (Originaltitel: Captain Fury) ist ein US-amerikanischer Abenteuerfilm aus dem Jahre 1939 von Hal Roach."
+      },
+      {
+        "@language": "fr",
+        "@value": "Capitaine Furie Information Pour plus de détails, voir  et Capitaine Furie (Captain Fury) est un film américain réalisé par Hal Roach, sorti en 1939."
+      },
+      {
+        "@language": "pt",
+        "@value": "Captain Fury é um filme de aventura produzido nos Estados Unidos, dirigido por Hal Roach e lançado em 1939."
+      },
+      {
+        "@language": "en",
+        "@value": "Captain Fury is a 1939 American adventure film set in colonial Australia directed by Hal Roach. It was one of Hollywood's few attempts to depict Australian history."
+      },
+      {
+        "@language": "it",
+        "@value": "Capitan Furia (Captain Fury) è un film del 1939 diretto da Hal Roach."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/poundSterling",
+        "@value": "250000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Norbert_Brodine"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Hal_Roach"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/United_Artists"
+      }
+    ],
+    "http://dbpedia.org/ontology/editing": [
+      {
+        "@id": "http://dbpedia.org/resource/William_H._Ziegler"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "0031137"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Marvin_Hatley"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Hal_Roach"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 5520.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Brian_Aherne"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 20631821
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 744049186
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/William_C._deMille"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Jack_Jevne"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Grover_Jones"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Film poster"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "United States"
+      }
+    ],
+    "http://dbpedia.org/property/id": [
+      {
+        "@value": 5121
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@id": "http://dbpedia.org/resource/Hal_Roach_Studios"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Captain Fury"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1930s_adventure_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1939_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:American_black-and-white_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Hal_Roach"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "de",
+        "@value": "Kettensträfling in Australien (Originaltitel: Captain Fury) ist ein US-amerikanischer Abenteuerfilm aus dem Jahre 1939 von Hal Roach."
+      },
+      {
+        "@language": "pt",
+        "@value": "Captain Fury é um filme de aventura produzido nos Estados Unidos, dirigido por Hal Roach e lançado em 1939."
+      },
+      {
+        "@language": "it",
+        "@value": "Capitan Furia (Captain Fury) è un film del 1939 diretto da Hal Roach."
+      },
+      {
+        "@language": "fr",
+        "@value": "Capitaine Furie Information Pour plus de détails, voir  et Capitaine Furie (Captain Fury) est un film américain réalisé par Hal Roach, sorti en 1939."
+      },
+      {
+        "@language": "en",
+        "@value": "Captain Fury is a 1939 American adventure film set in colonial Australia directed by Hal Roach. It was one of Hollywood's few attempts to depict Australian history."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "de",
+        "@value": "Kettensträfling in Australien"
+      },
+      {
+        "@language": "en",
+        "@value": "Captain Fury"
+      },
+      {
+        "@language": "it",
+        "@value": "Capitan Furia"
+      },
+      {
+        "@language": "fr",
+        "@value": "Capitaine Furie"
+      },
+      {
+        "@language": "pt",
+        "@value": "Captain Fury"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://yago-knowledge.org/resource/Captain_Fury"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q1415798"
+      },
+      {
+        "@id": "http://de.dbpedia.org/resource/Kettensträfling_in_Australien"
+      },
+      {
+        "@id": "http://pt.dbpedia.org/resource/Captain_Fury"
+      },
+      {
+        "@id": "http://it.dbpedia.org/resource/Capitan_Furia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Captain_Fury"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q1415798"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0524gr5"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/Capitaine_Furie"
+      },
+      {
+        "@id": "http://data.linkedmdb.org/resource/film/71695"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Captain_Fury?oldid=744049186"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Captain_Fury"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Captain Fury"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Captain_Fury",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Captain_Fury"
+      }
+    ]
+  }
+]

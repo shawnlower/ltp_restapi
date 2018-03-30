@@ -12,7 +12,11 @@ class TestItems():
 
     ITEM_GOOD_DATA = {
         "@context": "http://schema.org/",
-        "image": "http://manu.sporny.org/images/manu.png"
+        "@type": "Person",
+        "name": "Jane Doe",
+        "jobTitle": "Professor",
+        "telephone": "(425) 123-4567",
+        "url": "http://www.janedoe.com"
     }
 
     def test_get_item_success(self, testresult, request, client):
@@ -42,7 +46,7 @@ class TestItems():
         status_code = response.status_code
         assert status_code == 201
 
-    def test_create_item_get_single_item(self, testresult, request, client):
+    def test_create_item_get_single_item(self, client, testresult, request):
         """
         POST a new item, then ensure we can get it (and the content is right)
         """
@@ -52,17 +56,17 @@ class TestItems():
         # Post our JSON
         response = client.post(path, data=json.dumps(
             data), content_type='application/json')
-
-        retrieved_item = json.loads(response.data)
-
-        # GET the item we just posted
-        path = retrieved_item['@id']
-        response = client.get(path)
-
         wrapped(response, testresult, request)
 
-        status_code = response.status_code
-        assert status_code == 200
+        retrieved_item = json.loads(
+            response.data.decode('utf-8'))
+
+        assert response.status_code == 201
+
+        # GET the item we just posted
+        response = client.get(path + retrieved_item['id'])
+
+        assert response.status_code == 200
 
         # Verify the contents are the same, spare for a few keys
         ignore_keys = ('id', 'created_at', 'items')

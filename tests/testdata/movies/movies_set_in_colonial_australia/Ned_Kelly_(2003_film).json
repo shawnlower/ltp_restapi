@@ -1,0 +1,421 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Ned_Kelly_(2003_film)",
+    "@type": [
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/WikicatBritishBiographicalFilms",
+      "http://dbpedia.org/class/yago/WikicatBritishCrimeFilms",
+      "http://dbpedia.org/class/yago/WikicatAustralianCrimeFilms",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnBooks",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/Wikicat2003Films",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnBiographies",
+      "http://dbpedia.org/class/yago/WikicatFocusFeaturesFilms",
+      "http://dbpedia.org/class/yago/WikicatFrenchCrimeFilms",
+      "http://dbpedia.org/class/yago/WikicatStudioCanalFilms",
+      "http://dbpedia.org/class/yago/WikicatBritishDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatAmericanCrimeFilms",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/WikicatAustralianWestern(genre)Films",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/Wikicat2000sDramaFilms",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/WikicatBiographicalFilms",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/WikicatWorkingTitleFilmsFilms",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatFrenchDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByGregorJordan",
+      "http://umbel.org/umbel/rc/Movie_CW",
+      "http://dbpedia.org/class/yago/SocialEvent107288639"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "110.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "ru",
+        "@value": "«Банда Келли» (англ. Ned Kelly) — романтизированная биографическая драма Грегора Джордана о жизни Неда Келли — грабителя и народного героя Австралии. Экранизация романа Роберта Дрю."
+      },
+      {
+        "@language": "pl",
+        "@value": "Ned Kelly – film z 2003 roku w reżyserii Gregora Jordana."
+      },
+      {
+        "@language": "de",
+        "@value": "Gesetzlos – Die Geschichte des Ned Kelly (Ned Kelly) ist eine australisch-britisch-französische Filmbiografie aus dem Jahr 2003. Regie führte Gregor Jordan, das Drehbuch schrieb John Michael McDonagh anhand des Romans Our Sunshine von Robert Drewe."
+      },
+      {
+        "@language": "pt",
+        "@value": "Ned Kelly é um filme australiano de 2003, do gênero drama biográfico, dirigido por Gregor Jordan. O longa-metragem conta a história de Edward \"Ned\" Kelly, um famoso criminoso australiano que se tornou um mito por ter desafiado as autoridades da Austrália colonial. O filme é tem como base o livro de Robert Drewe, Our Sunshine."
+      },
+      {
+        "@language": "fr",
+        "@value": " Pour les articles homonymes, voir Kelly. Ned Kelly est un film franco--américano-britannico-australien réalisé par Gregor Jordan, sorti en 2003."
+      },
+      {
+        "@language": "it",
+        "@value": "Ned Kelly è un film del 2003 diretto da Gregor Jordan. Il soggetto è tratto dal libro Our Sunshine di Robert Drewe che racconta la storia del fuorilegge Ned Kelly che sconvolse l'Australia alla fine dell'Ottocento, al punto da costringere la regina Vittoria ad emanare leggi speciali nella colonia. Il film è stato girato in Australia, dove ha luogo l'intera vicenda."
+      },
+      {
+        "@language": "en",
+        "@value": "Ned Kelly is a 2003 Australian historical drama film based on Robert Drewe's 1991 novel Our Sunshine. Directed by Gregor Jordan, the film's adapted screenplay was written by John Michael McDonagh. The film dramatises the life of Ned Kelly, a legendary bushranger and outlaw who was active mostly in Victoria, the colony of his birth. In the film, Kelly, his brother Dan, and two other associates—Steve Hart and Joe Byrne—form a gang of Irish Australians in response to Irish and English tensions that arose in 19th century Australia. Heath Ledger stars in the title role, with Orlando Bloom, Naomi Watts and Geoffrey Rush."
+      },
+      {
+        "@language": "ja",
+        "@value": "『ケリー・ザ・ギャング』（Ned Kelly）は、2003年のオーストラリア映画。実在したアウトローネッド・ケリーの生涯を、ロバート・ドルー原作の伝記本『Our Sunshine』をもとに映画化。 2003年3月27日にオーストラリアで公開。日本未公開作品。"
+      },
+      {
+        "@language": "es",
+        "@value": "Ned Kelly es una película australiana de 2003 que narra las hazañas de uno de los fugitivos más buscados de la historia por la Corona de Inglaterra, dirigida por Gregor Jordan, está protagonizada por Heath Ledger, Orlando Bloom, Geoffrey Rush y Naomi Watts."
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Oliver_Stapleton"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Gregor_Jordan"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "6600000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Klaus_Badelt"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2003-03-27"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 6600.0
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.metacritic.com/movie/ned-kelly"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 1394661
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 736521962
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/John_Michael_McDonagh"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Theatrical release poster"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "France"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "United Kingdom"
+      }
+    ],
+    "http://dbpedia.org/property/date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#decimal",
+        "@value": "20040904080425"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Jon Gregory"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Official website"
+      }
+    ],
+    "http://dbpedia.org/property/url": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "http://www.ned-kelly.com/"
+      }
+    ],
+    "http://dbpedia.org/property/wordnet_type": [
+      {
+        "@id": "http://www.w3.org/2006/03/wn/wn20/instances/synset-movie-noun-1"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_biographies"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:StudioCanal_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bank_robbery_in_fiction"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Gregor_Jordan"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Focus_Features_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:2003_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:2000s_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Film_scores_by_Klaus_Badelt"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Working_Title_Films_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_biographical_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_Victoria_(Australia)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "de",
+        "@value": "Gesetzlos – Die Geschichte des Ned Kelly (Ned Kelly) ist eine australisch-britisch-französische Filmbiografie aus dem Jahr 2003. Regie führte Gregor Jordan, das Drehbuch schrieb John Michael McDonagh anhand des Romans Our Sunshine von Robert Drewe."
+      },
+      {
+        "@language": "ja",
+        "@value": "『ケリー・ザ・ギャング』（Ned Kelly）は、2003年のオーストラリア映画。実在したアウトローネッド・ケリーの生涯を、ロバート・ドルー原作の伝記本『Our Sunshine』をもとに映画化。 2003年3月27日にオーストラリアで公開。日本未公開作品。"
+      },
+      {
+        "@language": "pt",
+        "@value": "Ned Kelly é um filme australiano de 2003, do gênero drama biográfico, dirigido por Gregor Jordan. O longa-metragem conta a história de Edward \"Ned\" Kelly, um famoso criminoso australiano que se tornou um mito por ter desafiado as autoridades da Austrália colonial. O filme é tem como base o livro de Robert Drewe, Our Sunshine."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Банда Келли» (англ. Ned Kelly) — романтизированная биографическая драма Грегора Джордана о жизни Неда Келли — грабителя и народного героя Австралии. Экранизация романа Роберта Дрю."
+      },
+      {
+        "@language": "pl",
+        "@value": "Ned Kelly – film z 2003 roku w reżyserii Gregora Jordana."
+      },
+      {
+        "@language": "es",
+        "@value": "Ned Kelly es una película australiana de 2003 que narra las hazañas de uno de los fugitivos más buscados de la historia por la Corona de Inglaterra, dirigida por Gregor Jordan, está protagonizada por Heath Ledger, Orlando Bloom, Geoffrey Rush y Naomi Watts."
+      },
+      {
+        "@language": "en",
+        "@value": "Ned Kelly is a 2003 Australian historical drama film based on Robert Drewe's 1991 novel Our Sunshine. Directed by Gregor Jordan, the film's adapted screenplay was written by John Michael McDonagh. The film dramatises the life of Ned Kelly, a legendary bushranger and outlaw who was active mostly in Victoria, the colony of his birth. In the film, Kelly, his brother Dan, and two other associates—Steve Hart and Joe Byrne—form a gang of Irish Australians in response to Irish and English tensions that arose in 19th century Australia. Heath Ledger stars in the title role, with Orlando Bloom, Naomi Watts and Geoffrey Rush."
+      },
+      {
+        "@language": "it",
+        "@value": "Ned Kelly è un film del 2003 diretto da Gregor Jordan. Il soggetto è tratto dal libro Our Sunshine di Robert Drewe che racconta la storia del fuorilegge Ned Kelly che sconvolse l'Australia alla fine dell'Ottocento, al punto da costringere la regina Vittoria ad emanare leggi speciali nella colonia. Il film è stato girato in Australia, dove ha luogo l'intera vicenda."
+      },
+      {
+        "@language": "fr",
+        "@value": " Pour les articles homonymes, voir Kelly. Ned Kelly est un film franco--américano-britannico-australien réalisé par Gregor Jordan, sorti en 2003."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "de",
+        "@value": "Gesetzlos – Die Geschichte des Ned Kelly"
+      },
+      {
+        "@language": "ja",
+        "@value": "ケリー・ザ・ギャング"
+      },
+      {
+        "@language": "pt",
+        "@value": "Ned Kelly (filme)"
+      },
+      {
+        "@language": "es",
+        "@value": "Ned Kelly (película)"
+      },
+      {
+        "@language": "en",
+        "@value": "Ned Kelly (2003 film)"
+      },
+      {
+        "@language": "ru",
+        "@value": "Банда Келли (фильм)"
+      },
+      {
+        "@language": "pl",
+        "@value": "Ned Kelly (film 2003)"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ned Kelly (film, 2003)"
+      },
+      {
+        "@language": "it",
+        "@value": "Ned Kelly (film 2003)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q391542"
+      },
+      {
+        "@id": "http://eu.dbpedia.org/resource/Ned_Kelly_(2003ko_filma)"
+      },
+      {
+        "@id": "http://de.dbpedia.org/resource/Gesetzlos_–_Die_Geschichte_des_Ned_Kelly"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/Ned_Kelly_(film,_2003)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(2003_film)"
+      },
+      {
+        "@id": "http://pt.dbpedia.org/resource/Ned_Kelly_(filme)"
+      },
+      {
+        "@id": "http://es.dbpedia.org/resource/Ned_Kelly_(película)"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q391542"
+      },
+      {
+        "@id": "http://ja.dbpedia.org/resource/ケリー・ザ・ギャング"
+      },
+      {
+        "@id": "http://it.dbpedia.org/resource/Ned_Kelly_(film_2003)"
+      },
+      {
+        "@id": "http://pl.dbpedia.org/resource/Ned_Kelly_(film_2003)"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.04z4j2"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Ned_Kelly_(2003_film)"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Ned_Kelly_(2003_film)?oldid=736521962"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Ned_Kelly_(2003_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Ned Kelly"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Ned_kelly_(2003_film)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(2003_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Ned_Kelly_(2003_movie)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(2003_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Ned_Kelly_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(2003_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Ned_Kelly_(2003_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(2003_film)"
+      }
+    ]
+  }
+]

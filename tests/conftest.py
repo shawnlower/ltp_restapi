@@ -1,8 +1,9 @@
-import pytest
-
 from ltp.app import create_app
 from ltp.settings import Config
 
+import os
+import pytest
+from tempfile import NamedTemporaryFile
 
 @pytest.fixture
 def testresult():
@@ -20,12 +21,15 @@ def pytest_runtest_makereport(item, call, __multicall__):
             return rep
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture()
 def client():
     config = Config(env='testing')
-    app = create_app(__name__, config=config)
-    client = app.test_client()
-    return client
+    # Enforce a temp file
+    with NamedTemporaryFile(prefix='ltp_test.', suffix='.db') as file:
+        print("Using: {} as temp DB".format(file.name))
+        config.SQLALCHEMY_DATABASE_URI = 'sqlite:///' + file.name
+        app = create_app(__name__, config=config)
+        yield app.test_client()
 
 
 def wrapped(response, testresult, request):

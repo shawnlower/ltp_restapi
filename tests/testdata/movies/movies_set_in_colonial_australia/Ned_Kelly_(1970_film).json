@@ -1,0 +1,404 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Ned_Kelly_(1970)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(1970_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Ned_Kelly_(1970_movie)",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(1970_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Ned_Kelly_(1970_film)",
+    "@type": [
+      "http://dbpedia.org/class/yago/WikicatAustralianWestern(genre)Films",
+      "http://dbpedia.org/class/yago/Wikicat1970sWestern(genre)Films",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnActualEvents",
+      "http://dbpedia.org/class/yago/WikicatUnitedArtistsFilms",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://umbel.org/umbel/rc/Movie_CW",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/WikicatBritishActionFilms",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/WikicatBritishFilms",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/WikicatBritishBiographicalFilms",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/Wikicat1970Films",
+      "http://dbpedia.org/class/yago/WikicatBiographicalFilms",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByTonyRichardson",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Artifact100021939"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "106.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "ru",
+        "@value": "Нед Келли (англ. Ned Kelly) — художественный биографический кинофильм британского производства, снятый режиссёром Тони Ричардсоном в 1970 году.Съёмки проводились в Австралии."
+      },
+      {
+        "@language": "it",
+        "@value": "I fratelli Kelly (Ned Kelly) è un film del 1970 diretto da Tony Richardson."
+      },
+      {
+        "@language": "fr",
+        "@value": "Ned Kelly est un film britannique réalisé par Tony Richardson, sorti en 1970."
+      },
+      {
+        "@language": "pt",
+        "@value": "Ned Kelly é um filme de 1970. Ele foi o segundo filme australiano a contar a história do \"fora-da-lei\" australiano do século XIX Ned Kelly. O filme foi dirigido por Tony Richardson e estrelado por Mick Jagger no papel principal. O ator escocês Mark McManus interpretou o papel de Joe Byrne, amigo de Kelly. Ele foi uma produção britânica, mas foi filmado completamente na Austrália, principalmente nos arredores de Braidwood, ao sul de Nova Gales do Sul, com um elenco de apoio em grande parte australiano. A realização do filme foi marcada por problemas. Mesmo antes de a produção começar, a Actors' Equity e alguns descendentes de Ned Kelly protestaram fortemente devido a escolha de Jagger para o papel principal, e também devido a escolha do local para rodar o filme, o interior de Nova Gales do Sul, em vez de Victoria, onde Kelly viveu. A namorada de Jagger na época, Marianne Faithfull, foi para a Austrália para interpretar o papel feminino principal (a irmã de Ned, Maggie). É lá que eles estavam quando foi realizado o enterro de Brian Jones. Mas o relacionamento entre Jagger e Faithfull estava acabando, e ela tomou uma overdose de soníferos após a chegada em Sydney. Ela foi hospitalizada em estado de coma, mas recuperou-se e foi mandada para casa. Ela foi substituída pela então desconhecida atriz australiana Diane Craig. Durante a produção, Jagger foi ferido levemente por um tiro pela culatra de uma pistola, o elenco e a equipe foram abalados por várias doenças, muitos trajes foram destruídos pelo fogo, e o co-protagonista, Mark McManus, escapou por pouco de um ferimento grave quando a carruagem que estava conduzindo capotou durante as filmagens. O papel da mãe de Ned Kelly foi interpretado por Clarissa Kaye, a esposa do ator britânico James Mason. A armadura corporal vestida por Jagger durante as filmagens está em exibição na Biblioteca Municipal de Queanbeyan, Nova Gales do Sul, e as iniciais \"MJ\" estão marcadas no lado interno. A cabeça da armadura foi roubada. O filme não foi inicialmente bem recebido, e ainda é considerado um dos trabalhos menos exitosos de Richardson. Nem Richardson ou Jagger compareceram à premiere do filme em Londres. A trilha sonora de Ned Kelly contém canções compostas por Shel Silverstein e interpretadas por Kris Kristofferson e Waylon Jennings, com uma faixa solo cantada por Jagger."
+      },
+      {
+        "@language": "en",
+        "@value": "Ned Kelly is a 1970 British-Australian biographical (and part musical) film. It was the seventh Australian feature film version of the story of 19th century Australian bushranger Ned Kelly. It is notable for being the first Kelly film to be shot in colour. The film was directed by Tony Richardson, and starred Mick Jagger in the title role. Scottish-born actor Mark McManus played the part of Kelly's friend Joe Byrne. It was a British production, but was filmed entirely in Australia, shot mostly around Braidwood in southern New South Wales, with a largely Australian supporting cast."
+      },
+      {
+        "@language": "pl",
+        "@value": "Ned Kelly (Ned Kelly) – biografia australijskiego przestępcy, z liderem zespołu The Rolling Stones Mickiem Jaggerem w roli głównej."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "2500000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Gerry_Fisher"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Tony_Richardson"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/United_Artists"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "808000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Shel_Silverstein"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1970-10-07"
+      },
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1970-07-28"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 6360.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Mick_Jagger"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Mark_McManus"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.ozmovies.com.au/movie/ned-kelly"
+      },
+      {
+        "@id": "http://rmit.academia.edu/StephenGaunson/Papers/535705/International_outlaws_Tony_Richardson_Mick_Jagger_and_Ned_Kelly"
+      },
+      {
+        "@id": "http://www.mickjagger.com/music-and-film/ned-kelly"
+      },
+      {
+        "@id": "http://fromthebarrelhouse.wordpress.com/2011/04/25/like-a-rolling-stone-the-untold-story-of-the-kelly-gang/"
+      },
+      {
+        "@id": "http://colsearch.nfsa.afc.gov.au/nfsa/search/display/display.w3p;adv=yes;group=;groupequals=;holdingType=;page=0;parentid=;query=Number%3A4475;querytype=;rec=0;resCount=10"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 1038153
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 725763328
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Tony_Richardson"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Alex_Buzo"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Ian_Jones_(author)"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Theatrical release poster"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "United Kingdom"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Charles Rees"
+      }
+    ],
+    "http://dbpedia.org/property/id": [
+      {
+        "@value": 1041055
+      }
+    ],
+    "http://dbpedia.org/property/imageSize": [
+      {
+        "@value": 215
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/producer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Neil Hartley"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@id": "http://dbpedia.org/resource/Woodfall_Film_Productions"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Ned Kelly"
+      }
+    ],
+    "http://dbpedia.org/property/wordnet_type": [
+      {
+        "@id": "http://www.w3.org/2006/03/wn/wn20/instances/synset-movie-noun-1"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Tony_Richardson"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970s_biographical_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_biographical_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:British_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970s_historical_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970s_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:United_Artists_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_Victoria_(Australia)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:British_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:British_biographical_films"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "pt",
+        "@value": "Ned Kelly é um filme de 1970. Ele foi o segundo filme australiano a contar a história do \"fora-da-lei\" australiano do século XIX Ned Kelly. O filme foi dirigido por Tony Richardson e estrelado por Mick Jagger no papel principal. O ator escocês Mark McManus interpretou o papel de Joe Byrne, amigo de Kelly. Ele foi uma produção britânica, mas foi filmado completamente na Austrália, principalmente nos arredores de Braidwood, ao sul de Nova Gales do Sul, com um elenco de apoio em grande parte australiano."
+      },
+      {
+        "@language": "it",
+        "@value": "I fratelli Kelly (Ned Kelly) è un film del 1970 diretto da Tony Richardson."
+      },
+      {
+        "@language": "fr",
+        "@value": "Ned Kelly est un film britannique réalisé par Tony Richardson, sorti en 1970."
+      },
+      {
+        "@language": "ru",
+        "@value": "Нед Келли (англ. Ned Kelly) — художественный биографический кинофильм британского производства, снятый режиссёром Тони Ричардсоном в 1970 году.Съёмки проводились в Австралии."
+      },
+      {
+        "@language": "pl",
+        "@value": "Ned Kelly (Ned Kelly) – biografia australijskiego przestępcy, z liderem zespołu The Rolling Stones Mickiem Jaggerem w roli głównej."
+      },
+      {
+        "@language": "en",
+        "@value": "Ned Kelly is a 1970 British-Australian biographical (and part musical) film. It was the seventh Australian feature film version of the story of 19th century Australian bushranger Ned Kelly. It is notable for being the first Kelly film to be shot in colour. The film was directed by Tony Richardson, and starred Mick Jagger in the title role. Scottish-born actor Mark McManus played the part of Kelly's friend Joe Byrne. It was a British production, but was filmed entirely in Australia, shot mostly around Braidwood in southern New South Wales, with a largely Australian supporting cast."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "pt",
+        "@value": "Ned Kelly (filme de 1970)"
+      },
+      {
+        "@language": "pl",
+        "@value": "Ned Kelly (film 1970)"
+      },
+      {
+        "@language": "ru",
+        "@value": "Нед Келли (фильм)"
+      },
+      {
+        "@language": "en",
+        "@value": "Ned Kelly (1970 film)"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ned Kelly (film, 1970)"
+      },
+      {
+        "@language": "it",
+        "@value": "I fratelli Kelly"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://pl.dbpedia.org/resource/Ned_Kelly_(film_1970)"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/Ned_Kelly_(film,_1970)"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q3112204"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q3112204"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.040jjb"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Ned_Kelly_(1970_film)"
+      },
+      {
+        "@id": "http://it.dbpedia.org/resource/I_fratelli_Kelly"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(1970_film)"
+      },
+      {
+        "@id": "http://pt.dbpedia.org/resource/Ned_Kelly_(filme_de_1970)"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Ned_Kelly_(1970_film)?oldid=725763328"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Ned_Kelly_(1970_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Ned Kelly"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Ned_Kelly_(1970_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(1970_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Ned_Kelly_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/Ned_Kelly_(1970_film)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1908_film)",
+    "@type": [
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/WikicatAustralianSilentFilms",
+      "http://dbpedia.org/class/yago/WikicatBlack-and-whiteFilms",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/WikicatLostFilms",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/ontology/Film"
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life is a 1908 Australian silent film based on the 1874 novel by the same name by Marcus Clarke. The film is an adaptation of MacMahon's stage adaptation of the novel. It was the fourth Australian feature ever made and is considered a lost film. The 1908 film was the first screen adaptation of Clarke's novel, which was also later filmed in 1911, 1927 and 1983."
+      }
+    ],
+    "http://dbpedia.org/ontology/basedOn": [
+      {
+        "@id": "http://dbpedia.org/resource/Marcus_Clarke"
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/poundSterling",
+        "@value": "7000.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/poundSterling",
+        "@value": "1000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Charles_MacMahon_(theatrical_entrepreneur)"
+      }
+    ],
+    "http://dbpedia.org/ontology/language": [
+      {
+        "@id": "http://dbpedia.org/resource/Silent_film"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/E._J._Carroll"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Charles_MacMahon_(theatrical_entrepreneur)"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1908-08-08"
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Martyn_Keith"
+      }
+    ],
+    "http://dbpedia.org/ontology/thumbnail": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Special:FilePath/For_the_Term_of_His_Natural_Life_1908.jpg?width=300"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "https://www.ausstage.edu.au/pages/event/105273"
+      },
+      {
+        "@id": "http://colsearch.nfsa.gov.au/nfsa/search/display/display.w3p;adv=;group=;groupequals=;holdingType=;page=0;parentid=;query=Person%3A%22%2FPerson%2Fkey%2F50410-1%22;querytype=;rec=1;resCount=10"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 32986731
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 716813805
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "C. Byers Coates"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/foot",
+        "@value": "2000.0"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Lost_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_silent_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_black-and-white_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life is a 1908 Australian silent film based on the 1874 novel by the same name by Marcus Clarke. The film is an adaptation of MacMahon's stage adaptation of the novel. It was the fourth Australian feature ever made and is considered a lost film. The 1908 film was the first screen adaptation of Clarke's novel, which was also later filmed in 1911, 1927 and 1983."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life (1908 film)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q5467143"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0h52mw3"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1908_film)"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/For_the_Term_of_His_Natural_Life_(1908_film)"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q5467143"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(1908_film)?oldid=716813805"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/depiction": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Special:FilePath/For_the_Term_of_His_Natural_Life_1908.jpg"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(1908_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "For the Term of His Natural Life"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1908_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/For_the_Term_of_His_Natural_Life_(1908_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/For_the_Term_of_His_Natural_Life_(1908_film)"
+      }
+    ]
+  }
+]

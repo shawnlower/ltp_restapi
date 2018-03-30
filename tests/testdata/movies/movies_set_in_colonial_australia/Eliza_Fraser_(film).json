@@ -1,0 +1,251 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Eliza_Fraser_(film)",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/Wikicat1970sDramaFilms",
+      "http://dbpedia.org/class/yago/Wikicat1976Films",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/WikicatEnglish-languageFilms",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByTimBurstall",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "130.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "Eliza Fraser is a 1976 Australian bawdy adventure drama film, directed by Tim Burstall and starring Susannah York, Trevor Howard, Noel Ferrier and John Castle. The screenplay was written by David Williamson. The film was the first Australian film with a big-budget, costing A$1.2m to make. English actors Susannah York and Trevor Howard were brought from the United Kingdom to headline this Australian picture, which was filmed in Victoria, New South Wales and Queensland. The film has been described as a classic Aussie tale of colonial hardship and bawdy beginnings, and has been described as a sex romp. The film contains nudity, with exposure of female breasts (including those of York and a nude cameo by Abigail) and numerous back shots."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "1200000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Robin_Copping"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Tim_Burstall"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/Umbrella_Entertainment"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "200000.0"
+      },
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "2200000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "0074466"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Bruce_Smeaton"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Tim_Burstall"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1976-12-16"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 7800.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Noel_Ferrier"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Susannah_York"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/John_Castle"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Trevor_Howard"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.cinephilia.net.au/show_movie.php?movieid=2483"
+      },
+      {
+        "@id": "http://www.ozmovies.com.au/movie/eliza-fraser"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 26792591
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 680915441
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/David_Williamson"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Tim_Burstall"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Edward McQueen-Mason"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@id": "http://dbpedia.org/resource/Hexagon_Productions"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Eliza Fraser"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Tim_Burstall"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1976_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1970s_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_the_1830s"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Eliza Fraser is a 1976 Australian bawdy adventure drama film, directed by Tim Burstall and starring Susannah York, Trevor Howard, Noel Ferrier and John Castle. The screenplay was written by David Williamson."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Eliza Fraser (film)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5362135"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Eliza_Fraser_(film)"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0bmf9nn"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q5362135"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Eliza_Fraser_(film)"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Eliza_Fraser_(film)?oldid=680915441"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Eliza_Fraser_(film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Eliza Fraser"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/Eliza_Fraser_(film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Eliza_Fraser_(film)"
+      }
+    ]
+  }
+]

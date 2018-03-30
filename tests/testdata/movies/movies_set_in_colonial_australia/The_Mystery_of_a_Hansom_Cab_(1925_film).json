@@ -1,0 +1,223 @@
+[
+  {
+    "@id": "http://en.wikipedia.org/wiki/The_Mystery_of_a_Hansom_Cab_(1925_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Mystery_of_a_Hansom_Cab_(1925_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Mystery_of_a_Hansom_Cab_(1925_film)",
+    "@type": [
+      "http://schema.org/Movie",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/WikicatAustralianSilentFilms",
+      "http://dbpedia.org/class/yago/Wikicat1925Films",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/WikicatBlack-and-whiteFilms",
+      "http://dbpedia.org/class/yago/Wikicat1920sDramaFilms",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Mystery of a Hansom Cab is a 1925 Australian silent film directed by and starring Arthur Shirley based on the popular novel which had already been filmed in 1911. It is considered a lost film."
+      }
+    ],
+    "http://dbpedia.org/ontology/basedOn": [
+      {
+        "@id": "http://dbpedia.org/resource/Fergus_Hume"
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/poundSterling",
+        "@value": "2500.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Lacey_Percival"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Arthur_Shirley"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "0359721"
+      }
+    ],
+    "http://dbpedia.org/ontology/language": [
+      {
+        "@id": "http://dbpedia.org/resource/Silent_film"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Arthur_Shirley"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1925-02-07"
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Arthur_Shirley"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Godfrey_Cass"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://colsearch.nfsa.gov.au/nfsa/search/display/display.w3p;adv=;group=;groupequals=;holdingType=;page=0;parentid=;query=Id%3A343584;querytype=;rec=0;resCount=10"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 33010334
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 744975693
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Arthur_Shirley"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/distributor": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Alec Hellmrich"
+      }
+    ],
+    "http://dbpedia.org/property/gross": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "₤15,000"
+      }
+    ],
+    "http://dbpedia.org/property/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/foot",
+        "@value": "10000.0"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Pyramid Pictures"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Lost_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1925_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1920s_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_black-and-white_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_silent_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Mystery of a Hansom Cab is a 1925 Australian silent film directed by and starring Arthur Shirley based on the popular novel which had already been filmed in 1911. It is considered a lost film."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "The Mystery of a Hansom Cab (1925 film)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7752899"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0h55tpm"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/The_Mystery_of_a_Hansom_Cab_(1925_film)"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q7752899"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/The_Mystery_of_a_Hansom_Cab_(1925_film)"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Mystery_of_a_Hansom_Cab_(1925_film)?oldid=744975693"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Mystery_of_a_Hansom_Cab_(1925_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "The Mystery of a Hansom Cab"
+      }
+    ]
+  }
+]

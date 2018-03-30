@@ -1,0 +1,359 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/The_Proposition_(2005_film)",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/ontology/Film",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/ontology/Work",
+      "http://schema.org/Movie",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/ontology/Wikidata:Q11424"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "104.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Proposition is a 2005 Australian western film directed by John Hillcoat and written by screenwriter and musician Nick Cave. It stars Guy Pearce, Ray Winstone, Emily Watson, John Hurt, Danny Huston and David Wenham. The film's production completed in 2004 and was followed by a wide 2005 release in Australia and a 2006 theatrical run in the U.S. through First Look Pictures."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Предложение» (англ. The Proposition) — драматический вестерн Джона Хиллкоута по сценарию Ника Кейва. История кровавой банды братьев Бёрнс, разворачивающаяся в конце XIX века в австралийской пустыне. Фильм участвовал во внеконкурсной программе Sundance Film Festival 2006 года."
+      },
+      {
+        "@language": "zh",
+        "@value": "《生死關頭》（英语：The Proposition）是一部2005年澳大利亞西部片，為約翰·希爾寇特執導，尼克·凱夫編劇和配樂。由蓋·皮爾斯、雷·溫斯頓、艾蜜莉·華森、丹尼·休斯頓、大衛·溫漢和約翰·赫特主演。電影的製作於2004年完成，於 2005年10月6日在澳大利亞廣泛發行，由第一印象工作室定於2006年6月9日在美國上映。"
+      },
+      {
+        "@language": "de",
+        "@value": "The Proposition – Tödliches Angebot (Originaltitel: The Proposition) ist ein australisch-britisches Filmdrama aus dem Jahr 2005. Regie führte John Hillcoat, das Drehbuch schrieb Nick Cave. Der Film erzählt die Geschichte dreier Brüder, die im Australien der 1880er Jahre als Bush Rangers, Gesetzlose der frühen Jahre der Kolonialisierung Australiens, leben. Aufgrund seiner Themen, Charaktere und Bildsprache wurde The Proposition oft als Outback-Western beschrieben."
+      },
+      {
+        "@language": "pl",
+        "@value": "Propozycja – australijsko-brytyjski western z 2005 roku."
+      },
+      {
+        "@language": "nl",
+        "@value": "The Proposition is een Australische western uit 2005 onder regie van John Hillcoat. De film won meer dan tien internationale filmprijzen, waaronder de Gucci Prize van het Filmfestival van Venetië 2006 voor het scenario van Nick Cave."
+      },
+      {
+        "@language": "fr",
+        "@value": "The Proposition est un film australo-britannique réalisé par John Hillcoat, sorti en 2005. Il s'agit d'un western situé dans l'outback australien, à la fin du XIXe siècle, intégralement écrit par Nick Cave, qui en compose également la musique. Rassemblant des acteurs tels que Guy Pearce, Emily Watson, Ray Winstone, Danny Huston ou encore John Hurt, il sort en France en décembre 2009, distribué par Bodega Films."
+      },
+      {
+        "@language": "it",
+        "@value": "La proposta (The Proposition) è un film del 2005 diretto da John Hillcoat e scritto dal cantautore Nick Cave, che ha composto anche le musiche."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "2000000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Benoît_Delhomme"
+      }
+    ],
+    "http://dbpedia.org/ontology/country": [
+      {
+        "@id": "http://dbpedia.org/resource/Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Cinema_of_the_United_Kingdom"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/John_Hillcoat"
+      }
+    ],
+    "http://dbpedia.org/ontology/distributor": [
+      {
+        "@id": "http://dbpedia.org/resource/First_Look_Pictures"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "5000000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "0421238"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Warren_Ellis_(musician)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Nick_Cave"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2005-10-06"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 6240.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Danny_Huston"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Guy_Pearce"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Ray_Winstone"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/John_Hurt"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/David_Wenham"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Emily_Watson"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.infilm.com.au/reviews/theproposition.htm"
+      },
+      {
+        "@id": "http://url.edna.edu.au/4bbN"
+      },
+      {
+        "@id": "http://colsearch.nfsa.afc.gov.au/nfsa/search/display/display.w3p;adv=yes;group=;groupequals=;holdingType=;page=0;parentid=;query=Number%3A676125;querytype=;rec=0;resCount=10"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 2912982
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 726543303
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Nick_Cave"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Promotional poster for The Proposition"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Jon Gregory"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/producer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Chris Brown"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Chiara Menage"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Cat Villiers"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Jackie O'Sullivan"
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "The Proposition"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:2005_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_John_Hillcoat"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_the_1880s"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:2000s_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_shot_in_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Screenplays_by_Nick_Cave"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "de",
+        "@value": "The Proposition – Tödliches Angebot (Originaltitel: The Proposition) ist ein australisch-britisches Filmdrama aus dem Jahr 2005. Regie führte John Hillcoat, das Drehbuch schrieb Nick Cave. Der Film erzählt die Geschichte dreier Brüder, die im Australien der 1880er Jahre als Bush Rangers, Gesetzlose der frühen Jahre der Kolonialisierung Australiens, leben. Aufgrund seiner Themen, Charaktere und Bildsprache wurde The Proposition oft als Outback-Western beschrieben."
+      },
+      {
+        "@language": "pl",
+        "@value": "Propozycja – australijsko-brytyjski western z 2005 roku."
+      },
+      {
+        "@language": "ru",
+        "@value": "«Предложение» (англ. The Proposition) — драматический вестерн Джона Хиллкоута по сценарию Ника Кейва. История кровавой банды братьев Бёрнс, разворачивающаяся в конце XIX века в австралийской пустыне. Фильм участвовал во внеконкурсной программе Sundance Film Festival 2006 года."
+      },
+      {
+        "@language": "en",
+        "@value": "The Proposition is a 2005 Australian western film directed by John Hillcoat and written by screenwriter and musician Nick Cave. It stars Guy Pearce, Ray Winstone, Emily Watson, John Hurt, Danny Huston and David Wenham. The film's production completed in 2004 and was followed by a wide 2005 release in Australia and a 2006 theatrical run in the U.S. through First Look Pictures."
+      },
+      {
+        "@language": "nl",
+        "@value": "The Proposition is een Australische western uit 2005 onder regie van John Hillcoat. De film won meer dan tien internationale filmprijzen, waaronder de Gucci Prize van het Filmfestival van Venetië 2006 voor het scenario van Nick Cave."
+      },
+      {
+        "@language": "it",
+        "@value": "La proposta (The Proposition) è un film del 2005 diretto da John Hillcoat e scritto dal cantautore Nick Cave, che ha composto anche le musiche."
+      },
+      {
+        "@language": "fr",
+        "@value": "The Proposition est un film australo-britannique réalisé par John Hillcoat, sorti en 2005. Il s'agit d'un western situé dans l'outback australien, à la fin du XIXe siècle, intégralement écrit par Nick Cave, qui en compose également la musique. Rassemblant des acteurs tels que Guy Pearce, Emily Watson, Ray Winstone, Danny Huston ou encore John Hurt, il sort en France en décembre 2009, distribué par Bodega Films."
+      },
+      {
+        "@language": "zh",
+        "@value": "《生死關頭》（英语：The Proposition）是一部2005年澳大利亞西部片，為約翰·希爾寇特執導，尼克·凱夫編劇和配樂。由蓋·皮爾斯、雷·溫斯頓、艾蜜莉·華森、丹尼·休斯頓、大衛·溫漢和約翰·赫特主演。電影的製作於2004年完成，於 2005年10月6日在澳大利亞廣泛發行，由第一印象工作室定於2006年6月9日在美國上映。"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "zh",
+        "@value": "生死關頭 (2005年電影)"
+      },
+      {
+        "@language": "it",
+        "@value": "La proposta (film 2005)"
+      },
+      {
+        "@language": "de",
+        "@value": "The Proposition – Tödliches Angebot"
+      },
+      {
+        "@language": "ru",
+        "@value": "Предложение (фильм, 2005)"
+      },
+      {
+        "@language": "fr",
+        "@value": "The Proposition"
+      },
+      {
+        "@language": "en",
+        "@value": "The Proposition (2005 film)"
+      },
+      {
+        "@language": "nl",
+        "@value": "The Proposition"
+      },
+      {
+        "@language": "pl",
+        "@value": "Propozycja"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q180337"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/The_Proposition_(2005_film)"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/The_Proposition"
+      },
+      {
+        "@id": "http://cs.dbpedia.org/resource/The_Proposition"
+      },
+      {
+        "@id": "http://it.dbpedia.org/resource/La_proposta_(film_2005)"
+      },
+      {
+        "@id": "http://pl.dbpedia.org/resource/Propozycja"
+      },
+      {
+        "@id": "http://nl.dbpedia.org/resource/The_Proposition"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q180337"
+      },
+      {
+        "@id": "http://de.dbpedia.org/resource/The_Proposition_–_Tödliches_Angebot"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Proposition_(2005_film)?oldid=726543303"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Proposition_(2005_film)"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "The Proposition"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/The_Proposition_(2005_film)",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Proposition_(2005_film)"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Proposition_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Proposition_(2005_film)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "@id": "http://en.wikipedia.org/wiki/Wills_&_Burke",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Wills_&_Burke"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Wills_&_Burke",
+    "@type": [
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/WikicatAustralianComedyFilms",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/Wikicat1985Films",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://schema.org/Movie"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "101.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "Wills & Burke (also known as The Wacky World of Wills & Burke and Wills & Burke: The Untold Story) is a 1985 Australian black comedy film about the Burke and Wills expedition. It opened a week before Burke & Wills, a serious drama about the expedition."
+      }
+    ],
+    "http://dbpedia.org/ontology/budget": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "1750000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/gross": [
+      {
+        "@type": "http://dbpedia.org/datatype/usDollar",
+        "@value": "54000.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/language": [
+      {
+        "@id": "http://dbpedia.org/resource/English_language"
+      }
+    ],
+    "http://dbpedia.org/ontology/musicComposer": [
+      {
+        "@id": "http://dbpedia.org/resource/Red_Symonds"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Paul_Gabrowsky"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 6060.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Nicole_Kidman"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Kim_Gyngell"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Garry_McDonald"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.burkeandwills.net.au/Bibliography/Movies/Wacky_World_Movie.htm"
+      },
+      {
+        "@id": "http://www.ozmovies.com.au/movie/wills--burke"
+      },
+      {
+        "@id": "http://www.imdb.com/title/tt0090326/"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 37258773
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 717828637
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/director": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Bob Weis"
+      }
+    ],
+    "http://dbpedia.org/property/distributor": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Greater Union"
+      }
+    ],
+    "http://dbpedia.org/property/producer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Bob Weis"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Margot McDonald"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Stony Desert Productions"
+      }
+    ],
+    "http://dbpedia.org/property/writer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Philip Dalkin"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:1985_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_comedy_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Wills & Burke (also known as The Wacky World of Wills & Burke and Wills & Burke: The Untold Story) is a 1985 Australian black comedy film about the Burke and Wills expedition. It opened a week before Burke & Wills, a serious drama about the expedition."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Wills & Burke"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q8022462"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.04dsqdp"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q8022462"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Wills_&_Burke"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/Wills_&_Burke"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Wills_&_Burke?oldid=717828637"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Wills_&_Burke"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Wills & Burke"
+      }
+    ]
+  }
+]

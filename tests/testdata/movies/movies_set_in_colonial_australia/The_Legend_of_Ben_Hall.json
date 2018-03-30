@@ -1,0 +1,259 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/The_Legend_of_Ben_Hall",
+    "@type": [
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/ontology/Film",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/ontology/Work",
+      "http://schema.org/Movie",
+      "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "134.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Legend of Ben Hall is an Australian historical drama action film based on the true story of the Australian bushranger, Ben Hall. It has been written, produced and directed by Matthew Holmes and stars Jack Martin in the title role of Ben Hall, a legendary bushranger in Central West New South Wales. He is considered one of Australia's most notorious bushrangers and has become a significant part of Australian folklore. The Legend of Ben Hall also stars Jamie Coffa as John Gilbert, and William Lee as John Dunn. The film will be released in Australia on 1st December 2016. The script for The Legend of Ben Hall was written to be an historically accurate portrayal of the story. The film focuses on the last nine months of Ben Hall's life, when he was a well-established bushranger and was riding with gang members John Gilbert and John Dunn. It explores the relationships within the gang, as well as the people of the period, and recounts many of their real life robberies and clashes with the police. The Legend of Ben Hall also explores the details surrounding Ben Hall's betrayal and his controversial death at the hands of the police on 5 May 1865. Ben Hall has been compared to American outlaws such as Jesse James. It will be the second feature film by director Matthew Holmes, who wrote, directed and produced Twin Rivers in 2007. The Legend of Ben Hall is produced by Two Tone Pictures and Running Panda Films with Odin's Eye Entertainment, RLC Motion Picture Entertainment, Emu Creek Pictures and SunJive Studios, with support from Film Victoria and Palmarium LLC. Greg McLean, director of Wolf Creek and Wolf Creek 2, joined the production as Executive Producer in early 2015."
+      }
+    ],
+    "http://dbpedia.org/ontology/basedOn": [
+      {
+        "@id": "http://dbpedia.org/resource/Ben_Hall_(bushranger)"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Matthew_Holmes_(director)"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Matthew_Holmes_(director)"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2016-12-01"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 8040.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Callan_McAuliffe"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.truewestmagazine.com/the-legend-of-ben-hall/"
+      },
+      {
+        "@id": "http://if.com.au/2015/02/19/article/Bushranger-movie-set-to--shoot/OSTSVTOFGZ.html"
+      },
+      {
+        "@id": "http://www.smh.com.au/entertainment/movies/matthew-holmes-ben-hall-film-puts-bushrangers-in-focus-20150626-ghuevb.html"
+      },
+      {
+        "@id": "http://www.thelegendofbenhall.com/"
+      },
+      {
+        "@id": "http://www.heraldsun.com.au/leader/north/gisborne-actor-lands-lead-role-in-the-legend-of-ben-hall-bushranger-movie/story-fnglenug-1227133003064"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 48145870
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 742998484
+      }
+    ],
+    "http://dbpedia.org/ontology/writer": [
+      {
+        "@id": "http://dbpedia.org/resource/Matthew_Holmes_(director)"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Theatrical film poster"
+      }
+    ],
+    "http://dbpedia.org/property/cinematography": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Peter Szilveszter"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/distributor": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Pinnacle Films"
+      }
+    ],
+    "http://dbpedia.org/property/editing": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Caitlin Spiller"
+      }
+    ],
+    "http://dbpedia.org/property/language": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/music": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Ronnie Minder"
+      }
+    ],
+    "http://dbpedia.org/property/rating": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "M15+"
+      }
+    ],
+    "http://dbpedia.org/property/studio": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Running Panda Films"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "SunJive Studios"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Palmarium LLC"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Odin's Eye Productions"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Emu Creek Pictures"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "RLC Motion Picture Entertainment"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Two Tone Pictures"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:English-language_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Upcoming_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_biographical_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Biographical_films_about_bandits"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_actual_events"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_New_South_Wales"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Legend of Ben Hall is an Australian historical drama action film based on the true story of the Australian bushranger, Ben Hall. It has been written, produced and directed by Matthew Holmes and stars Jack Martin in the title role of Ben Hall, a legendary bushranger in Central West New South Wales. He is considered one of Australia's most notorious bushrangers and has become a significant part of Australian folklore. The Legend of Ben Hall also stars Jamie Coffa as John Gilbert, and William Lee as John Dunn. The film will be released in Australia on 1st December 2016."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "The Legend of Ben Hall"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Legend_of_Ben_Hall"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q21095441"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q21095441"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Legend_of_Ben_Hall?oldid=742998484"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "http://www.thelegendofbenhall.com/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Legend_of_Ben_Hall"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "The Legend of Ben Hall"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/The_Legend_of_Ben_Hall",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Legend_of_Ben_Hall"
+      }
+    ]
+  }
+]

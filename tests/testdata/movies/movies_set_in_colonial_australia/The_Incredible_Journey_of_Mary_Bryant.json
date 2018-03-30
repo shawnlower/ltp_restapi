@@ -1,0 +1,268 @@
+[
+  {
+    "@id": "http://dbpedia.org/resource/Mary_Bryant_(disambiguation)",
+    "http://dbpedia.org/ontology/wikiPageDisambiguates": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Incredible_Journey_of_Mary_Bryant"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Incredible_Journey_of_Mary_Bryant",
+    "@type": [
+      "http://dbpedia.org/class/yago/Wikicat2005TelevisionFilms",
+      "http://dbpedia.org/class/yago/WikicatAustralianTelevisionFilms",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/Movie106613686",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://schema.org/CreativeWork",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"
+    ],
+    "http://dbpedia.org/ontology/Work/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/minute",
+        "@value": "408.0"
+      }
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "pl",
+        "@value": "Niesamowita podróż (tyt. oryg. Mary Bryant) - dwuodcinkowy miniserial telewizyjny z 2005 roku produkcji australijsko-brytyjskiej. Serial opowiada prawdziwą historię Mary Bryant skazanej na pobyt w kolonii karnej."
+      },
+      {
+        "@language": "fr",
+        "@value": "Mary Bryant ou L'Incroyable Voyage de Mary Bryant (The Incredible Journey of Mary Bryant) est un téléfilm australo-britannique en deux parties totalisant 408 minutes, réalisée par Peter Andrikidis et diffusé à partir du 30 octobre 2005 sur Network Ten."
+      },
+      {
+        "@language": "en",
+        "@value": "The Incredible Journey of Mary Bryant is a 2005 film loosely based on the life of Mary Bryant, an English girl from Cornwall convicted of petty theft who was transported to the Australian Penal Colony on the First Fleet with other prisoners bound for Botany Bay. It is written by Peter Berry and directed by Peter Andrikidis. The film had a budget in excess of A$15 million, making it the largest-budget television mini-series produced in Australia."
+      }
+    ],
+    "http://dbpedia.org/ontology/country": [
+      {
+        "@id": "http://dbpedia.org/resource/Australia"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Peter_Andrikidis"
+      }
+    ],
+    "http://dbpedia.org/ontology/imdbId": [
+      {
+        "@value": "0428134"
+      }
+    ],
+    "http://dbpedia.org/ontology/language": [
+      {
+        "@id": "http://dbpedia.org/resource/England"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Andrew_Benson"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Greg_Haddrick"
+      }
+    ],
+    "http://dbpedia.org/ontology/runtime": [
+      {
+        "@value": 24480.0
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Romola_Garai"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Alex_O'Loughlin"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Tony_Martin_(actor)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Sam_Neill"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Jack_Davenport"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://colsearch.nfsa.afc.gov.au/nfsa/search/display/display.w3p;adv=yes;group=;groupequals=;holdingType=;page=0;parentid=;query=Number%3A665423;querytype=;rec=0;resCount=10"
+      },
+      {
+        "@id": "http://aso.gov.au/titles/tv/incredible-journey-mary-bryant/"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 7147117
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 739900088
+      }
+    ],
+    "http://dbpedia.org/property/awards": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "AFI Awards- Best Tele-frature os Mini Series - Andrew, Greg Haddrick"
+      },
+      {
+        "@value": 42
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "TV Week Logie Award - Most Outstanding Mini series"
+      }
+    ],
+    "http://dbpedia.org/property/released": [
+      {
+        "@value": 2005
+      }
+    ],
+    "http://dbpedia.org/property/title": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "The Incredible Journey of Mary Bryant"
+      }
+    ],
+    "http://dbpedia.org/property/wordnet_type": [
+      {
+        "@id": "http://www.w3.org/2006/03/wn/wn20/instances/synset-movie-noun-1"
+      }
+    ],
+    "http://dbpedia.org/property/writer": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Peter Berry"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:APRA_Award_winners"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Television_shows_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:2005_television_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_television_miniseries"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The Incredible Journey of Mary Bryant is a 2005 film loosely based on the life of Mary Bryant, an English girl from Cornwall convicted of petty theft who was transported to the Australian Penal Colony on the First Fleet with other prisoners bound for Botany Bay. It is written by Peter Berry and directed by Peter Andrikidis. The film had a budget in excess of A$15 million, making it the largest-budget television mini-series produced in Australia."
+      },
+      {
+        "@language": "pl",
+        "@value": "Niesamowita podróż (tyt. oryg. Mary Bryant) - dwuodcinkowy miniserial telewizyjny z 2005 roku produkcji australijsko-brytyjskiej. Serial opowiada prawdziwą historię Mary Bryant skazanej na pobyt w kolonii karnej."
+      },
+      {
+        "@language": "fr",
+        "@value": "Mary Bryant ou L'Incroyable Voyage de Mary Bryant (The Incredible Journey of Mary Bryant) est un téléfilm australo-britannique en deux parties totalisant 408 minutes, réalisée par Peter Andrikidis et diffusé à partir du 30 octobre 2005 sur Network Ten."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "The Incredible Journey of Mary Bryant"
+      },
+      {
+        "@language": "fr",
+        "@value": "Mary Bryant"
+      },
+      {
+        "@language": "pl",
+        "@value": "Niesamowita podróż (miniserial)"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q127560"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q127560"
+      },
+      {
+        "@id": "http://yago-knowledge.org/resource/The_Incredible_Journey_of_Mary_Bryant"
+      },
+      {
+        "@id": "http://fr.dbpedia.org/resource/Mary_Bryant"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/The_Incredible_Journey_of_Mary_Bryant"
+      },
+      {
+        "@id": "http://pl.dbpedia.org/resource/Niesamowita_podróż_(miniserial)"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0h6r4b"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Incredible_Journey_of_Mary_Bryant?oldid=739900088"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/The_Incredible_Journey_of_Mary_Bryant"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "The Incredible Journey of Mary Bryant"
+      }
+    ]
+  },
+  {
+    "@id": "http://en.wikipedia.org/wiki/The_Incredible_Journey_of_Mary_Bryant",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/The_Incredible_Journey_of_Mary_Bryant"
+      }
+    ]
+  }
+]

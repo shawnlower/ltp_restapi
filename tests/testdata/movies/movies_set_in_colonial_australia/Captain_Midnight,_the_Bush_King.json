@@ -1,0 +1,297 @@
+[
+  {
+    "@id": "http://en.wikipedia.org/wiki/Captain_Midnight,_the_Bush_King",
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "http://dbpedia.org/resource/Captain_Midnight,_the_Bush_King"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/Captain_Midnight,_the_Bush_King",
+    "@type": [
+      "http://dbpedia.org/class/yago/Event100029378",
+      "http://dbpedia.org/class/yago/Show106619065",
+      "http://dbpedia.org/ontology/Wikidata:Q11424",
+      "http://www.wikidata.org/entity/Q386724",
+      "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+      "http://dbpedia.org/ontology/Film",
+      "http://dbpedia.org/class/yago/Abstraction100002137",
+      "http://dbpedia.org/class/yago/Object100002684",
+      "http://dbpedia.org/class/yago/Whole100003553",
+      "http://dbpedia.org/class/yago/WikicatAustralianFilms",
+      "http://dbpedia.org/class/yago/WikicatAustralianSilentFilms",
+      "http://dbpedia.org/class/yago/WikicatFilmsDirectedByAlfredRolfe",
+      "http://schema.org/Movie",
+      "http://dbpedia.org/class/yago/WikicatLostFilms",
+      "http://dbpedia.org/class/yago/Wikicat1911Films",
+      "http://schema.org/CreativeWork",
+      "http://dbpedia.org/class/yago/PsychologicalFeature100023100",
+      "http://dbpedia.org/class/yago/Artifact100021939",
+      "http://dbpedia.org/ontology/Work",
+      "http://dbpedia.org/class/yago/Product104007894",
+      "http://dbpedia.org/class/yago/WikicatFilmsBasedOnPlays",
+      "http://dbpedia.org/class/yago/Creation103129123",
+      "http://dbpedia.org/class/yago/WikicatDirectorialDebutFilms",
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://dbpedia.org/class/yago/WikicatBlack-and-whiteFilms",
+      "http://dbpedia.org/class/yago/Wikicat1910sDramaFilms",
+      "http://dbpedia.org/class/yago/WikicatAustralianDramaFilms",
+      "http://dbpedia.org/class/yago/SocialEvent107288639",
+      "http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity",
+      "http://dbpedia.org/class/yago/Movie106613686"
+    ],
+    "http://dbpedia.org/ontology/abstract": [
+      {
+        "@language": "en",
+        "@value": "Captain Midnight, the Bush King (US: The Bushranger's Bride) was a 1911 Australian silent drama film about the fictitious bushranger Captain Midnight which was the directorial debut of actor Alfred Rolfe. The film is based on the play of same name by W. J. Lincoln and Alfred Dampier. Captain Midnight, the Bush King is now considered lost."
+      }
+    ],
+    "http://dbpedia.org/ontology/cinematography": [
+      {
+        "@id": "http://dbpedia.org/resource/Ernest_Higgins"
+      }
+    ],
+    "http://dbpedia.org/ontology/director": [
+      {
+        "@id": "http://dbpedia.org/resource/Alfred_Rolfe_(director)"
+      }
+    ],
+    "http://dbpedia.org/ontology/editing": [
+      {
+        "@id": "http://dbpedia.org/resource/Ernest_Higgins"
+      }
+    ],
+    "http://dbpedia.org/ontology/language": [
+      {
+        "@id": "http://dbpedia.org/resource/Silent_film"
+      }
+    ],
+    "http://dbpedia.org/ontology/producer": [
+      {
+        "@id": "http://dbpedia.org/resource/Charles_Cozens_Spencer"
+      }
+    ],
+    "http://dbpedia.org/ontology/releaseDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1911-02-09"
+      }
+    ],
+    "http://dbpedia.org/ontology/starring": [
+      {
+        "@id": "http://dbpedia.org/resource/Raymond_Longford"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Alfred_Rolfe_(director)"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Lily_Dampier"
+      }
+    ],
+    "http://dbpedia.org/ontology/thumbnail": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Special:FilePath/Captain_Midnight_still.jpg?width=300"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageExternalLink": [
+      {
+        "@id": "http://www.austlit.edu.au/austlit/page/C846051"
+      },
+      {
+        "@id": "http://colsearch.nfsa.gov.au/nfsa/search/display/display.w3p;adv=;group=;groupequals=;holdingType=;page=0;parentid=;query=%22captain%20midnight%22;querytype=;rec=0;resCount=10"
+      },
+      {
+        "@id": "http://0-www.austlit.edu.au.library.sl.nsw.gov.au/austlit/page/C395950"
+      },
+      {
+        "@id": "http://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=202303"
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageID": [
+      {
+        "@value": 32987200
+      }
+    ],
+    "http://dbpedia.org/ontology/wikiPageRevisionID": [
+      {
+        "@value": 718858054
+      }
+    ],
+    "http://dbpedia.org/property/budget": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "₤800"
+      }
+    ],
+    "http://dbpedia.org/property/caption": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Screen shot from film"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Poster from 1902 Hobart performance"
+      }
+    ],
+    "http://dbpedia.org/property/country": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Australia"
+      }
+    ],
+    "http://dbpedia.org/property/distributor": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "E.J. Carroll"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Sawyers Inc"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Jury's Pictures"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Lennon, Hyman & Lennon"
+      }
+    ],
+    "http://dbpedia.org/property/genre": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Bushranger melodrama"
+      }
+    ],
+    "http://dbpedia.org/property/origLang": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "English"
+      }
+    ],
+    "http://dbpedia.org/property/place": [
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Surrey Theatre, London"
+      },
+      {
+        "@type": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
+        "@value": "Criterion Theatre, Sydney"
+      }
+    ],
+    "http://dbpedia.org/property/runtime": [
+      {
+        "@type": "http://dbpedia.org/datatype/foot",
+        "@value": "2000.0"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_shot_in_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_silent_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1911_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_set_in_colonial_Australia"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_directed_by_Alfred_Rolfe"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:1910s_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Directorial_debut_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_black-and-white_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_Western_(genre)_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Bushranger_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Australian_drama_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Lost_films"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Category:Films_based_on_plays"
+      }
+    ],
+    "http://purl.org/linguistics/gold/hypernym": [
+      {
+        "@id": "http://dbpedia.org/resource/Film"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Captain Midnight, the Bush King (US: The Bushranger's Bride) was a 1911 Australian silent drama film about the fictitious bushranger Captain Midnight which was the directorial debut of actor Alfred Rolfe. The film is based on the play of same name by W. J. Lincoln and Alfred Dampier. Captain Midnight, the Bush King is now considered lost."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Captain Midnight, the Bush King"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://yago-knowledge.org/resource/Captain_Midnight,_the_Bush_King"
+      },
+      {
+        "@id": "http://rdf.freebase.com/ns/m.0h569x9"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q5036733"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Captain_Midnight,_the_Bush_King"
+      },
+      {
+        "@id": "http://wikidata.dbpedia.org/resource/Q5036733"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Captain_Midnight,_the_Bush_King?oldid=718858054"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/depiction": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Special:FilePath/Captain_Midnight_still.jpg"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/isPrimaryTopicOf": [
+      {
+        "@id": "http://en.wikipedia.org/wiki/Captain_Midnight,_the_Bush_King"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@language": "en",
+        "@value": "Captain Midnight, the Bush King"
+      }
+    ]
+  },
+  {
+    "@id": "http://dbpedia.org/resource/The_Bush_King",
+    "http://dbpedia.org/ontology/wikiPageRedirects": [
+      {
+        "@id": "http://dbpedia.org/resource/Captain_Midnight,_the_Bush_King"
+      }
+    ]
+  }
+]
