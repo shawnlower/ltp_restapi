@@ -1,8 +1,9 @@
-from rdflib import URIRef, RDF
+from rdflib import RDF
 
 import logging
 
 log = logging.getLogger(__name__)
+
 
 def find_existing(source_graph, subject, rdf_type, search_graph):
     """

@@ -13,6 +13,7 @@ from ...database import get_db
 from hashlib import sha256
 import json
 import logging
+import urllib
 
 log = logging.getLogger(__name__)
 
@@ -50,7 +51,12 @@ class ItemCollection(Resource):
         # Populate the temporary graph with our document
         data = json.dumps(doc)
         with debug_requests():
-            tmp_g.parse(data=data, format='application/ld+json')
+            try:
+                tmp_g.parse(data=data, format='application/ld+json')
+            # Catch everything (HTTPError, connrefused, urlerror, ....... )
+            except Exception as e: 
+                abort(502, "Unable to parse graph: {}".format(
+                    getattr(e, 'msg', str(e))))
 
         # Look for any existing match
         (subject, r_type) = list(tmp_g.subject_objects(RDF['type']))[0]
