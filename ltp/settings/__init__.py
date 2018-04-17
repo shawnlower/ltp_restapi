@@ -43,6 +43,11 @@ class Config(object):
             if env:
                 self.update(file, env=env)
                 log.debug("Updated for env: {}".format(env))
+        elif 'LTP_CONFIG' in os.environ:
+            file = os.environ['LTP_CONFIG']
+            log.debug("Loading config from environment (LTP_CONFIG): {}"
+                      .format(file))
+            self.update(file, env=env)
 
         log.debug("Config initialized with: \n{}".format(self._config))
 
