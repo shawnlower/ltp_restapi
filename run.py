@@ -1,18 +1,24 @@
 #!/usr/bin/env python
 
-from ltp import app
+from ltp.app import create_app
 from ltp import settings
 from ltp.settings import Config
+
+import click
+from flask import Flask
 
 import argparse
 import logging
 import os
+import sys
 
 log = logging.getLogger(__name__)
 
 
 def main():
     parser = argparse.ArgumentParser(description='Run Flask interactively.')
+    parser.add_argument('-p', '--port', help='Port number to listen on.',
+                        type=int, default=8888)
     parser.add_argument('--config', help='Config file with app settings '
                         '(default: {})'.format(settings.DEFAULT_CONFIG))
     parser.add_argument('-e', '--environment', help='Set the environment '
@@ -24,23 +30,18 @@ def main():
     config_file = None
     if args.config:
         config_file = args.config
-    elif 'LTP_CONFIG' in os.environ:
-        config_file = os.environ['LTP_CONFIG']
 
-    ltp_app = _create_app(config_file, args.environment)
+    config = Config(file=config_file, env=args.environment)
+    app = create_app(__name__, config)
+
     log.info('>>> Starting development server at http://{}/api/'.format(
-        ltp_app.config['SERVER_NAME']))
-    return ltp_app.run()
-
-
-def _create_app(config_file=None, env=None):
-    config = Config(file=config_file, env=env)
-    ltp_app = app.create_app(__name__, config)
-    return ltp_app
+        app.config['SERVER_NAME']))
+    return app.run(port=args.port)
 
 
 if __name__ == '__main__':
-    main()
-else:
-    ltp_app = _create_app()
+    sys.exit(main())
+
+# Used by flask, e.g.: 'flask shell', 'flask run'
+app = create_app()
 
