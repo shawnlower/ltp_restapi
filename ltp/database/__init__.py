@@ -37,7 +37,7 @@ def get_db():
     ident = URIRef("rdflib_test")
 
     store = plugin.get("SQLAlchemy", Store)(identifier=ident)
-    graph = rdflib.Graph(store, identifier=ident)
+    graph = rdflib.ConjunctiveGraph(store, identifier=ident)
 
     uri_string = app.config.get('SQLALCHEMY_DATABASE_URI', 'sqlite://')
     uri = Literal(f"{uri_string}")
@@ -46,6 +46,8 @@ def get_db():
     graph.store.create_all()
     log.debug("Created graph {} with store {} ({})".format(id(graph),
               id(graph.store), repr(graph.store)))
+
+
 
     # Setup namespace
     ns_uri = app.config.get('LTP_NS_URI')

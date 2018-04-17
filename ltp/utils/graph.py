@@ -1,7 +1,14 @@
-from rdflib import ConjunctiveGraph, Graph, URIRef
+from ..database import get_db
 
+import json
+import logging
+from rdflib import ConjunctiveGraph, Graph, URIRef
 import re
 import string
+
+
+logging.config.fileConfig('ltp/logging.cfg')
+log = logging.getLogger(__name__)
 
 
 class MissingNamespaceError(Exception):
@@ -33,7 +40,7 @@ def split_on_namespace(uri, g):
     return [base, term]
 
 
-def make_pyclass(uri, g=None, format='application/rdf+xml,text/rdf+n3'):
+def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
     """
     Factory method for generating RDF based classes
     :param uri: String or rdflib.URIRef of a resource that can be dereferenced.
@@ -49,9 +56,47 @@ def make_pyclass(uri, g=None, format='application/rdf+xml,text/rdf+n3'):
                            A JSON payload
                            A dict() object
             """
+            if hasattr(source, '__getitem__'):
+                # I think you're a dict
+                self._from_dict(source)
+            else:
+                d = json.loads(source)
+                self._from_dict(d)
+
+        def _from_dict(self, d):
+            """
+            Populate our class properties from a source dict
+            """
+            for k in d:
+                if k not in self.property_map:
+                    log.warn(f"Unknown key in source: {k}")
+                    continue
+                setattr(self, k, d[k])
+
+        def _to_dict(self):
+            """
+            Returns a dict populated with our properties
+            """
+            d = {}
+            for k in self.property_map:
+                d[k] = getattr(self, k)
+            return d
+
+        def __getitem__(self, item):
+            if not item in self.property_map:
+                raise IndexError(f"{item} not found.")
+            return getattr(self, item)
+
+        def __setitem__(self, item, value):
+            if not item in self.property_map:
+                raise IndexError(f"{item} not found.")
+            setattr(self, item, value)
+
+        def __repr__(self):
+            return "RDFSchema of {}: {}".format(self._uri, self._to_dict())
 
         @classmethod
-        def _init(cls, uri, g=None, format=None):
+        def _init(cls, uri, graph=None, format=None):
             """
             - Accept an RDF URI
             - Use rdflib to parse it into a graph
@@ -65,11 +110,11 @@ def make_pyclass(uri, g=None, format='application/rdf+xml,text/rdf+n3'):
             else:
                 raise TypeError("Expected a string or URIRef for uri")
 
-            if not g:
-                g = Graph()
-                g.load(str(uri))
-                print("Loaded graph with {} triples.".format(len(g)))
-            cls._g = g
+            if not graph:
+                graph = Graph()
+                graph.load(str(uri))
+                print("Loaded graph with {} triples.".format(len(graph)))
+            cls._g = graph
 
             # Get the properties for the class
             cls.property_map = {}
@@ -87,12 +132,11 @@ def make_pyclass(uri, g=None, format='application/rdf+xml,text/rdf+n3'):
                 if not var_name:
                     var_name = str(prop).rpartition('/')[-1]
                 
-                # print("Initial var name: " + var_name)
-                # normalization ##
                 # Ensure var names aren't don't begin with caps
                 if re.match('^[A-Z]', var_name):
                     m = re.split('^([A-Z]+)', var_name)
                     var_name = m[1].lower() + m[2]
+
                 # Strip invalid chars
                 var_name = ''.join(c for c in var_name if c in
                                    string.ascii_letters +
@@ -110,9 +154,9 @@ def make_pyclass(uri, g=None, format='application/rdf+xml,text/rdf+n3'):
                 setattr(cls, var_name, None)
 
         @classmethod
-        def get_labels_for_type(rdf_t):
+        def get_labels_for_type(cls, rdf_t):
             for args in [{'lang': 'en'}, {'lang': ''}, {}]:
-                labels = g.preferredLabel(rdf_t, **args)
+                labels = cls._g.preferredLabel(rdf_t, **args)
                 if not labels:
                     return []
 
@@ -124,23 +168,11 @@ def make_pyclass(uri, g=None, format='application/rdf+xml,text/rdf+n3'):
                     ?prop <http://schema.org/domainIncludes> ?uri .
                     }
             '''
-            results = [p[0] for p in g.query(q, initBindings={'uri':
+            results = [p[0] for p in graph.query(q, initBindings={'uri':
                        cls._uri})]
             return results
 
     R = RDFSchema
-    R._init(uri, g, format=format)
+    R._init(uri, graph, format=format)
     return R
 
-# We can either look for type information in an existing graph, or fetch it
-# remotely
-# If we supply a graph, we assume the former
-
-# g = Graph()
-# uri = SCHEMA['Thing']
-# g.load(uri)
-
-# Thing = make_pyclass(uri, g)
-# [ i for i in dir(Thing) if not i.startswith('__')]
-
-# Activity = make_pyclass(s, g)

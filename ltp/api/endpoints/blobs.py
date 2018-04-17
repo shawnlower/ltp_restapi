@@ -5,7 +5,8 @@ from werkzeug.exceptions import BadRequest
 
 from ..restplus import api
 from ..serializers import blob
-from ...database.models import db, Blob
+from ...database.models import Blob
+from ...database import get_db
 
 from datetime import datetime
 import logging
@@ -98,6 +99,7 @@ class BlobCollection(Resource):
 
         blob_file = Blob(**meta)
 
+        db = get_db()
         db.session.add(blob_file)
         db.session.commit()
 

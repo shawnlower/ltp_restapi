@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://ltp.shawnlower.net/v1/Activity",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "A user activity",
+      "rdfs:label": "Activity",
+      "rdfs:subClassOf": {
+        "@id": "http://ltp.shawnlower.net/v1/Thing"
+      }
+    },
+    {
+      "@id": "http://ltp.shawnlower.net/v1/created_time",
+      "@type": "rdf:Property",
+      "http://schema.org/domainIncludes": {
+        "@id": "http://ltp.shawnlower.net/v1/Activity"
+      },
+      "http://schema.org/rangeIncludes": {
+        "@id": "xsd:date"
+      },
+      "rdfs:comment": "The date when the activity was created",
+      "rdfs:label": "creation_time"
+    },
+    {
+      "@id": "dc:description",
+      "@type": "rdf:Property",
+      "http://schema.org/domainIncludes": {
+        "@id": "http://ltp.shawnlower.net/v1/Activity"
+      },
+      "http://schema.org/rangeIncludes": {
+        "@id": "xsd:string"
+      },
+      "rdfs:comment": "An optional description for the activity",
+      "rdfs:label": "description"
+    },
+    {
+      "@id": "http://ltp.shawnlower.net/v1/items",
+      "@type": "rdf:Property",
+      "http://schema.org/domainIncludes": {
+        "@id": "http://ltp.shawnlower.net/v1/Activity"
+      },
+      "http://schema.org/rangeIncludes": {
+        "@id": "xsd:string"
+      },
+      "rdfs:comment": "A list of items contained within the activity",
+      "rdfs:label": "items"
+    }
+  ]
+}
+

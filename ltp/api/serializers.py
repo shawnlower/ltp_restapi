@@ -9,7 +9,7 @@ item = api.model('Item', {
                            description='JSON-LD type for the item.')
 })
 
-item_collection = api.model('item_collection', {
+item_collection = api.model('Item_collection', {
     'items': fields.Raw(required=True,
                         description='A collection of items')
 })
@@ -25,8 +25,8 @@ activity = api.model('Activity', {
                          description='Unique identifier for the activity'),
     'description': fields.String(required=False,
                                  description='Unique identifier for activity'),
-    'created_at': fields.DateTime(readOnly=True),
-    'items': fields.List(fields.Nested(item)),
+    'created_time': fields.DateTime(readOnly=True),
+    'items': fields.List(fields.Nested(item))
 })
 
 blob = api.model('Blob', {

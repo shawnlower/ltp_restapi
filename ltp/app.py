@@ -4,7 +4,10 @@ import click
 from click import Abort, echo, confirm, style
 from flask import Flask, Blueprint, got_request_exception, current_app
 from flask.cli import with_appcontext
+import pdb
 from rdflib import ConjunctiveGraph, Graph, URIRef
+import sys
+import traceback
 
 
 # Local imports
@@ -46,7 +49,16 @@ def create_app(name=__name__, config=None, skip_defaults=False):
     blueprint.before_request(setup_db)
     app.register_blueprint(blueprint)
 
+    got_request_exception.connect(drop_into_pdb)
+
     return app
+
+def drop_into_pdb(app, exception):
+    """
+    https://gist.github.com/alonho/4389137
+    """
+    traceback.print_exc()
+    pdb.post_mortem(sys.exc_info()[2])
 
 
 @click.command('initdb')
@@ -76,13 +88,15 @@ def init_db_command(yes=False, load_examples=False):
         db = get_db()
         log.debug("Using {} as database.".format(str(db.store.engine)))
         db.store.destroy(db.store.engine)
-        db.store.create_all()
+        db.close()
 
-        graph = ConjunctiveGraph(identifier='LTP')
-        graph.parse(data=f.read(), format='json-ld')
+        db = get_db()
+        data = f.read()
+        db.parse(data=data, format='json-ld')
+        db.store.commit()
         log.info("Graph initialized from {} with {} triples.".format(
-            f.name,
-            len(graph)))
+           f.name,
+           len(db)))
 
 
 def init_app(app):
