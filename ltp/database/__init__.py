@@ -47,25 +47,19 @@ def get_db():
     log.debug("Created graph {} with store {} ({})".format(id(graph),
               id(graph.store), repr(graph.store)))
 
+    graph.bind('ltp', get_ns())
+    return graph
 
+def get_ns():
+    """
+    Get the default namespace for the application.
+    """
 
-    # Setup namespace
     ns_uri = app.config.get('LTP_NS_URI')
     if not ns_uri:
         ns_uri = 'http://{}/{}/'.format(
             app.config.get('SERVER_NAME'), '/api/items')
         app.config['LTP_NS_URI'] = ns_uri
 
-    ns_prefix = app.config.get('LTP_NS_PREFIX', 'ltp')
-    if not ns_prefix:
-        ns_prefix = 'ltp'
-        app.config['LTP_NS_PREFIX'] = 'ltp'
-
-    g_namespaces = [ns for (ns, _) in graph.namespace_manager.namespaces()]
-    if ns_prefix not in g_namespaces:
-        ns = Namespace(ns_uri)
-        ns_manager = NamespaceManager(graph)
-        ns_manager.bind(ns_prefix, ns)
-
-    return graph
+    return Namespace(ns_uri)
 

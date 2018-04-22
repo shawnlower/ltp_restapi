@@ -1,5 +1,5 @@
 from ..utils.graph import make_pyclass
-from ..database import get_db
+from ..database import get_db, get_ns
 
 from datetime import datetime
 import logging
