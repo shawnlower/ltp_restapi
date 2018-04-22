@@ -6,6 +6,7 @@ from flask import Flask, Blueprint, got_request_exception, current_app
 from flask.cli import with_appcontext
 import pdb
 from rdflib import ConjunctiveGraph, Graph, URIRef
+import subprocess
 import sys
 import traceback
 
@@ -30,7 +31,6 @@ def create_app(name=__name__, config=None, skip_defaults=False):
     the base defaults from settings.BaseConfig apply (local server, etc)
     """
 
-    log.debug("In 'create_app()'")
     app = Flask(name)
     if not config:
         log.warning("Using default config")
@@ -50,6 +50,12 @@ def create_app(name=__name__, config=None, skip_defaults=False):
     app.register_blueprint(blueprint)
 
     got_request_exception.connect(drop_into_pdb)
+    try:
+        if '-echo' in str(subprocess.check_output("stty", shell=True)):
+            log.debug("Re-enabling echo w/ stty")
+            subprocess.check_call("stty echo", shell=True)
+    except subprocess.CalledProcessError:
+        pass
 
     return app
 
