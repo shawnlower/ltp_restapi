@@ -4,12 +4,8 @@ from ltp.app import create_app
 from ltp import settings
 from ltp.settings import Config
 
-import click
-from flask import Flask
-
 import argparse
 import logging
-import os
 import re
 import sys
 

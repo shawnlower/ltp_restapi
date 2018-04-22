@@ -53,6 +53,7 @@ def create_app(name=__name__, config=None, skip_defaults=False):
 
     return app
 
+
 def drop_into_pdb(app, exception):
     """
     https://gist.github.com/alonho/4389137
@@ -94,9 +95,7 @@ def init_db_command(yes=False, load_examples=False):
         data = f.read()
         db.parse(data=data, format='json-ld')
         db.store.commit()
-        log.info("Graph initialized from {} with {} triples.".format(
-           f.name,
-           len(db)))
+        log.info(f"Graph initialized from {f.name} with {len(db)} triples.")
 
 
 def init_app(app):
