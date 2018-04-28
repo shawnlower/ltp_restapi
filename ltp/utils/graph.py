@@ -1,10 +1,12 @@
-from ..database import get_db
+from ..database import get_db, get_ns
 
 import json
 import logging
-from rdflib import ConjunctiveGraph, Graph, URIRef
+from rdflib import BNode, ConjunctiveGraph, Graph, RDF, URIRef
 import re
 import string
+from typing import Dict, Optional, Union
+from urllib.error import HTTPError
 
 
 logging.config.fileConfig('ltp/logging.cfg')
@@ -44,34 +46,89 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
     """
     Factory method for generating RDF based classes
     :param uri: String or rdflib.URIRef of a resource that can be dereferenced.
+    :param graph: optional graph containing existing triples
 
     The resource specified must have RDF type information available
     """
     class RDFSchema():
 
-        def __init__(self, source):
+        def __init__(self, source: Union[Dict, None, str, URIRef] = None):
             """
             Source can be any of the following:
             :param source: A URIRef that can be dereferenced
                            A JSON payload
                            A dict() object
             """
-            if hasattr(source, '__getitem__'):
-                # I think you're a dict
+            setattr(self, '@id', None)
+
+            if not source:
+                return
+
+            if isinstance(source, dict):
                 self._from_dict(source)
+            elif isinstance(source, URIRef) or source.startswith('http'):
+                raise Exception('Unimplemented')
+                # self._from_uri(source)
             else:
                 d = json.loads(source)
                 self._from_dict(d)
+
+        def _from_uri(self, uri: Union[URIRef, str]) -> None:
+            """
+            Populate the class instance based on a passed URI.
+            The data may be able to be dereferenced from our graph, but
+            if not, we can just have rdflib handle that for us.
+            NOTE: If the subject is found in our graph, additional triples
+            will not be dereferenced externally.
+
+            :param uri: URIRef or string to be dereferenced
+            """
+
+            if not isinstance(uri, URIRef):
+                uri = URIRef(uri)
+
+            # Create a temp graph if we don't know the subject already
+            if uri not in self._g.subjects():
+                g = ConjunctiveGraph
+                g.load(uri)
+                log.debug(f"Loaded subject from {uri} with {len(g)} triples.")
+            else:
+                g = self._g
+
+            # Iterate through our properties
+            c = 0  # Found counter
+            for prop in self.property_map:
+                res = list(set(g.objects(subject=uri,
+                           predicate=self.property_map[prop])))
+                print(prop, self.property_map[prop], res)
+                o = None
+                if len(res) > 1:
+                    o = res[0]
+                    log.warning(f"Found multiple ({len(res)}) values for "
+                                "{prop}. Using {o}.")
+                if o:
+                    setattr(self, prop, str(o))  # TODO: Get proper object type
+                    c += 1
+            log.debug(f"Found {c} properties.")
 
         def _from_dict(self, d):
             """
             Populate our class properties from a source dict
             """
             for k in d:
+                # First make sure we're not a JSON-LD specific key
                 if k not in self.property_map:
                     log.warn(f"Unknown key in source: {k}")
                     continue
                 setattr(self, k, d[k])
+
+            # Ensure we have a context
+            if not getattr(self, '@context', None):
+                setattr(self, '@context', str(get_ns()))
+
+            # Set the ID
+            setattr(self, '@id',
+                    getattr(self, '@context') + '/' + BNode().toPython())
 
         def _to_dict(self):
             """
@@ -83,17 +140,17 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             return d
 
         def __getitem__(self, item):
-            if not item in self.property_map:
+            if item not in self.property_map:
                 raise IndexError(f"{item} not found.")
             return getattr(self, item)
 
         def __setitem__(self, item, value):
-            if not item in self.property_map:
+            if item not in self.property_map:
                 raise IndexError(f"{item} not found.")
             setattr(self, item, value)
 
         def __repr__(self):
-            return "RDFSchema of {}: {}".format(self._uri, self._to_dict())
+            return "JSON of {}: {}".format(self._uri, self._to_dict())
 
         @classmethod
         def _init(cls, uri, graph=None, format=None):
@@ -103,18 +160,24 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             - Convert any properties into vars
             - Store a URI for any derived classes
             """
-            if type(uri) == str:
+            if graph:
+                cls._g = graph
+            else:
+                cls._g = ConjunctiveGraph()
+
+            if isinstance(uri, str):
                 cls._uri = URIRef(uri)
-            elif type(uri) == URIRef:
+            elif isinstance(uri, URIRef):
                 cls._uri = uri
             else:
                 raise TypeError("Expected a string or URIRef for uri")
 
-            if not graph:
-                graph = Graph()
-                graph.load(str(uri))
-                print("Loaded graph with {} triples.".format(len(graph)))
-            cls._g = graph
+            setattr(cls, '@type', str(uri))
+
+            # Dereference URL if necessary
+            if cls._uri not in cls._g.subjects():
+                cls._g.load(str(uri))
+                print("Loaded graph with {} triples.".format(len(cls._g)))
 
             # Get the properties for the class
             cls.property_map = {}
@@ -131,7 +194,7 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
 
                 if not var_name:
                     var_name = str(prop).rpartition('/')[-1]
-                
+
                 # Ensure var names aren't don't begin with caps
                 if re.match('^[A-Z]', var_name):
                     m = re.split('^([A-Z]+)', var_name)
@@ -171,6 +234,78 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             results = [p[0] for p in graph.query(q, initBindings={'uri':
                        cls._uri})]
             return results
+
+        @classmethod
+        def get(cls, query: Union[None, str, URIRef] = None):
+            """
+            Return one or more resources of a given type
+            :param query: The resource(s) to look up.
+
+            A query can be one of the following:
+                URIRef: The full URIRef of an activity
+                URI string: The URI as a string
+                name/id: The final portion of a URI.
+                    ex: get(LTP['Activity'])
+
+            Example:
+                >>> get(URIRef("http://example.com/items/Foo"))
+                <class 'ltp.database.models.Item'>
+
+                >>> get("http://example.com/items/Foo")
+                <class 'ltp.database.models.Item'>
+
+                >>> get("items/Foo")
+                <class 'ltp.database.models.Item'>
+
+                >>> get("1234abcd")
+                <class 'ltp.database.models.Activity'>
+            """
+
+            if not query:
+                log.debug(f"Returning all items of type {str(cls._uri)}")
+                return [cls(s) for s in cls._g.subjects(
+                        predicate=RDF['type'], object=cls._uri)]
+
+        @classmethod
+        def get_all(cls):
+            """
+            Return all resources of a given type. Alias of get()
+
+            Example:
+                >>> get_all()
+                [<class 'ltp.database.models.Activity'>,
+                 <class 'ltp.database.models.Activity'>
+                 <class 'ltp.database.models.Activity'>]
+            """
+            return cls.get()
+
+        @classmethod
+        def get_one(cls, query: str):
+            """
+            Return one or more resources of a given type
+            :param query: The resource(s) to look up.
+
+            Examples:
+                # Get an activity by UUID
+                >>> get("6f5ace2bf9ba-4dad-91a2-011a20e700ca")
+                <class 'ltp.database.models.Activity'>
+            """
+            items = cls.get(query)
+            assert(len(items) == 1)
+            return items[0]
+
+        def save(self):
+            """
+            Commits object to database
+            TODO: Handle unique items
+            """
+            d = dict(self.__dict__)
+            # We already dereferenced during class creation, so we don't
+            # need to pass the context (as that would cause us to fetch
+            # it again
+            d.pop('@context')
+            jsonld = json.dumps(d)
+            self._g.parse(data=jsonld, format='json-ld')
 
     R = RDFSchema
     R._init(uri, graph, format=format)
