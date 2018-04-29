@@ -1,6 +1,7 @@
 from flask_restplus import fields
-
 from .restplus import api
+
+from ..database.models import Activity
 
 item = api.model('Item', {
     '@context': fields.String(required=True,
@@ -19,15 +20,17 @@ item_response = api.model('Item', {
     'item': fields.Raw()
 })
 
-
-activity = api.model('Activity', {
-    'id': fields.Integer(readOnly=True,
-                         description='Unique identifier for the activity'),
+activity_request = api.model('Activity_Request', {
     'description': fields.String(required=False,
                                  description='Unique identifier for activity'),
-    'created_time': fields.DateTime(readOnly=True),
-    'items': fields.List(fields.Nested(item))
 })
+
+activity_response = api.inherit('Activity_Response', activity_request, {
+    'url': fields.String(attribute='@id',
+                         description='Unique URL for the activity'),
+    'created_time': fields.DateTime(),
+})
+
 
 blob = api.model('Blob', {
     'id': fields.Integer(readOnly=True,

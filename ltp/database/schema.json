@@ -2,35 +2,51 @@
   "@context": {
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "ltp": "http://ltp.shawnlower.net/v1/"
   },
   "@graph": [
     {
-      "@id": "http://ltp.shawnlower.net/v1/Activity",
+      "@id": "ltp:Thing",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "The most generic type of item.",
+      "rdfs:label": "Thing"
+    },
+    {
+      "@id": "ltp:Activity",
       "@type": "rdfs:Class",
       "rdfs:comment": "A user activity",
       "rdfs:label": "Activity",
       "rdfs:subClassOf": {
-        "@id": "http://ltp.shawnlower.net/v1/Thing"
+        "@id": "ltp:Thing"
       }
     },
     {
-      "@id": "http://ltp.shawnlower.net/v1/created_time",
+      "@id": "ltp:Item",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "A user activity",
+      "rdfs:label": "Activity",
+      "rdfs:subClassOf": {
+        "@id": "ltp:Thing"
+      }
+    },
+    {
+      "@id": "ltp:created_time",
       "@type": "rdf:Property",
       "http://schema.org/domainIncludes": {
-        "@id": "http://ltp.shawnlower.net/v1/Activity"
+        "@id": "ltp:Activity"
       },
       "http://schema.org/rangeIncludes": {
         "@id": "xsd:date"
       },
-      "rdfs:comment": "The date when the activity was created",
+      "rdfs:comment": "The date when the thing was created",
       "rdfs:label": "creation_time"
     },
     {
       "@id": "dc:description",
       "@type": "rdf:Property",
       "http://schema.org/domainIncludes": {
-        "@id": "http://ltp.shawnlower.net/v1/Activity"
+        "@id": "ltp:Activity"
       },
       "http://schema.org/rangeIncludes": {
         "@id": "xsd:string"
@@ -39,10 +55,10 @@
       "rdfs:label": "description"
     },
     {
-      "@id": "http://ltp.shawnlower.net/v1/items",
+      "@id": "ltp:hasItem",
       "@type": "rdf:Property",
       "http://schema.org/domainIncludes": {
-        "@id": "http://ltp.shawnlower.net/v1/Activity"
+        "@id": "ltp:Activity"
       },
       "http://schema.org/rangeIncludes": {
         "@id": "xsd:string"

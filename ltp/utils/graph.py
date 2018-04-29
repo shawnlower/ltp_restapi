@@ -67,8 +67,7 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             if isinstance(source, dict):
                 self._from_dict(source)
             elif isinstance(source, URIRef) or source.startswith('http'):
-                raise Exception('Unimplemented')
-                # self._from_uri(source)
+                self._from_uri(source)
             else:
                 d = json.loads(source)
                 self._from_dict(d)
@@ -87,9 +86,12 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             if not isinstance(uri, URIRef):
                 uri = URIRef(uri)
 
+            self._id = uri
+
             # Create a temp graph if we don't know the subject already
             if uri not in self._g.subjects():
                 g = ConjunctiveGraph
+                log.debug(f"Loading subject from {uri}.")
                 g.load(uri)
                 log.debug(f"Loaded subject from {uri} with {len(g)} triples.")
             else:
@@ -101,9 +103,13 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
                 res = list(set(g.objects(subject=uri,
                            predicate=self.property_map[prop])))
                 print(prop, self.property_map[prop], res)
-                o = None
+
+                if not res:
+                    log.warning(f"Property {prop} not found.")
+                    continue
+
+                o = res[0]
                 if len(res) > 1:
-                    o = res[0]
                     log.warning(f"Found multiple ({len(res)}) values for "
                                 "{prop}. Using {o}.")
                 if o:
@@ -127,17 +133,21 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
                 setattr(self, '@context', str(get_ns()))
 
             # Set the ID
-            setattr(self, '@id',
-                    getattr(self, '@context') + '/' + BNode().toPython())
+            self._id = getattr(self, '@context') + '/' + BNode().toPython()
 
         def _to_dict(self):
             """
             Returns a dict populated with our properties
             """
             d = {}
+            d['@context'] = self._uri
+            d['@id'] = self._id
             for k in self.property_map:
                 d[k] = getattr(self, k)
             return d
+
+        def _to_json(self):
+            return(json.dumps(self._to_dict()))
 
         def __getitem__(self, item):
             if item not in self.property_map:
@@ -171,8 +181,6 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
                 cls._uri = uri
             else:
                 raise TypeError("Expected a string or URIRef for uri")
-
-            setattr(cls, '@type', str(uri))
 
             # Dereference URL if necessary
             if cls._uri not in cls._g.subjects():
@@ -299,15 +307,29 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             Commits object to database
             TODO: Handle unique items
             """
-            d = dict(self.__dict__)
+            d = dict(self._to_dict())
             # We already dereferenced during class creation, so we don't
-            # need to pass the context (as that would cause us to fetch
-            # it again
-            d.pop('@context')
+            # want to pass the context URI (as that would cause us to fetch
+            # it again. We can retrieve the context from our graph
+            d['@context'] = self._embedded_context()
+            d['@type'] = self._uri
+            d['@id'] = self._id
             jsonld = json.dumps(d)
             self._g.parse(data=jsonld, format='json-ld')
+
+        def _embedded_context(self):
+            """
+            Returns a dictionary mapping the properties to URIs
+            """
+            context = {}
+            for key in self.property_map:
+                context[key] = {
+                    '@id': self.property_map[key]
+                }
+            return context
 
     R = RDFSchema
     R._init(uri, graph, format=format)
     return R
+
 

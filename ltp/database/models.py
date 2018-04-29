@@ -1,7 +1,6 @@
 from ..utils.graph import make_pyclass
-from ..database import get_db, get_ns
+from ..database import get_db
 
-from datetime import datetime
 import logging
 
 logging.config.fileConfig('ltp/logging.cfg')
@@ -24,6 +23,7 @@ class Activity():
         return make_pyclass('http://ltp.shawnlower.net/v1/Activity',
                             graph=get_db())(*args, **kwargs)
 
+
 class Blob():
     pass
 #    created_at = db.Column(db.DateTime)
@@ -31,7 +31,8 @@ class Blob():
 #    content_hash = db.Column(db.String(100))
 #    content_length = db.Column(db.Integer)
 #
-#    def __init__(self, created_at, content_type, content_length, content_hash):
+#    def __init__(self, created_at, content_type, content_length,
+#                 content_hash):
 #        self.created_at = datetime.utcnow()
 #        self.content_type = content_type
 #        self.content_length = content_length

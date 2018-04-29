@@ -34,7 +34,7 @@ def get_db():
     register('SQLAlchemy', Store, 'rdflib_sqlalchemy.store', 'SQLAlchemy')
     register('json-ld', Parser, 'rdflib_jsonld.parser', 'JsonLDParser')
 
-    ident = URIRef("rdflib_test")
+    ident = URIRef("http://ltp.shawnlower.net/v1")
 
     store = plugin.get("SQLAlchemy", Store)(identifier=ident)
     graph = rdflib.ConjunctiveGraph(store, identifier=ident)
