@@ -123,9 +123,10 @@ class ItemCollection(Resource):
         log.debug("Added {} to store (total size {})".format(
                   count, len(g.graph)))
 
-        return {'item': json.loads(data)}, 201
+        json_data = tmp_g.serialize(format='json-ld', auto_compact=True)
+        return {'item': json.loads(json_data)}, 201
 
-    #@api.marshal_with(item_collection)
+    # @api.marshal_with(item_collection)
     @api.response(200, 'Ok')
     def get(self):
         """
