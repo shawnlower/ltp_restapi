@@ -50,6 +50,7 @@ def get_db():
     graph.bind('ltp', get_ns())
     return graph
 
+
 def get_ns():
     """
     Get the default namespace for the application.

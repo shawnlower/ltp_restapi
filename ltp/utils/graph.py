@@ -13,6 +13,13 @@ logging.config.fileConfig('ltp/logging.cfg')
 log = logging.getLogger(__name__)
 
 
+class MissingObjectError(Exception):
+    """
+    Object does not exist
+    """
+    def __init__(self):
+        self.msg = "Object not found."
+
 class MissingNamespaceError(Exception):
     def __init__(self):
         self.msg = "Namespace not found"
@@ -42,7 +49,8 @@ def split_on_namespace(uri, g):
     return [base, term]
 
 
-def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
+def make_pyclass(uri, base=None, graph=None,
+                 format='application/rdf+xml,text/rdf+n3'):
     """
     Factory method for generating RDF based classes
     :param uri: String or rdflib.URIRef of a resource that can be dereferenced.
@@ -50,6 +58,10 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
 
     The resource specified must have RDF type information available
     """
+
+    if not base:
+        base = uri
+
     class RDFSchema():
 
         def __init__(self, source: Union[Dict, None, str, URIRef] = None):
@@ -59,7 +71,7 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
                            A JSON payload
                            A dict() object
             """
-            setattr(self, '@id', None)
+            self._id = None
 
             if not source:
                 return
@@ -71,6 +83,9 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             else:
                 d = json.loads(source)
                 self._from_dict(d)
+
+            if not self._id:
+                self._id = base + '/' + BNode().toPython()
 
         def _from_uri(self, uri: Union[URIRef, str]) -> None:
             """
@@ -90,6 +105,9 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
 
             # Create a temp graph if we don't know the subject already
             if uri not in self._g.subjects():
+                if uri.startswith(self._base):
+                    raise(MissingObjectError)
+
                 g = ConjunctiveGraph
                 log.debug(f"Loading subject from {uri}.")
                 g.load(uri)
@@ -115,6 +133,7 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
                 if o:
                     setattr(self, prop, str(o))  # TODO: Get proper object type
                     c += 1
+            setattr(self, '@id', self._id)
             log.debug(f"Found {c} properties.")
 
         def _from_dict(self, d):
@@ -131,9 +150,6 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             # Ensure we have a context
             if not getattr(self, '@context', None):
                 setattr(self, '@context', str(get_ns()))
-
-            # Set the ID
-            self._id = getattr(self, '@context') + '/' + BNode().toPython()
 
         def _to_dict(self):
             """
@@ -170,6 +186,8 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
             - Convert any properties into vars
             - Store a URI for any derived classes
             """
+            cls._base = base
+
             if graph:
                 cls._g = graph
             else:
@@ -262,9 +280,6 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
                 >>> get("http://example.com/items/Foo")
                 <class 'ltp.database.models.Item'>
 
-                >>> get("items/Foo")
-                <class 'ltp.database.models.Item'>
-
                 >>> get("1234abcd")
                 <class 'ltp.database.models.Activity'>
             """
@@ -273,6 +288,20 @@ def make_pyclass(uri, graph=None, format='application/rdf+xml,text/rdf+n3'):
                 log.debug(f"Returning all items of type {str(cls._uri)}")
                 return [cls(s) for s in cls._g.subjects(
                         predicate=RDF['type'], object=cls._uri)]
+
+            if query.startswith('http:'):
+                if isinstance(query, URIRef):
+                    s = query
+                else:
+                    s = URIRef(query)
+            else:
+                s = URIRef(cls._base + '/' + query)
+
+            try:
+                return cls(s)
+            except MissingObjectError:
+                log.warning(f"Object: {uri} not found.")
+                return None
 
         @classmethod
         def get_all(cls):

@@ -1,5 +1,5 @@
 from ..utils.graph import make_pyclass
-from ..database import get_db
+from ..database import get_db, get_ns
 
 import logging
 
@@ -14,13 +14,17 @@ log = logging.getLogger(__name__)
 
 class Item():
     def __new__(self, *args, **kwargs):
-        return make_pyclass('http://ltp.shawnlower.net/v1/Item',
+        LTP = get_ns()
+        return make_pyclass(LTP['Item'],
+                            base=LTP + 'items',
                             graph=get_db())(*args, **kwargs)
 
 
 class Activity():
     def __new__(self, *args, **kwargs):
-        return make_pyclass('http://ltp.shawnlower.net/v1/Activity',
+        LTP = get_ns()
+        return make_pyclass(LTP['Activity'],
+                            base=LTP + 'activities',
                             graph=get_db())(*args, **kwargs)
 
 

@@ -48,13 +48,17 @@ class ActivityCollection(Resource):
         return [a._to_dict() for a in Activity().get_all()]
 
 
-@ns.route('/<int:id>')
+@ns.route('/<string:id>')
 class ActivityResource(Resource):
 
     @api.marshal_with(activity_response)
+    @api.response(200, 'Ok')
+    @api.response(404, 'Activity not found')
     def get(self, id):
         """
         Retrieve a single activity
         """
-        activity = Activity.query.filter(Activity.id == id).one()
+        activity = Activity().get(id)
+        if not activity:
+            abort(404, "Activity not found")
         return activity
