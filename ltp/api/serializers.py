@@ -3,21 +3,14 @@ from .restplus import api
 
 from ..database.models import Activity
 
-item = api.model('Item', {
-    '@context': fields.String(required=True,
-                              description='JSON-LD context for the item.'),
-    '@type': fields.String(required=True,
-                           description='JSON-LD type for the item.')
+item_request = api.model('Item_Request', {
+    'item': fields.Raw(required=False,
+                       description='A collection of items')
 })
 
-item_collection = api.model('Item_collection', {
+item_collection = api.model('item_collection', {
     'items': fields.Raw(required=True,
                         description='A collection of items')
-})
-
-item_response = api.model('Item', {
-    'id': fields.String(required=True, description='ID of new item'),
-    'item': fields.Raw()
 })
 
 activity_request = api.model('Activity_Request', {
