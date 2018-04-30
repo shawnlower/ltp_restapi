@@ -2,11 +2,11 @@ from ..database import get_db, get_ns
 
 import json
 import logging
-from rdflib import BNode, ConjunctiveGraph, Graph, RDF, URIRef
+from rdflib import (BNode, Literal, ConjunctiveGraph,
+                    RDF, RDFS, URIRef, XSD)
 import re
 import string
-from typing import Dict, Optional, Union
-from urllib.error import HTTPError
+from typing import Dict, Union
 
 
 logging.config.fileConfig('ltp/logging.cfg')
@@ -20,9 +20,27 @@ class MissingObjectError(Exception):
     def __init__(self):
         self.msg = "Object not found."
 
+
 class MissingNamespaceError(Exception):
     def __init__(self):
         self.msg = "Namespace not found"
+
+
+def is_collection(prop_name: Union[str, URIRef], graph=None):
+    """
+    Return whether the property is of one of the collection types (e.g. a list)
+    """
+    collection_types = set([RDF['Seq'], RDF['Bag'], RDF['Alt'],
+                           RDFS['Container']])
+
+    if not graph:
+        graph = get_db()
+
+    if set(graph.objects(subject=prop_name, predicate=RDF['type'])
+           ).intersection(collection_types):
+        return True
+    else:
+        return False
 
 
 def split_on_namespace(uri, g):
@@ -126,12 +144,15 @@ def make_pyclass(uri, base=None, graph=None,
                     log.warning(f"Property {prop} not found.")
                     continue
 
-                o = res[0]
-                if len(res) > 1:
+                if len(res) == 1:
+                    o = res[0]
+                elif len(res) > 1:
+                    o = res
                     log.warning(f"Found multiple ({len(res)}) values for "
-                                "{prop}. Using {o}.")
+                                "{prop}.")
+
                 if o:
-                    setattr(self, prop, str(o))  # TODO: Get proper object type
+                    setattr(self, prop, o)
                     c += 1
             setattr(self, '@id', self._id)
             log.debug(f"Found {c} properties.")
@@ -356,6 +377,119 @@ def make_pyclass(uri, base=None, graph=None,
                     '@id': self.property_map[key]
                 }
             return context
+
+        def _update(self, data: Union[dict, str]):
+            """
+            Update object based on JSON-string, or a dict
+            """
+            if isinstance(data, str):
+                data = json.loads(data)
+
+            translate_map = {
+                'url': '@id'
+            }
+            # ugly translation
+            for key in data:
+                if key in translate_map:
+                    data[translate_map[key]] = data[key]
+                    data.pop(key)
+
+            # Iterate through the keys we were passed, updating the object
+            for key in data:
+                if key.startswith('@'):
+                    # Raise if we're trying to change a JSON-LD prop
+                    current_value = getattr(self, key.replace('@', '_'))
+                    if str(data[key]) != str(current_value):
+                        raise(NotImplementedError(
+                            "Changing JSON-LD properties not supported."))
+                    continue
+
+                if key not in self.property_map:
+                    raise(KeyError(f"Missing key: {key}"))
+
+                s = self._id
+                p = self.property_map[key]
+
+                sp_list = list(self._g.triples((s, p, None)))
+                if not sp_list:
+                    log.warning(f"Property {p} not found in {s}")
+
+                # Object type, e.g. URIRef, Literal
+                obj_type = self.get_rdflib_type(self.property_map[key])
+
+                # item URI lists are plural
+                if is_collection(self.property_map[key]):
+                    new_objects = data[key]
+                    assert isinstance(new_objects, list), TypeError
+
+                    for new_o in new_objects:
+                        new_o = obj_type(new_o)
+                        if new_o not in self._g.objects(subject=s,
+                                                        predicate=p):
+                            log.info(f"Adding: {s}  {p}  {new_o}")
+                            # update db
+                            self._g.add((s, p, new_o))
+                            # [] if null or undefined
+                            tmp = getattr(self, key, []) or []
+                            tmp.append(data[key])
+                            setattr(self, key, tmp)
+                else:
+                    old_o = self._g.objects(subject=s, predicate=p)
+                    new_o = obj_type(data[key])
+                    if new_o != old_o:
+                        log.info(f"Updating:\nold: {s}  {p}  {old_o}"
+                                 "new: {s}  {p}  {new_o}")
+                        # update db
+                        self._g.add((s, p, new_o))
+                        if old_o:
+                            self._g.remove((s, p, old_o))
+                        # update var
+                        setattr(self, key, data[key])
+
+            return self
+
+        def get_rdflib_type(self, uri: str):
+            """
+            Returns an appropriate class constructor for a given XSD type
+            """
+            TYPE_MAP = {
+                XSD['time']: Literal,
+                XSD['date']: Literal,
+                XSD['gYear']: Literal,
+                XSD['gYearMonth']: Literal,
+                XSD['dateTime']: Literal,
+                XSD['string']: Literal,
+                XSD['normalizedString']: Literal,
+                XSD['token']: Literal,
+                XSD['language']: Literal,
+                XSD['boolean']: Literal,
+                XSD['decimal']: Literal,
+                XSD['integer']: Literal,
+                XSD['nonPositiveInteger']: Literal,
+                XSD['long']: Literal,
+                XSD['nonNegativeInteger']: Literal,
+                XSD['negativeInteger']: Literal,
+                XSD['int']: Literal,
+                XSD['unsignedLong']: Literal,
+                XSD['positiveInteger']: Literal,
+                XSD['short']: Literal,
+                XSD['unsignedInt']: Literal,
+                XSD['byte']: Literal,
+                XSD['unsignedShort']: Literal,
+                XSD['unsignedByte']: Literal,
+                XSD['float']: Literal,
+                XSD['double']: Literal,
+                XSD['base64Binary']: Literal,
+                XSD['anyURI']: URIRef
+            }
+            predicate = URIRef('http://schema.org/rangeIncludes')
+            obj_type = list(self._g.objects(subject=uri,
+                            predicate=predicate))
+
+            if not obj_type or obj_type[0] not in TYPE_MAP:
+                return Literal
+            else:
+                return TYPE_MAP[obj_type[0]]
 
     R = RDFSchema
     R._init(uri, graph, format=format)

@@ -19,9 +19,11 @@ activity_request = api.model('Activity_Request', {
 })
 
 activity_response = api.inherit('Activity_Response', activity_request, {
+    'context': fields.String(attribute='@context'),
     'url': fields.String(attribute='@id',
                          description='Unique URL for the activity'),
     'created_time': fields.DateTime(),
+    'hasItems': fields.List(fields.String, attribute='hasItem', required=False)
 })
 
 

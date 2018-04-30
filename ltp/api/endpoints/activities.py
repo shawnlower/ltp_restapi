@@ -62,3 +62,17 @@ class ActivityResource(Resource):
         if not activity:
             abort(404, "Activity not found")
         return activity
+
+    @api.expect(activity_request)
+    @api.marshal_with(activity_response)
+    @api.response(200, 'Ok')
+    @api.response(404, 'Activity not found')
+    def put(self, id):
+        """
+        Update an activity, e.g. to add a new item
+        """
+        activity = Activity().get(id)
+        if not activity:
+            abort(404, "Activity not found")
+
+        return activity._update(request.json)
