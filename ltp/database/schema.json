@@ -56,12 +56,12 @@
     },
     {
       "@id": "ltp:hasItem",
-      "@type": "rdf:Property",
+      "@type": "rdf:Bag",
       "http://schema.org/domainIncludes": {
         "@id": "ltp:Activity"
       },
       "http://schema.org/rangeIncludes": {
-        "@id": "xsd:string"
+        "@id": "xsd:anyURI"
       },
       "rdfs:comment": "A list of items contained within the activity",
       "rdfs:label": "items"
